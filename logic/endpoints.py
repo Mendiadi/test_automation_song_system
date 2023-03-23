@@ -1,5 +1,5 @@
-from infra.api_communication import Communication
-from schemas.db_schemas import (
+from test_automation_song_system.infra.api_communication import Communication
+from test_automation_song_system.schemas.db_schemas import (
     User,
     UserResponse,
     Password,

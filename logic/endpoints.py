@@ -3,7 +3,7 @@ from test_automation_song_system.schemas.db_schemas import (
     User,
     UserResponse,
     Password,
-    Playlist
+    Playlist, Friend,CommonRes
 )
 class BaseAPI:
     """Base class to share functionality"""
@@ -13,7 +13,7 @@ class BaseAPI:
 class UsersAPI(BaseAPI):
     """API for interactions with users"""
 
-    def add_user(self,user:User) -> dict:
+    def add_user(self,user:User) -> CommonRes:
         """
         Perform post requests for add new user top the server
         :param user: User object DB schema
@@ -31,12 +31,12 @@ class UsersAPI(BaseAPI):
         ...
 
     def get_playlist(self,playlist:Playlist
-                     ) -> dict:
+                     ) -> CommonRes:
         """
         Perform get request to the server,
         fetching the playlist by the object
         :param playlist: Playlist object DB schema
-        :return: todo
+        :return: common response
         """
         ...
 
@@ -47,6 +47,25 @@ class UsersAPI(BaseAPI):
         change the password for given username.
         :param password: password object schema
         :return: UserResponse object
+        """
+        ...
+
+    def add_friend(self,friend:Friend) -> CommonRes:
+        """
+         Perform put requests to the server,
+         add friend to user.
+         :param friend: db schema
+         :return: common response
+         """
+        ...
+
+
+    def add_playlist(self,playlist:Playlist) -> CommonRes:
+        """
+        Perform post requests to server
+        adding new playlist to user.
+        :param playlist: db schema
+        :return: common response
         """
         ...
 

@@ -13,9 +13,16 @@ class Communication:
              method: Literal["GET", "POST", "DELETE", "PUT"],
              **options
              ) -> Union[requests.Response, None]:
+        """
+        Generic send requests method.
+        :param url: url path
+        :param method: GET,POST,DELETE,PUT
+        :param options: kwargs arguments for config
+        :return: response object
+        """
         try:
             return self.session.request(method, url, **options)
-        except Exception as e:
+        except requests.RequestException as e:
             logger.log(str(e),level="error",attach_origin=utils.my_origin())
             return None
 
@@ -41,5 +48,3 @@ class Communication:
         as_data, as_json = Communication.body_format_compare(body)
         return self.send(url, "PUT", data=as_data, json=as_json)
 
-a = Communication(requests.session())
-a.get("localhost:2222/")

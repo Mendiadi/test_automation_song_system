@@ -2,7 +2,7 @@ import requests
 from typing import Literal, Union
 
 
-from test_automation_song_system.utils import logger,help_utils as utils
+from utils import logger,my_origin
 
 class Communication:
     def __init__(self, session: requests.Session):
@@ -21,9 +21,11 @@ class Communication:
         :return: response object
         """
         try:
-            return self.session.request(method, url, **options)
+            r = self.session.request(method, url, **options)
+            logger.log(f"{method} > {r.status_code} > {r.text}", attach_origin=my_origin())
+            return r
         except requests.RequestException as e:
-            logger.log(str(e),level="error",attach_origin=utils.my_origin())
+            logger.log(str(e),level="error",attach_origin=my_origin())
             return None
 
     @staticmethod
@@ -34,17 +36,17 @@ class Communication:
         else:
             return as_data, body
 
-    def get(self, url: str) -> Union[requests.Response, None]:
-        return self.send(url, "GET")
+    def get(self, url: str,**options) -> Union[requests.Response, None]:
+        return self.send(url, "GET",**options)
 
-    def post(self, url: str, body: Union[str, dict]) -> Union[requests.Response, None]:
+    def post(self, url: str, body: Union[str, dict],**options) -> Union[requests.Response, None]:
         as_data, as_json = Communication.body_format_compare(body)
-        return self.send(url, "POST", data=as_data, json=as_json)
+        return self.send(url, "POST", data=as_data, json=as_json,**options)
 
-    def delete(self, url: str) -> Union[requests.Response, None]:
-        return self.send(url, "DELETE")
+    def delete(self, url: str,**option) -> Union[requests.Response, None]:
+        return self.send(url, "DELETE",**option)
 
-    def put(self, url: str, body: Union[str, dict]) -> Union[requests.Response, None]:
+    def put(self, url: str, body: Union[str, dict],**options) -> Union[requests.Response, None]:
         as_data, as_json = Communication.body_format_compare(body)
-        return self.send(url, "PUT", data=as_data, json=as_json)
+        return self.send(url, "PUT", data=as_data, json=as_json,**options)
 

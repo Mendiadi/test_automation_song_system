@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from test_automation_song_system.utils import get_generic_random_schema
+from utils import get_generic_random_schema
 
 class BaseSchema:
     """Base interface for DB schemas"""
@@ -33,7 +33,10 @@ class BaseSchema:
     def create_from_response(cls, response):
         """Create instant for the child class generic calls
             by the response"""
-        return cls(**response.json())
+        r = Res(**response.json())
+        if getattr(r,"error"):
+            return r
+        return cls(**r.data)
 
     def __eq__(self, other):
         """Generic compare method for all db schemas"""
@@ -122,9 +125,14 @@ class Password(BaseSchema):
     user_password: str
 
 
-class CommonRes:
-    def __init__(self,data,message):
-        self.data = data
-        self.message = message
+class Res(BaseSchema):
 
+    def __init__(self,**kw):
+        super().__init__()
+        self.__dict__.update(kw)
 
+    def __setattr__(self, key, value):
+        self.__dict__[key] = value
+
+    def __getattr__(self, item):
+        return self.__dict__.get(item)

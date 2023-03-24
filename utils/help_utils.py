@@ -1,13 +1,12 @@
 import string
 import secrets
+import inspect
 
-
-def my_origin():
+def my_origin(call=3):
     """Get the file::function name
     using inspect to get the last call in the stack before this
     call executed."""
-    import inspect
-    origin = inspect.stack()[1]
+    origin = inspect.stack()[call]
     filename = origin.filename.split("\\")[-1]
     return f"{filename}::def {origin.function}(...)::line {origin.lineno}"
 
@@ -39,7 +38,7 @@ def random_title(words=3) -> str:
 
 def random_year() -> int:
     """Get random year"""
-    return secrets.choice((2020, 2011, 2010, 1997, 2000))
+    return secrets.choice(range(1900,2023))
 
 
 def get_generic_random_schema(attributes: list[tuple[str, type]],
@@ -60,3 +59,4 @@ def get_generic_random_schema(attributes: list[tuple[str, type]],
             schema[attr] = random_name()
     schema.update(manual_attributes)
     return cls(**schema)
+

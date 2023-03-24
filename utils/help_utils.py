@@ -1,6 +1,15 @@
 import string
 import secrets
 import inspect
+import functools
+from typing import Callable
+
+
+def expected_msg(msg) -> Callable[[str], str]:
+    """Return a function that build msg with args"""
+    return functools.partial(lambda user, string: string % user,
+                             string=msg)
+
 
 def my_origin(call=3):
     """Get the file::function name
@@ -38,7 +47,7 @@ def random_title(words=3) -> str:
 
 def random_year() -> int:
     """Get random year"""
-    return secrets.choice(range(1900,2023))
+    return secrets.choice(range(1900, 2023))
 
 
 def get_generic_random_schema(attributes: list[tuple[str, type]],
@@ -59,4 +68,3 @@ def get_generic_random_schema(attributes: list[tuple[str, type]],
             schema[attr] = random_name()
     schema.update(manual_attributes)
     return cls(**schema)
-

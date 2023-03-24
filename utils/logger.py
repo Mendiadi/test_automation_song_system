@@ -4,7 +4,7 @@ import sys
 
 
 class Logger:
-    D_LOG_FILE = 'logs'
+    D_LOG_FILE = 'logs.txt'
     D_LOG_FMT = '%(asctime)-4s [%(levelname)-4s] %(message)s'
     D_TIME_FMT = '%Y-%m-%d %H:%M:%S'
 

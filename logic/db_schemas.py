@@ -2,9 +2,9 @@ from dataclasses import dataclass
 
 from utils import get_generic_random_schema
 
-class BaseSchema:
-    """Base interface for DB schemas"""
 
+class BaseSchema:
+    """Base interface for schemas"""
 
     def __init__(self, **kwargs):
         """just for pep8 hints"""
@@ -15,28 +15,28 @@ class BaseSchema:
         return self.__dict__
 
     @classmethod
-    def create_randomly(cls,**data):
+    def create_randomly(cls, **data):
         """Create instant randomly generic method
             * you can add kwargs arguments to provide
              manual values for better performance *"""
-        attrs,manual = [],{}
+        attrs, manual = [], {}
         for field in cls.__dict__["__dataclass_fields__"].values():
-            field.default,field.default_factory = None,None
-            val = data.get(field.name,None)
+            field.default, field.default_factory = None, None
+            val = data.get(field.name, None)
             if not val:
-                attrs.append((field.name,field.type))
-            else: manual[field.name]=val
-        return get_generic_random_schema(attrs,manual,cls)
-
+                attrs.append((field.name, field.type))
+            else:
+                manual[field.name] = val
+        return get_generic_random_schema(attrs, manual, cls)
 
     @classmethod
     def create_from_response(cls, response):
         """Create instant for the child class generic calls
             by the response"""
-        r = Res(**response.json())
-        if getattr(r,"error"):
-            return r
-        return cls(**r.data)
+        r = BaseResponse(**response.json())
+        if not r:
+            raise AssertionError("Connection failure")
+        return r if getattr(r, "error") or cls == type(r) else cls(**r.data)
 
     def __eq__(self, other):
         """Generic compare method for all db schemas"""
@@ -57,9 +57,22 @@ class BaseSchema:
         return str(self)
 
 
+class BaseResponse(BaseSchema):
+    """Generic Base class for Responses"""
+
+    def __init__(self, **kw):
+        super().__init__()
+        self.__dict__.update(kw)
+
+    def __setattr__(self, key, value):
+        self.__dict__[key] = value
+
+    def __getattr__(self, item):
+        return self.__dict__.get(item)
+
 
 @dataclass
-class Song(BaseSchema):
+class Song(BaseResponse):
     """Represent Song schema"""
     song_genre: str
     song_performer: str
@@ -68,7 +81,7 @@ class Song(BaseSchema):
 
 
 @dataclass
-class SongResponse(BaseSchema):
+class SongResponse(BaseResponse):
     """Represent Song Response Schema"""
     genre: str
     performer: str
@@ -78,7 +91,7 @@ class SongResponse(BaseSchema):
 
 
 @dataclass
-class Playlist(BaseSchema):
+class Playlist(BaseResponse):
     """Represent Playlist Schema"""
     playlist_name: str
     user_name: str
@@ -86,7 +99,7 @@ class Playlist(BaseSchema):
 
 
 @dataclass
-class Voting(BaseSchema):
+class Voting(BaseResponse):
     """Represent Voting schema"""
     playlist_name: str
     song_title: str
@@ -95,14 +108,14 @@ class Voting(BaseSchema):
 
 
 @dataclass
-class User(BaseSchema):
+class User(BaseResponse):
     """Represent User schema"""
     user_name: str
     user_password: str
 
 
 @dataclass
-class UserResponse(BaseSchema):
+class UserResponse(BaseResponse):
     """Represent User Response schema"""
     friends: list
     playlists: list
@@ -110,7 +123,7 @@ class UserResponse(BaseSchema):
 
 
 @dataclass
-class Friend(BaseSchema):
+class Friend(BaseResponse):
     """Represent Friend schema"""
     friend_name: str
     user_name: str
@@ -118,21 +131,8 @@ class Friend(BaseSchema):
 
 
 @dataclass
-class Password(BaseSchema):
+class Password(BaseResponse):
     """Represent Password schema"""
     user_name: str
     user_new_password: str
     user_password: str
-
-
-class Res(BaseSchema):
-
-    def __init__(self,**kw):
-        super().__init__()
-        self.__dict__.update(kw)
-
-    def __setattr__(self, key, value):
-        self.__dict__[key] = value
-
-    def __getattr__(self, item):
-        return self.__dict__.get(item)

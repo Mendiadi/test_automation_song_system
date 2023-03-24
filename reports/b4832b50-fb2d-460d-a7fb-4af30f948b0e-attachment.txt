@@ -1,0 +1,9 @@
+2023-03-24 23:59:16 [INFO] endpoints.py::def delete_all_users(...)::line 29 > DELETE > 200 > {"message":"OK"}
+
+2023-03-24 23:59:16 [INFO] <setup> Cleared all users from DB
+2023-03-24 23:59:16 [INFO] endpoints.py::def add_user(...)::line 46 > POST > 200 > {"error":"Misssing parameter user_name"}
+
+2023-03-24 23:59:16 [INFO] endpoints.py::def get_user(...)::line 56 > GET > 200 > {"error":"Misssing parameter user_name"}
+
+2023-03-24 23:59:16 [WARNING] (log error) you try to pass a not string arguments... just removed.
+2023-03-24 23:59:16 [INFO] Session Closed

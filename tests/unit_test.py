@@ -62,7 +62,7 @@ class TestUtils:
             return foo()
 
         def foo():
-            return utils.my_origin()
+            return utils.my_origin(3)
 
         def bar():
             return utils.my_origin(1)

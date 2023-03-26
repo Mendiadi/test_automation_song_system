@@ -31,17 +31,17 @@ def init_session():
     logger.log("Session Closed", con.session)
 
 
-@pytest.fixture
+@pytest.fixture(scope="session")
 def users(init_session, configuration):
     return endpoints.UsersAPI(init_session, configuration)
 
 
-@pytest.fixture
+@pytest.fixture(scope="session")
 def songs(init_session, configuration):
     return endpoints.SongsAPI(init_session, configuration)
 
 
-@pytest.fixture
+@pytest.fixture(scope="session")
 def playlists(init_session, configuration):
     return endpoints.PlaylistsAPI(init_session, configuration)
 

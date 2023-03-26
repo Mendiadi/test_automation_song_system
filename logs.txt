@@ -1,86 +1,175 @@
-2023-03-26 09:13:58 [INFO] Session started
-2023-03-26 09:13:59 [INFO] endpoints.py::def delete_all_users(...)::line 36 > DELETE > 200 > {"message":"OK"}
+2023-03-26 11:18:14 [INFO] Session started
+2023-03-26 11:18:14 [INFO] conftest.py::def setup_teardown(...)::line 51 > DELETE > 200 > {"message":"OK"}
 
-2023-03-26 09:13:59 [INFO] <setup> Cleared all users from DB
-2023-03-26 09:13:59 [INFO] endpoints.py::def _response(...)::line 27 > POST > 200 > {"data":"Ewupvo","message":"OK"}
+2023-03-26 11:18:14 [INFO] <setup> Cleared all users from DB
+2023-03-26 11:18:14 [INFO] endpoints.py::def add_user(...)::line 57 > POST > 200 > {"data":"Botjkf","message":"OK"}
 
-2023-03-26 09:13:59 [INFO] endpoints.py::def _response(...)::line 27 > GET > 200 > {"data":{"friends":[],"playlists":[],"user_name":"Ewupvo"},"message":"OK"}
+2023-03-26 11:18:14 [INFO] endpoints.py::def get_user(...)::line 66 > GET > 200 > {"data":{"friends":[],"playlists":[],"user_name":"Botjkf"},"message":"OK"}
 
-2023-03-26 09:13:59 [INFO] endpoints.py::def delete_all_users(...)::line 36 > DELETE > 200 > {"message":"OK"}
+2023-03-26 11:18:14 [INFO] conftest.py::def setup_teardown(...)::line 51 > DELETE > 200 > {"message":"OK"}
 
-2023-03-26 09:13:59 [INFO] <setup> Cleared all users from DB
-2023-03-26 09:13:59 [INFO] endpoints.py::def _response(...)::line 27 > POST > 200 > {"data":"adim333","message":"OK"}
+2023-03-26 11:18:14 [INFO] <setup> Cleared all users from DB
+2023-03-26 11:18:14 [INFO] endpoints.py::def add_user(...)::line 57 > POST > 200 > {"data":"adim333","message":"OK"}
 
-2023-03-26 09:13:59 [INFO] endpoints.py::def _response(...)::line 27 > GET > 200 > {"data":{"friends":[],"playlists":[],"user_name":"adim333"},"message":"OK"}
+2023-03-26 11:18:14 [INFO] endpoints.py::def get_user(...)::line 66 > GET > 200 > {"data":{"friends":[],"playlists":[],"user_name":"adim333"},"message":"OK"}
 
-2023-03-26 09:13:59 [INFO] endpoints.py::def _response(...)::line 27 > POST > 200 > {"error":"user with name adim333 already exists."}
+2023-03-26 11:18:14 [INFO] endpoints.py::def add_user(...)::line 57 > POST > 200 > {"error":"user with name adim333 already exists."}
 
-2023-03-26 09:13:59 [INFO] endpoints.py::def delete_all_users(...)::line 36 > DELETE > 200 > {"message":"OK"}
+2023-03-26 11:18:14 [INFO] conftest.py::def setup_teardown(...)::line 51 > DELETE > 200 > {"message":"OK"}
 
-2023-03-26 09:13:59 [INFO] <setup> Cleared all users from DB
-2023-03-26 09:13:59 [INFO] endpoints.py::def _response(...)::line 27 > POST > 200 > {"error":"Misssing parameter user_password"}
+2023-03-26 11:18:14 [INFO] <setup> Cleared all users from DB
+2023-03-26 11:18:14 [INFO] endpoints.py::def add_user(...)::line 57 > POST > 200 > {"error":"Misssing parameter user_password"}
 
-2023-03-26 09:13:59 [INFO] endpoints.py::def _response(...)::line 27 > GET > 200 > {"error":"user username11 does not exist"}
+2023-03-26 11:18:14 [INFO] endpoints.py::def get_user(...)::line 66 > GET > 200 > {"error":"user username11 does not exist"}
 
-2023-03-26 09:13:59 [INFO] endpoints.py::def delete_all_users(...)::line 36 > DELETE > 200 > {"message":"OK"}
+2023-03-26 11:18:14 [INFO] conftest.py::def setup_teardown(...)::line 51 > DELETE > 200 > {"message":"OK"}
 
-2023-03-26 09:13:59 [INFO] <setup> Cleared all users from DB
-2023-03-26 09:13:59 [INFO] endpoints.py::def _response(...)::line 27 > POST > 200 > {"error":"Misssing parameter user_name"}
+2023-03-26 11:18:14 [INFO] <setup> Cleared all users from DB
+2023-03-26 11:18:14 [INFO] endpoints.py::def add_user(...)::line 57 > POST > 200 > {"error":"Misssing parameter user_name"}
 
-2023-03-26 09:13:59 [INFO] endpoints.py::def _response(...)::line 27 > GET > 200 > {"error":"Misssing parameter user_name"}
+2023-03-26 11:18:14 [INFO] endpoints.py::def get_user(...)::line 66 > GET > 200 > {"error":"Misssing parameter user_name"}
 
-2023-03-26 09:13:59 [INFO] endpoints.py::def delete_all_users(...)::line 36 > DELETE > 200 > {"message":"OK"}
+2023-03-26 11:18:14 [INFO] conftest.py::def setup_teardown(...)::line 51 > DELETE > 200 > {"message":"OK"}
 
-2023-03-26 09:13:59 [INFO] <setup> Cleared all users from DB
-2023-03-26 09:13:59 [INFO] endpoints.py::def _response(...)::line 27 > POST > 200 > {"data":"Tbjibk","message":"OK"}
+2023-03-26 11:18:14 [INFO] <setup> Cleared all users from DB
+2023-03-26 11:18:15 [INFO] endpoints.py::def add_user(...)::line 57 > POST > 200 > {"data":"Hlrzel","message":"OK"}
 
-2023-03-26 09:13:59 [INFO] endpoints.py::def _response(...)::line 27 > GET > 200 > {"data":{"friends":[],"playlists":[],"user_name":"Tbjibk"},"message":"OK"}
+2023-03-26 11:18:15 [INFO] endpoints.py::def get_user(...)::line 66 > GET > 200 > {"data":{"friends":[],"playlists":[],"user_name":"Hlrzel"},"message":"OK"}
 
-2023-03-26 09:13:59 [INFO] endpoints.py::def delete_all_users(...)::line 36 > DELETE > 200 > {"message":"OK"}
+2023-03-26 11:18:15 [INFO] conftest.py::def setup_teardown(...)::line 51 > DELETE > 200 > {"message":"OK"}
 
-2023-03-26 09:13:59 [INFO] <setup> Cleared all users from DB
-2023-03-26 09:13:59 [INFO] endpoints.py::def _response(...)::line 27 > GET > 200 > {"error":"user myuser222 does not exist"}
+2023-03-26 11:18:15 [INFO] <setup> Cleared all users from DB
+2023-03-26 11:18:15 [INFO] endpoints.py::def get_user(...)::line 66 > GET > 200 > {"error":"user myuser222 does not exist"}
 
-2023-03-26 09:13:59 [INFO] endpoints.py::def delete_all_users(...)::line 36 > DELETE > 200 > {"message":"OK"}
+2023-03-26 11:18:15 [INFO] conftest.py::def setup_teardown(...)::line 51 > DELETE > 200 > {"message":"OK"}
 
-2023-03-26 09:13:59 [INFO] <setup> Cleared all users from DB
-2023-03-26 09:13:59 [INFO] endpoints.py::def _response(...)::line 27 > POST > 200 > {"data":"Nulmix","message":"OK"}
+2023-03-26 11:18:15 [INFO] <setup> Cleared all users from DB
+2023-03-26 11:18:15 [INFO] endpoints.py::def add_user(...)::line 57 > POST > 200 > {"data":"Hdnrsd","message":"OK"}
 
-2023-03-26 09:13:59 [INFO] endpoints.py::def _response(...)::line 27 > PUT > 200 > {"data":{"friends":[],"playlists":[],"user_name":"Nulmix"},"message":"OK"}
+2023-03-26 11:18:15 [INFO] endpoints.py::def change_password(...)::line 87 > PUT > 200 > {"data":{"friends":[],"playlists":[],"user_name":"Hdnrsd"},"message":"OK"}
 
-2023-03-26 09:13:59 [INFO] endpoints.py::def _response(...)::line 27 > GET > 200 > {"data":null,"message":"OK"}
+2023-03-26 11:18:15 [INFO] endpoints.py::def get_playlist(...)::line 77 > GET > 200 > {"data":null,"message":"OK"}
 
-2023-03-26 09:13:59 [INFO] endpoints.py::def delete_all_users(...)::line 36 > DELETE > 200 > {"message":"OK"}
+2023-03-26 11:18:15 [INFO] conftest.py::def setup_teardown(...)::line 51 > DELETE > 200 > {"message":"OK"}
 
-2023-03-26 09:13:59 [INFO] <setup> Cleared all users from DB
-2023-03-26 09:13:59 [INFO] endpoints.py::def _response(...)::line 27 > POST > 200 > {"data":"Ipzmre","message":"OK"}
+2023-03-26 11:18:15 [INFO] <setup> Cleared all users from DB
+2023-03-26 11:18:15 [INFO] endpoints.py::def add_user(...)::line 57 > POST > 200 > {"data":"Txwtft","message":"OK"}
 
-2023-03-26 09:13:59 [INFO] endpoints.py::def _response(...)::line 27 > PUT > 200 > {"error":"some parameters are wrong"}
+2023-03-26 11:18:15 [INFO] endpoints.py::def change_password(...)::line 87 > PUT > 200 > {"error":"some parameters are wrong"}
 
-2023-03-26 09:13:59 [INFO] endpoints.py::def delete_all_users(...)::line 36 > DELETE > 200 > {"message":"OK"}
+2023-03-26 11:18:15 [INFO] conftest.py::def setup_teardown(...)::line 51 > DELETE > 200 > {"message":"OK"}
 
-2023-03-26 09:13:59 [INFO] <setup> Cleared all users from DB
-2023-03-26 09:13:59 [INFO] endpoints.py::def _response(...)::line 27 > POST > 200 > {"data":"Pysfrj","message":"OK"}
+2023-03-26 11:18:15 [INFO] <setup> Cleared all users from DB
+2023-03-26 11:18:15 [INFO] endpoints.py::def add_user(...)::line 57 > POST > 200 > {"data":"Czteiz","message":"OK"}
 
-2023-03-26 09:13:59 [INFO] endpoints.py::def _response(...)::line 27 > PUT > 200 > {"error":"Misssing parameter user_new_password"}
+2023-03-26 11:18:15 [INFO] endpoints.py::def change_password(...)::line 87 > PUT > 200 > {"error":"Misssing parameter user_new_password"}
 
-2023-03-26 09:13:59 [INFO] endpoints.py::def delete_all_users(...)::line 36 > DELETE > 200 > {"message":"OK"}
+2023-03-26 11:18:15 [INFO] conftest.py::def setup_teardown(...)::line 51 > DELETE > 200 > {"message":"OK"}
 
-2023-03-26 09:13:59 [INFO] <setup> Cleared all users from DB
-2023-03-26 09:14:00 [INFO] endpoints.py::def _response(...)::line 27 > PUT > 200 > {"error":"user notexists does not exist"}
+2023-03-26 11:18:15 [INFO] <setup> Cleared all users from DB
+2023-03-26 11:18:15 [INFO] endpoints.py::def change_password(...)::line 87 > PUT > 200 > {"error":"user notexists does not exist"}
 
-2023-03-26 09:14:00 [INFO] endpoints.py::def delete_all_users(...)::line 36 > DELETE > 200 > {"message":"OK"}
+2023-03-26 11:18:15 [INFO] conftest.py::def setup_teardown(...)::line 51 > DELETE > 200 > {"message":"OK"}
 
-2023-03-26 09:14:00 [INFO] <setup> Cleared all users from DB
-2023-03-26 09:14:00 [INFO] endpoints.py::def _response(...)::line 27 > POST > 200 > {"data":"Jxxafh","message":"OK"}
+2023-03-26 11:18:15 [INFO] <setup> Cleared all users from DB
+2023-03-26 11:18:15 [INFO] endpoints.py::def change_password(...)::line 87 > PUT > 200 > {"error":"Misssing parameter user_name"}
 
-2023-03-26 09:14:00 [INFO] endpoints.py::def _response(...)::line 27 > GET > 200 > {"data":{"friends":[],"playlists":[],"user_name":"Jxxafh"},"message":"OK"}
+2023-03-26 11:18:15 [INFO] conftest.py::def setup_teardown(...)::line 51 > DELETE > 200 > {"message":"OK"}
 
-2023-03-26 09:14:00 [INFO] endpoints.py::def _response(...)::line 27 > POST > 200 > {"data":"Cvyvkl","message":"OK"}
+2023-03-26 11:18:15 [INFO] <setup> Cleared all users from DB
+2023-03-26 11:18:15 [INFO] endpoints.py::def add_user(...)::line 57 > POST > 200 > {"data":"Jwukoo","message":"OK"}
 
-2023-03-26 09:14:00 [INFO] endpoints.py::def _response(...)::line 27 > GET > 200 > {"data":{"friends":[],"playlists":["Cvyvkl"],"user_name":"Jxxafh"},"message":"OK"}
+2023-03-26 11:18:16 [INFO] endpoints.py::def get_user(...)::line 66 > GET > 200 > {"data":{"friends":[],"playlists":[],"user_name":"Jwukoo"},"message":"OK"}
 
-2023-03-26 09:14:00 [INFO] endpoints.py::def _response(...)::line 27 > GET > 200 > {"data":[],"message":"OK"}
+2023-03-26 11:18:16 [INFO] endpoints.py::def add_playlist(...)::line 107 > POST > 200 > {"data":"Xfdjlr","message":"OK"}
 
-2023-03-26 09:14:00 [WARNING] (log error) you try to pass a not string arguments... just removed.
-2023-03-26 09:14:00 [INFO] Session Closed
+2023-03-26 11:18:16 [INFO] endpoints.py::def get_user(...)::line 66 > GET > 200 > {"data":{"friends":[],"playlists":["Xfdjlr"],"user_name":"Jwukoo"},"message":"OK"}
+
+2023-03-26 11:18:16 [INFO] endpoints.py::def get_playlist(...)::line 77 > GET > 200 > {"data":[],"message":"OK"}
+
+2023-03-26 11:18:16 [INFO] conftest.py::def setup_teardown(...)::line 51 > DELETE > 200 > {"message":"OK"}
+
+2023-03-26 11:18:16 [INFO] <setup> Cleared all users from DB
+2023-03-26 11:18:16 [INFO] endpoints.py::def add_playlist(...)::line 107 > POST > 200 > {"error":"the user Bujouk does not exist"}
+
+2023-03-26 11:18:16 [INFO] endpoints.py::def get_playlist(...)::line 77 > GET > 200 > {"error":"the user Bujouk does not exist"}
+
+2023-03-26 11:18:16 [INFO] conftest.py::def setup_teardown(...)::line 51 > DELETE > 200 > {"message":"OK"}
+
+2023-03-26 11:18:16 [INFO] <setup> Cleared all users from DB
+2023-03-26 11:18:16 [INFO] endpoints.py::def add_user(...)::line 57 > POST > 200 > {"data":"Pdwvya","message":"OK"}
+
+2023-03-26 11:18:16 [INFO] endpoints.py::def add_playlist(...)::line 107 > POST > 200 > {"error":"either the user name or the password are wrong"}
+
+2023-03-26 11:18:16 [INFO] endpoints.py::def get_user(...)::line 66 > GET > 200 > {"data":{"friends":[],"playlists":[],"user_name":"Pdwvya"},"message":"OK"}
+
+2023-03-26 11:18:16 [INFO] endpoints.py::def get_playlist(...)::line 77 > GET > 200 > {"error":"either the user name or the password are wrong"}
+
+2023-03-26 11:18:16 [INFO] conftest.py::def setup_teardown(...)::line 51 > DELETE > 200 > {"message":"OK"}
+
+2023-03-26 11:18:16 [INFO] <setup> Cleared all users from DB
+2023-03-26 11:18:16 [INFO] endpoints.py::def add_playlist(...)::line 107 > POST > 200 > {"error":"Misssing parameter playlist_name"}
+
+2023-03-26 11:18:16 [INFO] conftest.py::def setup_teardown(...)::line 51 > DELETE > 200 > {"message":"OK"}
+
+2023-03-26 11:18:16 [INFO] <setup> Cleared all users from DB
+2023-03-26 11:18:16 [INFO] endpoints.py::def add_user(...)::line 57 > POST > 200 > {"data":"Imwzfe","message":"OK"}
+
+2023-03-26 11:18:16 [INFO] endpoints.py::def add_playlist(...)::line 107 > POST > 200 > {"data":"Hauugm","message":"OK"}
+
+2023-03-26 11:18:16 [INFO] endpoints.py::def get_playlist(...)::line 77 > GET > 200 > {"data":[],"message":"OK"}
+
+2023-03-26 11:18:16 [INFO] conftest.py::def setup_teardown(...)::line 51 > DELETE > 200 > {"message":"OK"}
+
+2023-03-26 11:18:16 [INFO] <setup> Cleared all users from DB
+2023-03-26 11:18:16 [INFO] endpoints.py::def get_playlist(...)::line 77 > GET > 200 > {"error":"Misssing parameter playlist_name"}
+
+2023-03-26 11:18:16 [INFO] conftest.py::def setup_teardown(...)::line 51 > DELETE > 200 > {"message":"OK"}
+
+2023-03-26 11:18:16 [INFO] <setup> Cleared all users from DB
+2023-03-26 11:18:16 [INFO] endpoints.py::def add_user(...)::line 57 > POST > 200 > {"data":"Yetohw","message":"OK"}
+
+2023-03-26 11:18:17 [INFO] endpoints.py::def add_playlist(...)::line 107 > POST > 200 > {"data":"Xaucuo","message":"OK"}
+
+2023-03-26 11:18:17 [INFO] endpoints.py::def get_playlist(...)::line 77 > GET > 200 > {"data":null,"message":"OK"}
+
+2023-03-26 11:18:17 [INFO] conftest.py::def setup_teardown(...)::line 51 > DELETE > 200 > {"message":"OK"}
+
+2023-03-26 11:18:17 [INFO] <setup> Cleared all users from DB
+2023-03-26 11:18:17 [INFO] endpoints.py::def add_user(...)::line 57 > POST > 200 > {"data":"Pjqwwv","message":"OK"}
+
+2023-03-26 11:18:17 [INFO] endpoints.py::def add_friend(...)::line 97 > PUT > 200 > {"data":"Nejkbv","message":"OK"}
+
+2023-03-26 11:18:17 [INFO] endpoints.py::def get_user(...)::line 66 > GET > 200 > {"data":{"friends":["Nejkbv"],"playlists":[],"user_name":"Pjqwwv"},"message":"OK"}
+
+2023-03-26 11:18:17 [INFO] conftest.py::def setup_teardown(...)::line 51 > DELETE > 200 > {"message":"OK"}
+
+2023-03-26 11:18:17 [INFO] <setup> Cleared all users from DB
+2023-03-26 11:18:17 [INFO] endpoints.py::def add_user(...)::line 57 > POST > 200 > {"data":"Yvbgad","message":"OK"}
+
+2023-03-26 11:18:17 [INFO] endpoints.py::def add_user(...)::line 57 > POST > 200 > {"data":"Dpbtnv","message":"OK"}
+
+2023-03-26 11:18:17 [INFO] endpoints.py::def add_friend(...)::line 97 > PUT > 200 > {"error":"either the user name or the password are wrong"}
+
+2023-03-26 11:18:17 [INFO] endpoints.py::def get_user(...)::line 66 > GET > 200 > {"data":{"friends":[],"playlists":[],"user_name":"Yvbgad"},"message":"OK"}
+
+2023-03-26 11:18:17 [INFO] conftest.py::def setup_teardown(...)::line 51 > DELETE > 200 > {"message":"OK"}
+
+2023-03-26 11:18:17 [INFO] <setup> Cleared all users from DB
+2023-03-26 11:18:17 [INFO] endpoints.py::def add_user(...)::line 57 > POST > 200 > {"data":"Vplmwa","message":"OK"}
+
+2023-03-26 11:18:17 [INFO] endpoints.py::def add_friend(...)::line 97 > PUT > 200 > {"error":"the user Yxdzfq does not exist"}
+
+2023-03-26 11:18:17 [INFO] conftest.py::def setup_teardown(...)::line 51 > DELETE > 200 > {"message":"OK"}
+
+2023-03-26 11:18:17 [INFO] <setup> Cleared all users from DB
+2023-03-26 11:18:17 [INFO] endpoints.py::def add_user(...)::line 57 > POST > 200 > {"data":"Hwdzkg","message":"OK"}
+
+2023-03-26 11:18:17 [INFO] endpoints.py::def get_user(...)::line 66 > GET > 200 > {"error":"user notexists does not exist"}
+
+2023-03-26 11:18:17 [INFO] endpoints.py::def get_user(...)::line 66 > GET > 200 > {"data":{"friends":[],"playlists":[],"user_name":"Hwdzkg"},"message":"OK"}
+
+2023-03-26 11:18:17 [INFO] endpoints.py::def add_friend(...)::line 97 > PUT > 200 > {"data":"notexists","message":"OK"}
+
+2023-03-26 11:18:17 [WARNING] (log error) you try to pass a not string arguments... just removed.
+2023-03-26 11:18:17 [INFO] Session Closed

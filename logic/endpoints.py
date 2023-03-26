@@ -12,7 +12,9 @@ from logic import (
     Playlist,
     Friend,
     BaseSchema,
-    Song, SongResponse
+    Song,
+    SongResponse,
+    Voting
 
 )
 from logic.data import UrlPaths as url_
@@ -43,6 +45,14 @@ class AdminAPI(BaseAPI):
 
     def delete_all_song(self):
         return self.conn.delete(f"{self.base_url}/delete_all_songs").json()
+
+    def set_songs(self,songs:list[Song]):
+        return self.conn.post(f"{self.base_url}/set_songs",
+                              json=[song.as_json() for song in songs])
+
+    def set_users(self,users:list[User]):
+        return self.conn.post(f"{self.base_url}/set_users",
+                              json=[user.as_json() for user in users])
 
 
 class UsersAPI(BaseAPI):
@@ -140,6 +150,18 @@ class SongsAPI(BaseAPI):
         """
         return self._fetch_response(SongResponse, self.conn.get, url_.get_song,
                                     f"getting the song {song_title}", params={"song_title": song_title})
+
+
+    def downvote(self,vote:Voting):
+        ...
+
+    def upvote(self,vote:Voting):
+        ...
+
+    def ranked_songs(self):
+        ...
+
+
 class PlaylistsAPI(BaseAPI):
     """API for interaction with playlists"""
 

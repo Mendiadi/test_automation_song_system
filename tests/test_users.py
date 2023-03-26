@@ -100,7 +100,7 @@ class TestUsers:
         playlist = schemas.Playlist.create_randomly(user_name=user.user_name, user_password=user.user_password)
         assert users.add_playlist(playlist).data == playlist.playlist_name
         assert playlist.playlist_name in users.get_user(user.user_name).playlists
-        assert users.get_playlist(playlist).message == "OK"
+        assert users.get_playlist(playlist) == []
 
     @allure.story("playlists must be created by valid users")
     def test_add_playlist_not_exists_user(self, users):
@@ -130,8 +130,7 @@ class TestUsers:
         playlist = schemas.Playlist.create_randomly(user_name=user.user_name, user_password=user.user_password)
         assert users.add_playlist(playlist).message == "OK"
         get_playlist = users.get_playlist(playlist)
-        assert get_playlist.message == "OK"
-        assert get_playlist.data == [], "playlist not provided"
+        assert get_playlist == [], "playlist not provided"
 
     @allure.story("must provide valid data for getting playlist")
     def test_get_playlist_wrong_data(self, users):

@@ -9,6 +9,8 @@ from logic import db_schemas as schemas
 @pytest.mark.usefixtures("setup_teardown")
 class TestPlaylists:
 
+    # ADD_SONG TESTS
+
     @allure.story("as user im want to add songs to my playlists")
     def test_add_songs_to_playlist(self, set_up_playlist, set_up_song, playlists, users):
         playlist = set_up_playlist
@@ -48,6 +50,7 @@ class TestPlaylists:
         assert users.get_playlist(playlist).data is None
         assert playlists.add_song(song, playlist).error  # NOT SHOWING THE RIGHT ERROR MESSAGE
 
+    @allure.story("as user im shouldnt be able to add not exists song to playlists")
     def test_add_songs_playlist_song_no_exists(self, playlists, set_up_playlist, users):
         song = schemas.Song.create_randomly()
         playlist = set_up_playlist

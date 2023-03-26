@@ -131,6 +131,15 @@ class SongsAPI(BaseAPI):
                                     f"adding song {song} to the system", json=song.as_json())
 
 
+    def get_song(self,song_title:str) -> SongResponse:
+        """
+        Perform get request to server
+        getting the song by title
+        :param song_title: string representing title of song
+        :return Song response schema
+        """
+        return self._fetch_response(SongResponse, self.conn.get, url_.get_song,
+                                    f"getting the song {song_title}", params={"song_title": song_title})
 class PlaylistsAPI(BaseAPI):
     """API for interaction with playlists"""
 

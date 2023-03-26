@@ -35,6 +35,9 @@ class Logger:
 
     def set_formatter(self, fmt=D_TIME_FMT, datefmt=D_TIME_FMT, **options):
         self._formatter = logging.Formatter(fmt, datefmt, **options)
+        for h in self.logger.handlers:
+            h.setFormatter(self._formatter)
+
 
     def set_lvl(self, lvl: int):
         self._logger.setLevel(lvl)
@@ -81,3 +84,4 @@ class Logger:
 
 
 logger = Logger("mylogger")
+unit_logger = Logger("unit test")

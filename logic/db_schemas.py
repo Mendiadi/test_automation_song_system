@@ -33,10 +33,11 @@ class BaseSchema:
     def create_from_response(cls, response):
         """Create instant for the child class generic calls
             by the response"""
+        if not response:
+            raise Exception("Test failed. Connection failure.")
         r = BaseResponse(**response.json())
-        if not r:
-            raise AssertionError("Connection failure")
-        return r if getattr(r, "error") or cls == type(r) else cls(**r.data)
+        print(r)
+        return r if getattr(r, "error") or cls == type(r) or not r.data else cls(**r.data)
 
     def __eq__(self, other):
         """Generic compare method for all db schemas"""
@@ -93,10 +94,9 @@ class SongResponse(BaseResponse):
 @dataclass
 class Playlist(BaseResponse):
     """Represent Playlist Schema"""
-    playlist_name: str
     user_name: str
     user_password: str
-
+    playlist_name: str
 
 @dataclass
 class Voting(BaseResponse):

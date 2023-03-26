@@ -1,10 +1,12 @@
-2023-03-25 02:06:04 [INFO] Session started
-2023-03-25 02:06:04 [INFO] endpoints.py::def delete_all_users(...)::line 29 > DELETE > 200 > {"message":"OK"}
+2023-03-26 09:20:54 [INFO] Session started
+2023-03-26 09:20:54 [INFO] endpoints.py::def delete_all_users(...)::line 36 > DELETE > 200 > {"message":"OK"}
 
-2023-03-25 02:06:04 [INFO] <setup> Cleared all users from DB
-2023-03-25 02:06:04 [INFO] endpoints.py::def add_user(...)::line 46 > POST > 200 > {"data":"Nubxhe","messgae":"OK"}
+2023-03-26 09:20:54 [INFO] <setup> Cleared all users from DB
+2023-03-26 09:20:54 [INFO] endpoints.py::def _response(...)::line 27 > POST > 200 > {"data":"Szykca","message":"OK"}
 
-2023-03-25 02:06:04 [INFO] endpoints.py::def get_user(...)::line 56 > GET > 200 > {"data":{"friends":[],"playlists":[],"user_name":"Nubxhe"},"message":"OK"}
+2023-03-26 09:20:54 [INFO] endpoints.py::def _response(...)::line 27 > PUT > 200 > {"data":"Kmlizh","message":"OK"}
 
-2023-03-25 02:06:04 [WARNING] (log error) you try to pass a not string arguments... just removed.
-2023-03-25 02:06:04 [INFO] Session Closed
+2023-03-26 09:20:54 [INFO] endpoints.py::def _response(...)::line 27 > GET > 200 > {"data":{"friends":["Kmlizh"],"playlists":[],"user_name":"Szykca"},"message":"OK"}
+
+2023-03-26 09:20:54 [WARNING] (log error) you try to pass a not string arguments... just removed.
+2023-03-26 09:20:54 [INFO] Session Closed

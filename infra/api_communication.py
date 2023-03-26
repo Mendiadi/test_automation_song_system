@@ -11,6 +11,7 @@ class Communication:
     def send(self,
              url: str,
              method: Literal["GET", "POST", "DELETE", "PUT"],
+             timeout:int=5,
              **options
              ) -> Union[requests.Response, None]:
         """
@@ -21,7 +22,7 @@ class Communication:
         :return: response object
         """
         try:
-            r = self.session.request(method, url, **options)
+            r = self.session.request(method, url, **options,timeout=timeout)
             logger.log(f"{method} > {r.status_code} > {r.text}", attach_origin=my_origin())
             return r
         except requests.RequestException as e:

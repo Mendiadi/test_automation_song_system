@@ -1,67 +1,86 @@
-2023-03-25 02:06:07 [INFO] Session started
-2023-03-25 02:06:07 [INFO] endpoints.py::def delete_all_users(...)::line 29 > DELETE > 200 > {"message":"OK"}
+2023-03-26 09:13:58 [INFO] Session started
+2023-03-26 09:13:59 [INFO] endpoints.py::def delete_all_users(...)::line 36 > DELETE > 200 > {"message":"OK"}
 
-2023-03-25 02:06:07 [INFO] <setup> Cleared all users from DB
-2023-03-25 02:06:07 [INFO] endpoints.py::def add_user(...)::line 46 > POST > 200 > {"data":"Szxhii","messgae":"OK"}
+2023-03-26 09:13:59 [INFO] <setup> Cleared all users from DB
+2023-03-26 09:13:59 [INFO] endpoints.py::def _response(...)::line 27 > POST > 200 > {"data":"Ewupvo","message":"OK"}
 
-2023-03-25 02:06:07 [INFO] endpoints.py::def get_user(...)::line 56 > GET > 200 > {"data":{"friends":[],"playlists":[],"user_name":"Szxhii"},"message":"OK"}
+2023-03-26 09:13:59 [INFO] endpoints.py::def _response(...)::line 27 > GET > 200 > {"data":{"friends":[],"playlists":[],"user_name":"Ewupvo"},"message":"OK"}
 
-2023-03-25 02:06:08 [INFO] endpoints.py::def delete_all_users(...)::line 29 > DELETE > 200 > {"message":"OK"}
+2023-03-26 09:13:59 [INFO] endpoints.py::def delete_all_users(...)::line 36 > DELETE > 200 > {"message":"OK"}
 
-2023-03-25 02:06:08 [INFO] <setup> Cleared all users from DB
-2023-03-25 02:06:08 [INFO] endpoints.py::def add_user(...)::line 46 > POST > 200 > {"data":"adim333","messgae":"OK"}
+2023-03-26 09:13:59 [INFO] <setup> Cleared all users from DB
+2023-03-26 09:13:59 [INFO] endpoints.py::def _response(...)::line 27 > POST > 200 > {"data":"adim333","message":"OK"}
 
-2023-03-25 02:06:08 [INFO] endpoints.py::def get_user(...)::line 56 > GET > 200 > {"data":{"friends":[],"playlists":[],"user_name":"adim333"},"message":"OK"}
+2023-03-26 09:13:59 [INFO] endpoints.py::def _response(...)::line 27 > GET > 200 > {"data":{"friends":[],"playlists":[],"user_name":"adim333"},"message":"OK"}
 
-2023-03-25 02:06:08 [INFO] endpoints.py::def add_user(...)::line 46 > POST > 200 > {"error":"user with name adim333 already exists."}
+2023-03-26 09:13:59 [INFO] endpoints.py::def _response(...)::line 27 > POST > 200 > {"error":"user with name adim333 already exists."}
 
-2023-03-25 02:06:08 [INFO] endpoints.py::def delete_all_users(...)::line 29 > DELETE > 200 > {"message":"OK"}
+2023-03-26 09:13:59 [INFO] endpoints.py::def delete_all_users(...)::line 36 > DELETE > 200 > {"message":"OK"}
 
-2023-03-25 02:06:08 [INFO] <setup> Cleared all users from DB
-2023-03-25 02:06:08 [INFO] endpoints.py::def add_user(...)::line 46 > POST > 200 > {"error":"Misssing parameter user_password"}
+2023-03-26 09:13:59 [INFO] <setup> Cleared all users from DB
+2023-03-26 09:13:59 [INFO] endpoints.py::def _response(...)::line 27 > POST > 200 > {"error":"Misssing parameter user_password"}
 
-2023-03-25 02:06:08 [INFO] endpoints.py::def get_user(...)::line 56 > GET > 200 > {"error":"user username11 does not exist"}
+2023-03-26 09:13:59 [INFO] endpoints.py::def _response(...)::line 27 > GET > 200 > {"error":"user username11 does not exist"}
 
-2023-03-25 02:06:08 [INFO] endpoints.py::def delete_all_users(...)::line 29 > DELETE > 200 > {"message":"OK"}
+2023-03-26 09:13:59 [INFO] endpoints.py::def delete_all_users(...)::line 36 > DELETE > 200 > {"message":"OK"}
 
-2023-03-25 02:06:08 [INFO] <setup> Cleared all users from DB
-2023-03-25 02:06:08 [INFO] endpoints.py::def add_user(...)::line 46 > POST > 200 > {"error":"Misssing parameter user_name"}
+2023-03-26 09:13:59 [INFO] <setup> Cleared all users from DB
+2023-03-26 09:13:59 [INFO] endpoints.py::def _response(...)::line 27 > POST > 200 > {"error":"Misssing parameter user_name"}
 
-2023-03-25 02:06:08 [INFO] endpoints.py::def get_user(...)::line 56 > GET > 200 > {"error":"Misssing parameter user_name"}
+2023-03-26 09:13:59 [INFO] endpoints.py::def _response(...)::line 27 > GET > 200 > {"error":"Misssing parameter user_name"}
 
-2023-03-25 02:06:08 [INFO] endpoints.py::def delete_all_users(...)::line 29 > DELETE > 200 > {"message":"OK"}
+2023-03-26 09:13:59 [INFO] endpoints.py::def delete_all_users(...)::line 36 > DELETE > 200 > {"message":"OK"}
 
-2023-03-25 02:06:08 [INFO] <setup> Cleared all users from DB
-2023-03-25 02:06:08 [INFO] endpoints.py::def add_user(...)::line 46 > POST > 200 > {"data":"Bsygkz","messgae":"OK"}
+2023-03-26 09:13:59 [INFO] <setup> Cleared all users from DB
+2023-03-26 09:13:59 [INFO] endpoints.py::def _response(...)::line 27 > POST > 200 > {"data":"Tbjibk","message":"OK"}
 
-2023-03-25 02:06:08 [INFO] endpoints.py::def get_user(...)::line 56 > GET > 200 > {"data":{"friends":[],"playlists":[],"user_name":"Bsygkz"},"message":"OK"}
+2023-03-26 09:13:59 [INFO] endpoints.py::def _response(...)::line 27 > GET > 200 > {"data":{"friends":[],"playlists":[],"user_name":"Tbjibk"},"message":"OK"}
 
-2023-03-25 02:06:08 [INFO] endpoints.py::def delete_all_users(...)::line 29 > DELETE > 200 > {"message":"OK"}
+2023-03-26 09:13:59 [INFO] endpoints.py::def delete_all_users(...)::line 36 > DELETE > 200 > {"message":"OK"}
 
-2023-03-25 02:06:08 [INFO] <setup> Cleared all users from DB
-2023-03-25 02:06:08 [INFO] endpoints.py::def get_user(...)::line 56 > GET > 200 > {"error":"user myuser222 does not exist"}
+2023-03-26 09:13:59 [INFO] <setup> Cleared all users from DB
+2023-03-26 09:13:59 [INFO] endpoints.py::def _response(...)::line 27 > GET > 200 > {"error":"user myuser222 does not exist"}
 
-2023-03-25 02:06:08 [INFO] endpoints.py::def delete_all_users(...)::line 29 > DELETE > 200 > {"message":"OK"}
+2023-03-26 09:13:59 [INFO] endpoints.py::def delete_all_users(...)::line 36 > DELETE > 200 > {"message":"OK"}
 
-2023-03-25 02:06:08 [INFO] <setup> Cleared all users from DB
-2023-03-25 02:06:08 [INFO] endpoints.py::def add_user(...)::line 46 > POST > 200 > {"data":"Zyqito","messgae":"OK"}
+2023-03-26 09:13:59 [INFO] <setup> Cleared all users from DB
+2023-03-26 09:13:59 [INFO] endpoints.py::def _response(...)::line 27 > POST > 200 > {"data":"Nulmix","message":"OK"}
 
-2023-03-25 02:06:08 [INFO] endpoints.py::def get_user(...)::line 56 > GET > 200 > {"data":{"friends":[],"playlists":[],"user_name":"Zyqito"},"message":"OK"}
+2023-03-26 09:13:59 [INFO] endpoints.py::def _response(...)::line 27 > PUT > 200 > {"data":{"friends":[],"playlists":[],"user_name":"Nulmix"},"message":"OK"}
 
-2023-03-25 02:06:08 [INFO] endpoints.py::def change_password(...)::line 77 > PUT > 404 > <!doctype html>
-<html lang=en>
-<title>404 Not Found</title>
-<h1>Not Found</h1>
-<p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p>
+2023-03-26 09:13:59 [INFO] endpoints.py::def _response(...)::line 27 > GET > 200 > {"data":null,"message":"OK"}
 
-2023-03-25 02:06:08 [INFO] endpoints.py::def delete_all_users(...)::line 29 > DELETE > 200 > {"message":"OK"}
+2023-03-26 09:13:59 [INFO] endpoints.py::def delete_all_users(...)::line 36 > DELETE > 200 > {"message":"OK"}
 
-2023-03-25 02:06:08 [INFO] <setup> Cleared all users from DB
-2023-03-25 02:06:08 [INFO] endpoints.py::def delete_all_users(...)::line 29 > DELETE > 200 > {"message":"OK"}
+2023-03-26 09:13:59 [INFO] <setup> Cleared all users from DB
+2023-03-26 09:13:59 [INFO] endpoints.py::def _response(...)::line 27 > POST > 200 > {"data":"Ipzmre","message":"OK"}
 
-2023-03-25 02:06:08 [INFO] <setup> Cleared all users from DB
-2023-03-25 02:06:08 [INFO] endpoints.py::def delete_all_users(...)::line 29 > DELETE > 200 > {"message":"OK"}
+2023-03-26 09:13:59 [INFO] endpoints.py::def _response(...)::line 27 > PUT > 200 > {"error":"some parameters are wrong"}
 
-2023-03-25 02:06:08 [INFO] <setup> Cleared all users from DB
-2023-03-25 02:06:08 [WARNING] (log error) you try to pass a not string arguments... just removed.
-2023-03-25 02:06:08 [INFO] Session Closed
+2023-03-26 09:13:59 [INFO] endpoints.py::def delete_all_users(...)::line 36 > DELETE > 200 > {"message":"OK"}
+
+2023-03-26 09:13:59 [INFO] <setup> Cleared all users from DB
+2023-03-26 09:13:59 [INFO] endpoints.py::def _response(...)::line 27 > POST > 200 > {"data":"Pysfrj","message":"OK"}
+
+2023-03-26 09:13:59 [INFO] endpoints.py::def _response(...)::line 27 > PUT > 200 > {"error":"Misssing parameter user_new_password"}
+
+2023-03-26 09:13:59 [INFO] endpoints.py::def delete_all_users(...)::line 36 > DELETE > 200 > {"message":"OK"}
+
+2023-03-26 09:13:59 [INFO] <setup> Cleared all users from DB
+2023-03-26 09:14:00 [INFO] endpoints.py::def _response(...)::line 27 > PUT > 200 > {"error":"user notexists does not exist"}
+
+2023-03-26 09:14:00 [INFO] endpoints.py::def delete_all_users(...)::line 36 > DELETE > 200 > {"message":"OK"}
+
+2023-03-26 09:14:00 [INFO] <setup> Cleared all users from DB
+2023-03-26 09:14:00 [INFO] endpoints.py::def _response(...)::line 27 > POST > 200 > {"data":"Jxxafh","message":"OK"}
+
+2023-03-26 09:14:00 [INFO] endpoints.py::def _response(...)::line 27 > GET > 200 > {"data":{"friends":[],"playlists":[],"user_name":"Jxxafh"},"message":"OK"}
+
+2023-03-26 09:14:00 [INFO] endpoints.py::def _response(...)::line 27 > POST > 200 > {"data":"Cvyvkl","message":"OK"}
+
+2023-03-26 09:14:00 [INFO] endpoints.py::def _response(...)::line 27 > GET > 200 > {"data":{"friends":[],"playlists":["Cvyvkl"],"user_name":"Jxxafh"},"message":"OK"}
+
+2023-03-26 09:14:00 [INFO] endpoints.py::def _response(...)::line 27 > GET > 200 > {"data":[],"message":"OK"}
+
+2023-03-26 09:14:00 [WARNING] (log error) you try to pass a not string arguments... just removed.
+2023-03-26 09:14:00 [INFO] Session Closed

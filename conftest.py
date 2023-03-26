@@ -3,10 +3,9 @@ import requests
 
 
 from infra import api_communication as api
-from logic import endpoints
+from logic import endpoints,User
 from utils import logger
 from config import Config
-
 
 def pytest_addoption(parser):
     parser.addoption("--host",
@@ -52,3 +51,9 @@ def setup_teardown(init_session, configuration):
     endpoints.AdminAPI(init_session, configuration).delete_all_users()
     logger.log("<setup> Cleared all users from DB")
     yield
+
+@pytest.fixture
+def set_up_user(users):
+    user = User.create_randomly()
+    assert users.add_user(user).data == user.user_name, "adding user function failed"
+    return user

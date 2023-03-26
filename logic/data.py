@@ -1,6 +1,7 @@
 # DATA FILE
 
 class UrlPaths:
+    add_song = "/add_song"
     add_user = "/add_user"
     get_user = "/get_user"
     get_playlist = "/get_playlist"

@@ -11,7 +11,8 @@ from logic import (
     BaseResponse,
     Playlist,
     Friend,
-    BaseSchema
+    BaseSchema,
+    Song, SongResponse
 
 )
 from logic.data import UrlPaths as url_
@@ -24,9 +25,9 @@ class BaseAPI:
         self.conn = communication
         self.base_url = f"{config.HOST}:{config.PORT}/"
 
-    def _response(self, instance: [BaseResponse, BaseSchema],
-                  conn: Callable,
-                  url: str, step: str, **options) -> [BaseResponse, BaseSchema, Any]:
+    def _fetch_response(self, instance: [BaseResponse, BaseSchema],
+                        conn: Callable,
+                        url: str, step: str, **options) -> [BaseResponse, BaseSchema, Any]:
         with allure.step(step):
             r = conn(f"{self.base_url}{url}", **options)
         return instance.create_from_response(r)
@@ -39,6 +40,9 @@ class AdminAPI(BaseAPI):
 
     def delete_all_users(self):
         return self.conn.delete(f"{self.base_url}/delete_all_users").json()
+
+    def delete_all_song(self):
+        return self.conn.delete(f"{self.base_url}/delete_all_songs").json()
 
 
 class UsersAPI(BaseAPI):
@@ -54,8 +58,8 @@ class UsersAPI(BaseAPI):
         :param user: User object DB schema
         :return: dict of msg if success and the username
         """
-        return self._response(BaseResponse, self.conn.post,
-                              url_.add_user, f"add user {user}", json=user.as_json())
+        return self._fetch_response(BaseResponse, self.conn.post,
+                                    url_.add_user, f"add user {user}", json=user.as_json())
 
     def get_user(self, user_name: str) -> UserResponse:
         """
@@ -63,19 +67,20 @@ class UsersAPI(BaseAPI):
         :param user_name: username you want to fetch as string
         :return: UserResponse object
         """
-        return self._response(UserResponse, self.conn.get, url_.get_user,
-                              f"getting the user {user_name}", params={"user_name": user_name})
+        return self._fetch_response(UserResponse, self.conn.get, url_.get_user,
+                                    f"getting the user {user_name}", params={"user_name": user_name})
 
     def get_playlist(self, playlist: Playlist
-                     ) -> Playlist:
+                     ) -> list[SongResponse]:
         """
         Perform get request to the server,
         fetching the playlist by the object
         :param playlist: Playlist object DB schema
         :return: common response
         """
-        return self._response(Playlist, self.conn.get, url_.get_playlist
-                              , f"getting the playlist {playlist}", params=playlist.as_json())
+        r = self._fetch_response(BaseResponse, self.conn.get, url_.get_playlist
+                                 , f"getting the playlist {playlist}", params=playlist.as_json())
+        return [SongResponse(**song) for song in r.data] if r.data or r.data == [] else r
 
     def change_password(self, password: Password) -> UserResponse:
         """
@@ -84,8 +89,8 @@ class UsersAPI(BaseAPI):
         :param password: password object schema
         :return: UserResponse object
         """
-        return self._response(UserResponse, self.conn.put, url_.change_password
-                              , f"change password {password}", json=password.as_json())
+        return self._fetch_response(UserResponse, self.conn.put, url_.change_password
+                                    , f"change password {password}", json=password.as_json())
 
     def add_friend(self, friend: Friend) -> BaseResponse:
         """
@@ -94,8 +99,8 @@ class UsersAPI(BaseAPI):
          :param friend: db schema
          :return: common response
          """
-        return self._response(BaseResponse, self.conn.put, url_.add_friend,
-                              f"add friend {friend}", json=friend.as_json())
+        return self._fetch_response(BaseResponse, self.conn.put, url_.add_friend,
+                                    f"add friend {friend}", json=friend.as_json())
 
     def add_playlist(self, playlist: Playlist) -> BaseResponse:
         """
@@ -104,15 +109,42 @@ class UsersAPI(BaseAPI):
         :param playlist: db schema
         :return: common response
         """
-        return self._response(BaseResponse, self.conn.post, url_.add_playlist
-                              , f"add playlist {playlist}", json=playlist.as_json())
+        return self._fetch_response(BaseResponse, self.conn.post, url_.add_playlist
+                                    , f"add playlist {playlist}", json=playlist.as_json())
 
 
 class SongsAPI(BaseAPI):
     """API for interactions with songs"""
-    ...
+
+    def __init__(self, session, config):
+        super().__init__(session, config)
+        self.base_url += "songs"
+
+    def add_song(self, song: Song) -> BaseResponse:
+        """
+        Perform post requests to server
+        add song to the system
+        :param song: ew song schema
+        :return: common response schema
+        """
+        return self._fetch_response(BaseResponse, self.conn.post, url_.add_song,
+                                    f"adding song {song} to the system", json=song.as_json())
 
 
 class PlaylistsAPI(BaseAPI):
     """API for interaction with playlists"""
-    ...
+
+    def __init__(self, session, config):
+        super().__init__(session, config)
+        self.base_url += "playlists"
+
+    def add_song(self, song: Song, playlist: Playlist) -> BaseResponse:
+        """
+        Perform post requests to server
+        add song to playlist
+        :param song: song schema data to add
+        :return: common response
+        """
+        return self._fetch_response(BaseResponse, self.conn.post, url_.add_song,
+                                    f"adding song {song} to {playlist}",
+                                    json=playlist.as_add_song_schema(song.song_title).as_json())

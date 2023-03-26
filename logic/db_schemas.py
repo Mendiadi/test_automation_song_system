@@ -68,6 +68,9 @@ class BaseResponse(BaseSchema):
     def __setattr__(self, key, value):
         self.__dict__[key] = value
 
+    def __setitem__(self, key, value):
+        setattr(self, key, value)
+
     def __getattr__(self, item):
         return self.__dict__.get(item)
 
@@ -79,6 +82,13 @@ class Song(BaseResponse):
     song_performer: str
     song_title: str
     song_year: int
+
+    def as_song_response(self, rating: int = 0):
+        s = SongResponse.create_randomly()
+        for k, v in self.__dict__.items():
+            s[k.replace("song_", "")] = v
+        s.rating = rating
+        return s
 
 
 @dataclass
@@ -97,6 +107,10 @@ class Playlist(BaseResponse):
     user_name: str
     user_password: str
     playlist_name: str
+
+    def as_add_song_schema(self, song_title: str) -> BaseResponse:
+        return BaseResponse(**self.as_json(), song_title=song_title)
+
 
 @dataclass
 class Voting(BaseResponse):

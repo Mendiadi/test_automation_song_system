@@ -3,12 +3,8 @@ import datetime
 import allure
 import pytest
 
-
-
 import utils
 import logic
-
-
 
 
 @allure.epic("unit")
@@ -83,6 +79,7 @@ class TestUtils:
         assert data2.keys() == test_data2.keys()
         assert data2.get("water") == test_data2.get("water")
 
+
 @allure.epic("unit")
 @pytest.mark.unit
 class TestLogger:
@@ -100,7 +97,6 @@ class TestLogger:
                               (_time_format2, _format2, "error", 1, f"[ERROR] {t_format(_time_format2)} this is test!"),
                               (_time_format, _format, "none", 3, f"{t_format(_time_format)} [INFO] this is test!")])
     def test_log_to_file(self, timef, format, lvl, i, excepted):
-
         utils.unit_logger.setup_file("test_logs_unit.txt")
         utils.unit_logger.set_formatter(format, timef)
         utils.unit_logger.log("this is", "test!", level=lvl)
@@ -119,6 +115,7 @@ class TestInfra:
 
     def test_send_invalid(self, init_session):
         assert init_session.send("http://127.1.1.0:1000/", "PUT", json={"test": "put"}) is None
+
 
 @allure.epic("unit")
 @pytest.mark.unit

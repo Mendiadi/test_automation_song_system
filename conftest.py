@@ -1,11 +1,11 @@
 import pytest
 import requests
 
-
 from infra import api_communication as api
-from logic import endpoints,User
+from logic import endpoints, User, Playlist, Song
 from utils import logger
 from config import Config
+
 
 def pytest_addoption(parser):
     parser.addoption("--host",
@@ -48,12 +48,31 @@ def playlists(init_session, configuration):
 
 @pytest.fixture
 def setup_teardown(init_session, configuration):
-    endpoints.AdminAPI(init_session, configuration).delete_all_users()
+    admin = endpoints.AdminAPI(init_session, configuration)
+    admin.delete_all_users()
+    admin.delete_all_song()
     logger.log("<setup> Cleared all users from DB")
     yield
+    del admin
+
 
 @pytest.fixture
-def set_up_user(users):
+def set_up_user(users) -> User:
     user = User.create_randomly()
     assert users.add_user(user).data == user.user_name, "adding user function failed"
     return user
+
+
+@pytest.fixture
+def set_up_playlist(set_up_user, users) -> Playlist:
+    playlist = Playlist(user_name=set_up_user.user_name, user_password=set_up_user.user_password,
+                        playlist_name="2020 pop hits")
+    users.add_playlist(playlist)
+    return playlist
+
+
+@pytest.fixture
+def set_up_song(songs) -> Song:
+    song = Song("pop", "adi", "israel vibes", 2020)
+    songs.add_song(song)
+    return song

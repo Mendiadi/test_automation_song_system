@@ -1,3 +1,0 @@
-{'sm': 'lo', 'data': {'name': 'invalid', 'no': 'pass'}}
-{'data': {'user_name': 'asdfasf', 'user_password': 'safasf'}}
-{'error': 'asfdasfasfasf'}

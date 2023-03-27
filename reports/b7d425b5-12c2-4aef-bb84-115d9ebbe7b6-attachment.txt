@@ -1,8 +1,0 @@
-2023-03-27 11:32:31 [INFO] conftest.py::def setup_teardown(...)::line 55 > DELETE > 200 > {"message":"OK"}
-
-2023-03-27 11:32:31 [INFO] conftest.py::def setup_teardown(...)::line 56 > DELETE > 200 > {"message":"OK"}
-
-2023-03-27 11:32:31 [INFO] <setup> Cleared all users from DB
-2023-03-27 11:32:31 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"error":"Misssing parameter song_title"}
-
-{'error': 'Misssing parameter song_title'}

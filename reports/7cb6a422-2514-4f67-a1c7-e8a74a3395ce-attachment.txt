@@ -1,9 +1,0 @@
-[32mINFO    [0m mylogger:logger.py:83 Session started
-[32mINFO    [0m mylogger:logger.py:83 conftest.py::def setup_teardown(...)::line 52 > DELETE > 200 > {"message":"OK"}
-
-[32mINFO    [0m mylogger:logger.py:83 conftest.py::def setup_teardown(...)::line 53 > DELETE > 200 > {"message":"OK"}
-
-[32mINFO    [0m mylogger:logger.py:83 <setup> Cleared all users from DB
-[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def upvote(...)::line 169 > PUT > 200 > {"error":"Misssing parameter song_title"}
-[33mWARNING [0m mylogger:logger.py:77 (log error) you try to pass a not string arguments... just removed.
-[32mINFO    [0m mylogger:logger.py:83 Session Closed

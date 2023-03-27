@@ -171,15 +171,14 @@ class SongsAPI(BaseAPI):
         """
         Perform get request to server
         fetching the songs by ranks
-        :param op: equal, greater, or less then rate value
+        :param op: equal, greater, or less than rate value
         :param rank: amount of rate to operate with
         :return: list of songs
         """
         r = self._fetch(BaseResponse, self.conn.get,
                         url_.ranked_songs, f"getting ranked songs op={op} rate={rank}",
                         params={"op": op, "rank": rank})
-        if r.data or r.data == []:
-
+        if r.data:
             yield [song for song in r.data]
         else:
             return r

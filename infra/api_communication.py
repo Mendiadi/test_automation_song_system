@@ -11,7 +11,7 @@ class Communication:
     def send(self,
              url: str,
              method: Literal["GET", "POST", "DELETE", "PUT"],
-             timeout:int=5,
+             timeout: int = 5,
              **options
              ) -> Union[requests.Response, None]:
         """
@@ -22,7 +22,7 @@ class Communication:
         :return: response object
         """
         try:
-            r = self.session.request(method, url, **options,timeout=timeout)
+            r = self.session.request(method, url, **options, timeout=timeout)
             logger.log(f"{method} > {r.status_code} > {r.text}", attach_origin=my_origin())
             return r
         except requests.RequestException as e:
@@ -33,10 +33,10 @@ class Communication:
         return self.send(url, "GET", **options)
 
     def post(self, url: str, **options) -> Union[requests.Response, None]:
-        return self.send(url, "POST",**options)
+        return self.send(url, "POST", **options)
 
     def delete(self, url: str, **option) -> Union[requests.Response, None]:
         return self.send(url, "DELETE", **option)
 
-    def put(self, url: str,  **options) -> Union[requests.Response, None]:
+    def put(self, url: str, **options) -> Union[requests.Response, None]:
         return self.send(url, "PUT", **options)

@@ -1,8 +1,0 @@
-[32mINFO    [0m mylogger:logger.py:80 endpoints.py::def delete_all_users(...)::line 22 > DELETE > 200 > {"message":"OK"}
-
-[32mINFO    [0m mylogger:logger.py:80 <setup> Cleared all users from DB
-[32mINFO    [0m mylogger:logger.py:80 endpoints.py::def add_user(...)::line 37 > POST > 200 > {"error":"Misssing parameter user_name"}
-
-[32mINFO    [0m mylogger:logger.py:80 endpoints.py::def get_user(...)::line 48 > GET > 200 > {"error":"Misssing parameter user_name"}
-[33mWARNING [0m mylogger:logger.py:74 (log error) you try to pass a not string arguments... just removed.
-[32mINFO    [0m mylogger:logger.py:80 Session Closed

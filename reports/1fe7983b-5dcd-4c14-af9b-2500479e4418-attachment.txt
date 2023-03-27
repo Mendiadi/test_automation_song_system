@@ -1,8 +1,0 @@
-[32mINFO    [0m mylogger:logger.py:83 conftest.py::def setup_teardown(...)::line 52 > DELETE > 200 > {"message":"OK"}
-
-[32mINFO    [0m mylogger:logger.py:83 conftest.py::def setup_teardown(...)::line 53 > DELETE > 200 > {"message":"OK"}
-
-[32mINFO    [0m mylogger:logger.py:83 <setup> Cleared all users from DB
-[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Gduhm Sfkug Vudtx ","message":"OK"}
-
-[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def get_song(...)::line 148 > GET > 200 > {"data":{"genre":"Wmtmlh","performer":"Pycskn","rating":0,"title":"Gduhm Sfkug Vudtx ","year":1904},"message":"OK"}

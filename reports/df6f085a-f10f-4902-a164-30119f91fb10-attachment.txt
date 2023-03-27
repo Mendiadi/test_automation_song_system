@@ -1,8 +1,0 @@
-[32mINFO    [0m mylogger:logger.py:83 conftest.py::def setup_teardown(...)::line 52 > DELETE > 200 > {"message":"OK"}
-
-[32mINFO    [0m mylogger:logger.py:83 conftest.py::def setup_teardown(...)::line 53 > DELETE > 200 > {"message":"OK"}
-
-[32mINFO    [0m mylogger:logger.py:83 <setup> Cleared all users from DB
-[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Lczyri","message":"OK"}
-
-[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def add_friend(...)::line 110 > PUT > 200 > {"error":"the user Lykavw does not exist"}

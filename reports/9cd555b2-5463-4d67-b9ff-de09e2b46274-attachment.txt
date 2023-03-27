@@ -1,8 +1,0 @@
-[32mINFO    [0m mylogger:logger.py:83 conftest.py::def setup_teardown(...)::line 55 > DELETE > 200 > {"message":"OK"}
-
-[32mINFO    [0m mylogger:logger.py:83 conftest.py::def setup_teardown(...)::line 56 > DELETE > 200 > {"message":"OK"}
-
-[32mINFO    [0m mylogger:logger.py:83 <setup> Cleared all users from DB
-[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def add_playlist(...)::line 119 > POST > 200 > {"error":"the user Hghyuu does not exist"}
-
-[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def get_playlist(...)::line 89 > GET > 200 > {"error":"the user Hghyuu does not exist"}

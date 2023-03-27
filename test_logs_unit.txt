@@ -1,5 +1,0 @@
-2023-03-27 11:32:21 [WARNING] (log error) level argument (none) not supported... info choose instead.
-2023-03-27 11:32:21 [INFO] this is test!
-
-2023-03-27 11:32:21 [INFO] this is test!
-2023-03-27 11:32:21 [INFO] this is test!

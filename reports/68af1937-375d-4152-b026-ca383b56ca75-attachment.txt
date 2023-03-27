@@ -1,8 +1,0 @@
-2023-03-27 11:32:31 [INFO] conftest.py::def setup_teardown(...)::line 55 > DELETE > 200 > {"message":"OK"}
-
-2023-03-27 11:32:31 [INFO] conftest.py::def setup_teardown(...)::line 56 > DELETE > 200 > {"message":"OK"}
-
-2023-03-27 11:32:31 [INFO] <setup> Cleared all users from DB
-2023-03-27 11:32:31 [INFO] endpoints.py::def get_song(...)::line 147 > GET > 200 > {"error":"this song does not exsist"}
-
-{'error': 'this song does not exsist'}

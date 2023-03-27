@@ -1,2 +1,0 @@
-[33mWARNING [0m mylogger:logger.py:77 (log error) you try to pass a not string arguments... just removed.
-[32mINFO    [0m mylogger:logger.py:83 Session Closed

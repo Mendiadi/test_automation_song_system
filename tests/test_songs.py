@@ -146,24 +146,29 @@ class TestSongs:
                               user.user_name, "badpassword!!")
         assert songs.downvote(vote).error == "either the user name or the password are wrong"
 
+    @allure.story("as user im should find songs by ranks")
     @pytest.mark.parametrize("rate", [1, 2, 0])
     def test_ranked_songs_equal(self, setup_songs, songs, rate):
         for s in songs.ranked_songs("eq", rate):
             assert songs.get_song(s).rating == rate
 
+    @allure.story("as user im should find songs by ranks")
     @pytest.mark.parametrize("rate", [1, 2, 0])
     def test_ranked_songs_greater(self, setup_songs, songs, rate):
         for song_title in songs.ranked_songs("greater", rate):
             if song_title:
                 assert songs.get_song(song_title).rating > rate
 
+    @allure.story("as user im should find songs by ranks")
     @pytest.mark.parametrize("rate", [1, 2, 0])
     def test_ranked_songs_less(self, songs, setup_songs, rate):
         for song_title in songs.ranked_songs("less", rate):
             if song_title:
                 assert songs.get_song(song_title).rating < rate
 
-    # bug 500
+    @allure.story("as user im should find songs by with only valid data")
+    @pytest.mark.xfail(reason="BUG : server returns 500 (server error) instead of "
+                              "informative error message...dev team should fix that")
     def test_ranked_songs_invalid_data(self, songs):
-        assert list(songs.ranked_songs("invalid", 100)) == []
-        assert list(songs.ranked_songs("less", "error")) == []
+        assert songs.ranked_songs("invalid", 100).error
+        assert songs.ranked_songs("less", "error").error

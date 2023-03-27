@@ -14,12 +14,16 @@ def pytest_addoption(parser):
                      action="store",
                      default="http://127.1.1.0",
                      help="host url")
+    parser.addoption("--port",action="store"
+                     ,default="3002",
+                     help="port")
 
 
 @pytest.fixture(scope="session")
 def configuration(pytestconfig):
     host = pytestconfig.getoption("host")
-    conf = Config(host, "3002")
+    port = pytestconfig.getoption("port")
+    conf = Config(host, port)
     yield conf
 
 
@@ -110,8 +114,3 @@ def setup_songs(admin,songs,users,playlists):
             pass
 
 
-
-
-@pytest.fixture
-def set_users():
-    ...

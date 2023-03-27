@@ -1,2 +1,0 @@
-2023-03-27 08:40:07 [INFO] Session started
-2023-03-27 08:40:07 [ERROR] _callers.py::def _multicall(...)::line 39 > HTTPConnectionPool(host='google.com', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000029B2C893590>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))

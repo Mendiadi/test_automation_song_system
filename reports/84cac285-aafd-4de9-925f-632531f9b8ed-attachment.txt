@@ -1,2 +1,0 @@
-[33mWARNING [0m unit test:logger.py:80 (log error) level argument (none) not supported... info choose instead.
-[32mINFO    [0m unit test:logger.py:83 this is test!

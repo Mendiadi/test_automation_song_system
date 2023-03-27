@@ -2,7 +2,15 @@ import string
 import secrets
 import inspect
 import functools
-from typing import Callable
+from typing import Callable, Sequence
+
+
+def obj_sequence(func: Callable, amount: int = 0, is_return: bool = True, sequence: Sequence = None, *args):
+    """Create list of objects by call the func for amount time
+        or runs func for sequence time"""
+    if is_return:
+        return [func(*args) for _ in range(amount)]
+    [func(item, *args) for item in sequence]
 
 
 def expected_msg(msg) -> Callable[[str], str]:
@@ -24,7 +32,8 @@ def build_str(func, range_, *args, space=False) -> str:
     r = ""
     for _ in range(range_):
         r += func(*args)
-        if space: r += " "
+        if space:
+            r += " "
     return r
 
 

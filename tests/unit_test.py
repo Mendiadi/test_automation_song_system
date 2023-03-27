@@ -1,7 +1,7 @@
 import datetime
-
 import allure
 import pytest
+
 
 import utils
 import logic

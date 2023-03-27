@@ -1,6 +1,7 @@
 import requests
 from typing import Literal, Union
 
+
 from utils import logger, my_origin
 
 
@@ -18,6 +19,7 @@ class Communication:
         Generic send requests method.
         :param url: url path
         :param method: GET,POST,DELETE,PUT
+        :param timeout: how much time until stop connecting
         :param options: kwargs arguments for config
         :return: response object
         """

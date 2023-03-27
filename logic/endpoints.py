@@ -1,6 +1,7 @@
 from typing import Callable, Any, Literal
 import allure
 
+
 from config import Config
 from infra import Communication
 from logic import (
@@ -14,7 +15,6 @@ from logic import (
     Song,
     SongResponse,
     Voting
-
 )
 from logic.data import UrlPaths as url_
 
@@ -196,6 +196,7 @@ class PlaylistsAPI(BaseAPI):
         Perform post requests to server
         add song to playlist
         :param song: song schema data to add
+        :param playlist: playlist data
         :return: common response
         """
         return self._fetch(BaseResponse, self.conn.post, url_.add_song, f"adding song {song} to {playlist}",

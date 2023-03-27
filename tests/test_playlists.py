@@ -1,6 +1,7 @@
 import pytest
 import allure
 
+
 from logic import db_schemas as schemas
 
 
@@ -56,5 +57,4 @@ class TestPlaylists:
         playlist = set_up_playlist
         assert playlists.add_song(song, playlist).error == f'the song {song.song_title} already exist in' \
                                                            ' the playlist or not in the songs collection'
-
         assert song.as_song_response() not in users.get_playlist(playlist)

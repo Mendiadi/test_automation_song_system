@@ -1,8 +1,9 @@
 import pytest
 import allure
 
+
 from logic import db_schemas as schemas
-import utils
+
 
 
 @allure.epic("songs api")

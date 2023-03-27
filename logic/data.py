@@ -2,7 +2,7 @@
 
 class UrlPaths:
     ranked_songs = "/ranked_songs"
-    upvote= "/upvote"
+    upvote = "/upvote"
     downvote = "/downvote"
     get_song = "/get_song"
     add_song = "/add_song"

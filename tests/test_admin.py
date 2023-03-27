@@ -1,6 +1,7 @@
 import pytest
 import allure
 
+
 from logic import db_schemas as schemas
 
 

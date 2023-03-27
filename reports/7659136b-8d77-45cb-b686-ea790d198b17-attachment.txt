@@ -1,0 +1,83 @@
+[32mINFO    [0m mylogger:logger.py:83 Session started
+[32mINFO    [0m mylogger:logger.py:83 conftest.py::def setup_teardown(...)::line 55 > DELETE > 200 > {"message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 conftest.py::def setup_teardown(...)::line 56 > DELETE > 200 > {"message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 <setup> Cleared all users from DB
+[32mINFO    [0m mylogger:logger.py:83 conftest.py::def setup_songs(...)::line 90 > POST > 500 > <!doctype html>
+<html lang=en>
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+[32mINFO    [0m mylogger:logger.py:83 conftest.py::def setup_songs(...)::line 91 > POST > 500 > <!doctype html>
+<html lang=en>
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"error":"the user Vrmzeb does not exist"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"error":"the user Myfrhw does not exist"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"error":"the user Anwtei does not exist"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"error":"the user Jdatsd does not exist"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"error":"the user Anwtei does not exist"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"error":"the user Uxtorr does not exist"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"error":"the user Uxtorr does not exist"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"error":"the user Anwtei does not exist"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"error":"the user Lhonjz does not exist"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"error":"the user Pxxquh does not exist"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"error":"the user Fmndlk does not exist"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"error":"the user Ewidbv does not exist"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"error":"the user Anwtei does not exist"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"error":"the user Lhonjz does not exist"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"error":"the user Fmndlk does not exist"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"error":"the user Ewidbv does not exist"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"error":"the user Fmndlk does not exist"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"error":"the user Vrmzeb does not exist"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"error":"the user Ewidbv does not exist"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"error":"the user Vrmzeb does not exist"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"error":"the user Msiiyi does not exist"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"error":"the user Vrmzeb does not exist"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"error":"the user Uxtorr does not exist"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"error":"the user Myfrhw does not exist"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"error":"the user Vrmzeb does not exist"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"error":"the user Vrmzeb does not exist"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"error":"the user Fmndlk does not exist"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"error":"the user Msiiyi does not exist"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"error":"the user Myfrhw does not exist"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"error":"the user Myfrhw does not exist"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"error":"the user Lhonjz does not exist"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"error":"the user Vrmzeb does not exist"}
+[33mWARNING [0m mylogger:logger.py:77 (log error) you try to pass a not string arguments... just removed.
+[32mINFO    [0m mylogger:logger.py:83 Session Closed

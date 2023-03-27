@@ -1,0 +1,20 @@
+2023-03-27 10:30:09 [INFO] Session started
+2023-03-27 10:30:09 [INFO] conftest.py::def setup_teardown(...)::line 52 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 10:30:09 [INFO] conftest.py::def setup_teardown(...)::line 53 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 10:30:09 [INFO] <setup> Cleared all users from DB
+2023-03-27 10:30:09 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"israel vibes","message":"OK"}
+
+{'data': 'israel vibes', 'message': 'OK'}
+2023-03-27 10:30:09 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Lgafbc","message":"OK"}
+
+{'data': 'Lgafbc', 'message': 'OK'}
+2023-03-27 10:30:09 [INFO] endpoints.py::def add_playlist(...)::line 119 > POST > 200 > {"data":"2020 pop hits","message":"OK"}
+
+{'data': '2020 pop hits', 'message': 'OK'}
+2023-03-27 10:30:09 [INFO] endpoints.py::def upvote(...)::line 169 > PUT > 200 > {"error":"either the user name or the password are wrong"}
+
+{'error': 'either the user name or the password are wrong'}
+2023-03-27 10:30:09 [WARNING] (log error) you try to pass a not string arguments... just removed.
+2023-03-27 10:30:09 [INFO] Session Closed

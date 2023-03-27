@@ -1,0 +1,17 @@
+2023-03-27 10:20:25 [INFO] Session started
+2023-03-27 10:20:26 [INFO] conftest.py::def setup_teardown(...)::line 52 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 10:20:26 [INFO] conftest.py::def setup_teardown(...)::line 53 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 10:20:26 [INFO] <setup> Cleared all users from DB
+2023-03-27 10:20:26 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Bveinu","message":"OK"}
+
+{'data': 'Bveinu', 'message': 'OK'}
+2023-03-27 10:20:26 [INFO] endpoints.py::def add_playlist(...)::line 119 > POST > 200 > {"data":"2020 pop hits","message":"OK"}
+
+{'data': '2020 pop hits', 'message': 'OK'}
+2023-03-27 10:20:26 [INFO] endpoints.py::def upvote(...)::line 169 > PUT > 200 > {"error":"no such song in the songs collection"}
+
+{'error': 'no such song in the songs collection'}
+2023-03-27 10:20:26 [WARNING] (log error) you try to pass a not string arguments... just removed.
+2023-03-27 10:20:26 [INFO] Session Closed

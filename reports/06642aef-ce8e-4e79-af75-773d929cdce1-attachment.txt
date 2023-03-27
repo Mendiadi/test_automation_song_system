@@ -1,0 +1,11 @@
+[32mINFO    [0m mylogger:logger.py:83 conftest.py::def setup_teardown(...)::line 55 > DELETE > 200 > {"message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 conftest.py::def setup_teardown(...)::line 56 > DELETE > 200 > {"message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 <setup> Cleared all users from DB
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Widwsz","message":"OK"}
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def add_friend(...)::line 110 > PUT > 200 > {"data":"Jwcdjm","message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def add_friend(...)::line 110 > PUT > 200 > {"error":"Jwcdjm already a friend of Widwsz"}
+[33mWARNING [0m mylogger:logger.py:77 (log error) you try to pass a not string arguments... just removed.
+[32mINFO    [0m mylogger:logger.py:83 Session Closed

@@ -1,0 +1,2 @@
+2023-03-27 08:40:01 [WARNING] (log error) you try to pass a not string arguments... just removed.
+2023-03-27 08:40:01 [INFO] Session Closed

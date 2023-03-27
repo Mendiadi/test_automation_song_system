@@ -1,0 +1,152 @@
+[32mINFO    [0m mylogger:logger.py:83 Session started
+[32mINFO    [0m mylogger:logger.py:83 conftest.py::def setup_teardown(...)::line 55 > DELETE > 200 > {"message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 conftest.py::def setup_teardown(...)::line 56 > DELETE > 200 > {"message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 <setup> Cleared all users from DB
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Jsk Wcx Foj ","message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Sznkwn Izgloq Yjflxf ","message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Igfq Esap Oegl ","message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Mvhfz Yxayb Vyjoy ","message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Izi Iuf Dej ","message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Ndn Xxl Pzi ","message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Ugluc Kzmvh Dmoxt ","message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Qeqm Wuss Ohzi ","message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Npn Lne Ary ","message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Rtt Vsn Lus ","message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Dgwvv Sszwc Dplef ","message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Pnlolf Ehksdn Bjlayl ","message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Kvgmt Kcpgr Zljdq ","message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Rgiez Vghsx Teqln ","message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Izlt Zsae Kxga ","message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Yfgmz Bznri Gdkaz ","message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Hlpz Ylbu Jgif ","message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Ksagqo Dhfvbx Mgampn ","message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Xwko Uzmw Wjlp ","message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Pzv Zyv Iul ","message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Ykcal Binig Argog ","message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Biron Jwmot Urrpl ","message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Oxw Vdp Qxx ","message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Qftam Fyuyw Ewuzj ","message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Niftn Wxqpo Xmjia ","message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Nmqse Otjmr Mfnpj ","message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Jwg Ajc Pvg ","message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Hzt Ndp Xfg ","message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Wywe Nrfe Ojus ","message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Fbtw Xokm Qepu ","message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Navmod","message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Fxitfx","message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Waiaek","message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Ytlgky","message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Htscph","message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Dwudva","message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Vfkelo","message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Vkequn","message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Dodwgm","message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Lxbfvi","message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Jsk Wcx Foj "},"message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Jsk Wcx Foj "},"message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Sznkwn Izgloq Yjflxf "},"message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Sznkwn Izgloq Yjflxf "},"message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Igfq Esap Oegl "},"message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Igfq Esap Oegl "},"message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Mvhfz Yxayb Vyjoy "},"message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Mvhfz Yxayb Vyjoy "},"message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Izi Iuf Dej "},"message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Izi Iuf Dej "},"message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Ndn Xxl Pzi "},"message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Ndn Xxl Pzi "},"message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Ugluc Kzmvh Dmoxt "},"message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Ugluc Kzmvh Dmoxt "},"message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Qeqm Wuss Ohzi "},"message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Qeqm Wuss Ohzi "},"message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Npn Lne Ary "},"message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Npn Lne Ary "},"message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Rtt Vsn Lus "},"message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Rtt Vsn Lus "},"message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Dgwvv Sszwc Dplef "},"message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Dgwvv Sszwc Dplef "},"message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Pnlolf Ehksdn Bjlayl "},"message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Kvgmt Kcpgr Zljdq "},"message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Rgiez Vghsx Teqln "},"message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Izlt Zsae Kxga "},"message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Yfgmz Bznri Gdkaz "},"message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Hlpz Ylbu Jgif "},"message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Ksagqo Dhfvbx Mgampn "},"message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Xwko Uzmw Wjlp "},"message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Pzv Zyv Iul "},"message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Ykcal Binig Argog "},"message":"OK"}
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def ranked_songs(...)::line 178 > GET > 200 > {"data":["Pnlolf Ehksdn Bjlayl ","Kvgmt Kcpgr Zljdq ","Rgiez Vghsx Teqln ","Izlt Zsae Kxga ","Yfgmz Bznri Gdkaz ","Hlpz Ylbu Jgif ","Ksagqo Dhfvbx Mgampn ","Xwko Uzmw Wjlp ","Pzv Zyv Iul ","Ykcal Binig Argog "],"message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def get_song(...)::line 147 > GET > 200 > {"data":{"genre":"Kffpmb","performer":"Brwwzb","rating":1,"title":"Pnlolf Ehksdn Bjlayl ","year":1932},"message":"OK"}

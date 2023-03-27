@@ -1,0 +1,8 @@
+2023-03-27 11:28:41 [INFO] Session started
+2023-03-27 11:28:41 [INFO] conftest.py::def setup_teardown(...)::line 55 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 11:28:41 [INFO] conftest.py::def setup_teardown(...)::line 56 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 11:28:41 [INFO] <setup> Cleared all users from DB
+2023-03-27 11:28:41 [WARNING] (log error) you try to pass a not string arguments... just removed.
+2023-03-27 11:28:41 [INFO] Session Closed

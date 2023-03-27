@@ -1,0 +1,11 @@
+[32mINFO    [0m mylogger:logger.py:83 conftest.py::def setup_teardown(...)::line 52 > DELETE > 200 > {"message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 conftest.py::def setup_teardown(...)::line 53 > DELETE > 200 > {"message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 <setup> Cleared all users from DB
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Dsugbt","message":"OK"}
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Cddnwi","message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def add_friend(...)::line 110 > PUT > 200 > {"error":"either the user name or the password are wrong"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def get_user(...)::line 78 > GET > 200 > {"data":{"friends":[],"playlists":[],"user_name":"Dsugbt"},"message":"OK"}

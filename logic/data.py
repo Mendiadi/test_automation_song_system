@@ -1,6 +1,9 @@
 # DATA FILE
 
 class UrlPaths:
+    ranked_songs = "/ranked_songs"
+    upvote= "/upvote"
+    downvote = "/downvote"
     get_song = "/get_song"
     add_song = "/add_song"
     add_user = "/add_user"

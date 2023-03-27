@@ -1,8 +1,10 @@
+import secrets
+
 import pytest
 import requests
 
 from infra import api_communication as api
-from logic import endpoints, User, Playlist, Song
+from logic import endpoints, User, Playlist, Song, Voting
 from utils import logger
 from config import Config
 
@@ -10,7 +12,7 @@ from config import Config
 def pytest_addoption(parser):
     parser.addoption("--host",
                      action="store",
-                     default="http://192.168.1.33",
+                     default="http://127.1.1.0",
                      help="host url")
 
 
@@ -44,11 +46,12 @@ def songs(init_session, configuration):
 @pytest.fixture(scope="session")
 def playlists(init_session, configuration):
     return endpoints.PlaylistsAPI(init_session, configuration)
-
-
+@pytest.fixture(scope="session")
+def admin(init_session,configuration):
+    return endpoints.AdminAPI(init_session, configuration)
 @pytest.fixture
-def setup_teardown(init_session, configuration):
-    admin = endpoints.AdminAPI(init_session, configuration)
+def setup_teardown(admin):
+
     admin.delete_all_users()
     admin.delete_all_song()
     logger.log("<setup> Cleared all users from DB")
@@ -76,3 +79,39 @@ def set_up_song(songs) -> Song:
     song = Song("pop", "adi", "israel vibes", 2020)
     songs.add_song(song)
     return song
+
+
+@pytest.fixture
+def setup_songs(admin,songs,users,playlists):
+    users_ = [User.create_randomly() for _ in range(10)]
+    songs_ = [Song.create_randomly()
+             for _ in range(30)]
+    playlists_ = [Playlist.create_randomly() for _ in range(5)]
+    [songs.add_song(s) for s in songs_]
+    [users.add_user(u) for u in users_]
+
+    for i,song in enumerate(songs_):
+        p = secrets.choice(playlists_)
+        u = secrets.choice(users_)
+        u2 = secrets.choice(users_)
+
+        while u == u2:
+            u2 = secrets.choice(users_)
+        vote = Voting(p.playlist_name,
+                      song.song_title,**u.as_json())
+        vote2 = Voting(p.playlist_name,
+                      song.song_title, **u2.as_json())
+        if i < 11:
+            songs.upvote(vote)
+            songs.upvote(vote2)
+        elif i in range(11,21):
+            songs.upvote(vote)
+        else:
+            pass
+
+
+
+
+@pytest.fixture
+def set_users():
+    ...

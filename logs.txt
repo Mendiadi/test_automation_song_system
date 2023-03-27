@@ -1,362 +1,1896 @@
-2023-03-26 15:22:42 [INFO] Session started
-2023-03-26 15:22:43 [INFO] conftest.py::def setup_teardown(...)::line 52 > DELETE > 200 > {"message":"OK"}
+2023-03-27 11:32:29 [INFO] Session started
+2023-03-27 11:32:29 [INFO] conftest.py::def setup_teardown(...)::line 55 > DELETE > 200 > {"message":"OK"}
 
-2023-03-26 15:22:43 [INFO] conftest.py::def setup_teardown(...)::line 53 > DELETE > 200 > {"message":"OK"}
+2023-03-27 11:32:29 [INFO] conftest.py::def setup_teardown(...)::line 56 > DELETE > 200 > {"message":"OK"}
 
-2023-03-26 15:22:43 [INFO] <setup> Cleared all users from DB
-2023-03-26 15:22:43 [INFO] endpoints.py::def add_user(...)::line 61 > POST > 200 > {"data":"Gbfqsc","message":"OK"}
+2023-03-27 11:32:29 [INFO] <setup> Cleared all users from DB
+2023-03-27 11:32:29 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Dxqknr","message":"OK"}
 
-2023-03-26 15:22:43 [INFO] endpoints.py::def add_playlist(...)::line 112 > POST > 200 > {"data":"2020 pop hits","message":"OK"}
+2023-03-27 11:32:29 [INFO] endpoints.py::def add_playlist(...)::line 119 > POST > 200 > {"data":"2020 pop hits","message":"OK"}
 
-2023-03-26 15:22:43 [INFO] endpoints.py::def add_song(...)::line 130 > POST > 200 > {"data":"israel vibes","message":"OK"}
+2023-03-27 11:32:29 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"israel vibes","message":"OK"}
 
-2023-03-26 15:22:43 [INFO] endpoints.py::def add_song(...)::line 157 > POST > 200 > {"data":"israel vibes","message":"OK"}
+2023-03-27 11:32:29 [INFO] endpoints.py::def add_song(...)::line 202 > POST > 200 > {"data":"israel vibes","message":"OK"}
 
-2023-03-26 15:22:43 [INFO] endpoints.py::def get_playlist(...)::line 81 > GET > 200 > {"data":[{"genre":"pop","performer":"adi","rating":0,"title":"israel vibes","year":2020}],"message":"OK"}
+2023-03-27 11:32:29 [INFO] endpoints.py::def get_playlist(...)::line 89 > GET > 200 > {"data":[{"genre":"pop","performer":"adi","rating":0,"title":"israel vibes","year":2020}],"message":"OK"}
 
-2023-03-26 15:22:43 [INFO] conftest.py::def setup_teardown(...)::line 52 > DELETE > 200 > {"message":"OK"}
+2023-03-27 11:32:29 [INFO] conftest.py::def setup_teardown(...)::line 55 > DELETE > 200 > {"message":"OK"}
 
-2023-03-26 15:22:43 [INFO] conftest.py::def setup_teardown(...)::line 53 > DELETE > 200 > {"message":"OK"}
+2023-03-27 11:32:29 [INFO] conftest.py::def setup_teardown(...)::line 56 > DELETE > 200 > {"message":"OK"}
 
-2023-03-26 15:22:43 [INFO] <setup> Cleared all users from DB
-2023-03-26 15:22:43 [INFO] endpoints.py::def add_user(...)::line 61 > POST > 200 > {"data":"Rofxhk","message":"OK"}
+2023-03-27 11:32:29 [INFO] <setup> Cleared all users from DB
+2023-03-27 11:32:29 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Pptxck","message":"OK"}
 
-2023-03-26 15:22:43 [INFO] endpoints.py::def add_playlist(...)::line 112 > POST > 200 > {"data":"2020 pop hits","message":"OK"}
+2023-03-27 11:32:29 [INFO] endpoints.py::def add_playlist(...)::line 119 > POST > 200 > {"data":"2020 pop hits","message":"OK"}
 
-2023-03-26 15:22:43 [INFO] endpoints.py::def add_song(...)::line 130 > POST > 200 > {"data":"israel vibes","message":"OK"}
+2023-03-27 11:32:29 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"israel vibes","message":"OK"}
 
-2023-03-26 15:22:43 [INFO] endpoints.py::def add_song(...)::line 157 > POST > 200 > {"error":"either the user name or the password are wrong"}
+2023-03-27 11:32:29 [INFO] endpoints.py::def add_song(...)::line 202 > POST > 200 > {"error":"either the user name or the password are wrong"}
 
-2023-03-26 15:22:43 [INFO] conftest.py::def setup_teardown(...)::line 52 > DELETE > 200 > {"message":"OK"}
+2023-03-27 11:32:29 [INFO] conftest.py::def setup_teardown(...)::line 55 > DELETE > 200 > {"message":"OK"}
 
-2023-03-26 15:22:43 [INFO] conftest.py::def setup_teardown(...)::line 53 > DELETE > 200 > {"message":"OK"}
+2023-03-27 11:32:29 [INFO] conftest.py::def setup_teardown(...)::line 56 > DELETE > 200 > {"message":"OK"}
 
-2023-03-26 15:22:43 [INFO] <setup> Cleared all users from DB
-2023-03-26 15:22:43 [INFO] endpoints.py::def add_user(...)::line 61 > POST > 200 > {"data":"Iwxwzy","message":"OK"}
+2023-03-27 11:32:29 [INFO] <setup> Cleared all users from DB
+2023-03-27 11:32:30 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Pkswvp","message":"OK"}
 
-2023-03-26 15:22:43 [INFO] endpoints.py::def add_playlist(...)::line 112 > POST > 200 > {"data":"2020 pop hits","message":"OK"}
+2023-03-27 11:32:30 [INFO] endpoints.py::def add_playlist(...)::line 119 > POST > 200 > {"data":"2020 pop hits","message":"OK"}
 
-2023-03-26 15:22:43 [INFO] endpoints.py::def add_song(...)::line 130 > POST > 200 > {"data":"israel vibes","message":"OK"}
+2023-03-27 11:32:30 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"israel vibes","message":"OK"}
 
-2023-03-26 15:22:43 [INFO] endpoints.py::def add_song(...)::line 157 > POST > 200 > {"error":"the user wrongname does not exist"}
+2023-03-27 11:32:30 [INFO] endpoints.py::def add_song(...)::line 202 > POST > 200 > {"error":"the user wrongname does not exist"}
 
-2023-03-26 15:22:43 [INFO] conftest.py::def setup_teardown(...)::line 52 > DELETE > 200 > {"message":"OK"}
+2023-03-27 11:32:30 [INFO] conftest.py::def setup_teardown(...)::line 55 > DELETE > 200 > {"message":"OK"}
 
-2023-03-26 15:22:43 [INFO] conftest.py::def setup_teardown(...)::line 53 > DELETE > 200 > {"message":"OK"}
+2023-03-27 11:32:30 [INFO] conftest.py::def setup_teardown(...)::line 56 > DELETE > 200 > {"message":"OK"}
 
-2023-03-26 15:22:43 [INFO] <setup> Cleared all users from DB
-2023-03-26 15:22:43 [INFO] endpoints.py::def add_user(...)::line 61 > POST > 200 > {"data":"Xsykrn","message":"OK"}
+2023-03-27 11:32:30 [INFO] <setup> Cleared all users from DB
+2023-03-27 11:32:30 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Gjoanv","message":"OK"}
 
-2023-03-26 15:22:43 [INFO] endpoints.py::def add_playlist(...)::line 112 > POST > 200 > {"data":"2020 pop hits","message":"OK"}
+2023-03-27 11:32:30 [INFO] endpoints.py::def add_playlist(...)::line 119 > POST > 200 > {"data":"2020 pop hits","message":"OK"}
 
-2023-03-26 15:22:43 [INFO] endpoints.py::def add_song(...)::line 130 > POST > 200 > {"data":"israel vibes","message":"OK"}
+2023-03-27 11:32:30 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"israel vibes","message":"OK"}
 
-2023-03-26 15:22:43 [INFO] endpoints.py::def add_song(...)::line 157 > POST > 200 > {"data":"israel vibes","message":"OK"}
+2023-03-27 11:32:30 [INFO] endpoints.py::def add_song(...)::line 202 > POST > 200 > {"data":"israel vibes","message":"OK"}
 
-2023-03-26 15:22:43 [INFO] endpoints.py::def add_song(...)::line 157 > POST > 200 > {"error":"the song israel vibes already exist in the playlist or not in the songs collection"}
+2023-03-27 11:32:30 [INFO] endpoints.py::def add_song(...)::line 202 > POST > 200 > {"error":"the song israel vibes already exist in the playlist or not in the songs collection"}
 
-2023-03-26 15:22:43 [INFO] endpoints.py::def get_playlist(...)::line 81 > GET > 200 > {"data":[{"genre":"pop","performer":"adi","rating":0,"title":"israel vibes","year":2020}],"message":"OK"}
+2023-03-27 11:32:30 [INFO] endpoints.py::def get_playlist(...)::line 89 > GET > 200 > {"data":[{"genre":"pop","performer":"adi","rating":0,"title":"israel vibes","year":2020}],"message":"OK"}
 
-2023-03-26 15:22:43 [INFO] conftest.py::def setup_teardown(...)::line 52 > DELETE > 200 > {"message":"OK"}
+2023-03-27 11:32:30 [INFO] conftest.py::def setup_teardown(...)::line 55 > DELETE > 200 > {"message":"OK"}
 
-2023-03-26 15:22:43 [INFO] conftest.py::def setup_teardown(...)::line 53 > DELETE > 200 > {"message":"OK"}
+2023-03-27 11:32:30 [INFO] conftest.py::def setup_teardown(...)::line 56 > DELETE > 200 > {"message":"OK"}
 
-2023-03-26 15:22:43 [INFO] <setup> Cleared all users from DB
-2023-03-26 15:22:44 [INFO] endpoints.py::def add_user(...)::line 61 > POST > 200 > {"data":"Hniyhz","message":"OK"}
+2023-03-27 11:32:30 [INFO] <setup> Cleared all users from DB
+2023-03-27 11:32:30 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Dubfte","message":"OK"}
 
-2023-03-26 15:22:44 [INFO] endpoints.py::def add_song(...)::line 130 > POST > 200 > {"data":"israel vibes","message":"OK"}
+2023-03-27 11:32:30 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"israel vibes","message":"OK"}
 
-2023-03-26 15:22:44 [INFO] endpoints.py::def get_playlist(...)::line 81 > GET > 200 > {"data":null,"message":"OK"}
+2023-03-27 11:32:30 [INFO] endpoints.py::def get_playlist(...)::line 89 > GET > 200 > {"data":null,"message":"OK"}
 
-2023-03-26 15:22:44 [INFO] endpoints.py::def add_song(...)::line 157 > POST > 200 > {"error":"the song israel vibes already exist in the playlist or not in the songs collection"}
+2023-03-27 11:32:30 [INFO] endpoints.py::def add_song(...)::line 202 > POST > 200 > {"error":"the song israel vibes already exist in the playlist or not in the songs collection"}
 
-2023-03-26 15:22:44 [INFO] conftest.py::def setup_teardown(...)::line 52 > DELETE > 200 > {"message":"OK"}
+2023-03-27 11:32:30 [INFO] conftest.py::def setup_teardown(...)::line 55 > DELETE > 200 > {"message":"OK"}
 
-2023-03-26 15:22:44 [INFO] conftest.py::def setup_teardown(...)::line 53 > DELETE > 200 > {"message":"OK"}
+2023-03-27 11:32:30 [INFO] conftest.py::def setup_teardown(...)::line 56 > DELETE > 200 > {"message":"OK"}
 
-2023-03-26 15:22:44 [INFO] <setup> Cleared all users from DB
-2023-03-26 15:22:44 [INFO] endpoints.py::def add_user(...)::line 61 > POST > 200 > {"data":"Cifboc","message":"OK"}
+2023-03-27 11:32:30 [INFO] <setup> Cleared all users from DB
+2023-03-27 11:32:30 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Nmvcos","message":"OK"}
 
-2023-03-26 15:22:44 [INFO] endpoints.py::def add_playlist(...)::line 112 > POST > 200 > {"data":"2020 pop hits","message":"OK"}
+2023-03-27 11:32:30 [INFO] endpoints.py::def add_playlist(...)::line 119 > POST > 200 > {"data":"2020 pop hits","message":"OK"}
 
-2023-03-26 15:22:44 [INFO] endpoints.py::def add_song(...)::line 157 > POST > 200 > {"error":"the song Ius Lij Ppz  already exist in the playlist or not in the songs collection"}
+2023-03-27 11:32:30 [INFO] endpoints.py::def add_song(...)::line 202 > POST > 200 > {"error":"the song Vivxe Bjbyq Kxvpm  already exist in the playlist or not in the songs collection"}
 
-2023-03-26 15:22:44 [INFO] endpoints.py::def get_playlist(...)::line 81 > GET > 200 > {"data":[],"message":"OK"}
+2023-03-27 11:32:30 [INFO] endpoints.py::def get_playlist(...)::line 89 > GET > 200 > {"data":[],"message":"OK"}
 
-2023-03-26 15:22:44 [INFO] conftest.py::def setup_teardown(...)::line 52 > DELETE > 200 > {"message":"OK"}
+2023-03-27 11:32:30 [INFO] conftest.py::def setup_teardown(...)::line 55 > DELETE > 200 > {"message":"OK"}
 
-2023-03-26 15:22:44 [INFO] conftest.py::def setup_teardown(...)::line 53 > DELETE > 200 > {"message":"OK"}
+2023-03-27 11:32:31 [INFO] conftest.py::def setup_teardown(...)::line 56 > DELETE > 200 > {"message":"OK"}
 
-2023-03-26 15:22:44 [INFO] <setup> Cleared all users from DB
-2023-03-26 15:22:44 [INFO] endpoints.py::def add_song(...)::line 130 > POST > 200 > {"data":"Vddvip Amrqeo Bwpfux ","message":"OK"}
+2023-03-27 11:32:31 [INFO] <setup> Cleared all users from DB
+2023-03-27 11:32:31 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Fpvaf Wtldx Rfvfk ","message":"OK"}
 
-2023-03-26 15:22:44 [INFO] endpoints.py::def get_song(...)::line 141 > GET > 200 > {"data":{"genre":"Hjboef","performer":"Dpalfb","rating":0,"title":"Vddvip Amrqeo Bwpfux ","year":1952},"message":"OK"}
+2023-03-27 11:32:31 [INFO] endpoints.py::def get_song(...)::line 147 > GET > 200 > {"data":{"genre":"Wkwmyn","performer":"Osphpl","rating":0,"title":"Fpvaf Wtldx Rfvfk ","year":1989},"message":"OK"}
 
-2023-03-26 15:22:44 [INFO] conftest.py::def setup_teardown(...)::line 52 > DELETE > 200 > {"message":"OK"}
+2023-03-27 11:32:31 [INFO] conftest.py::def setup_teardown(...)::line 55 > DELETE > 200 > {"message":"OK"}
 
-2023-03-26 15:22:44 [INFO] conftest.py::def setup_teardown(...)::line 53 > DELETE > 200 > {"message":"OK"}
+2023-03-27 11:32:31 [INFO] conftest.py::def setup_teardown(...)::line 56 > DELETE > 200 > {"message":"OK"}
 
-2023-03-26 15:22:44 [INFO] <setup> Cleared all users from DB
-2023-03-26 15:22:44 [INFO] endpoints.py::def add_song(...)::line 130 > POST > 200 > {"error":"Misssing parameter song_title"}
+2023-03-27 11:32:31 [INFO] <setup> Cleared all users from DB
+2023-03-27 11:32:31 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"error":"Misssing parameter song_title"}
 
-2023-03-26 15:22:44 [INFO] conftest.py::def setup_teardown(...)::line 52 > DELETE > 200 > {"message":"OK"}
+2023-03-27 11:32:31 [INFO] conftest.py::def setup_teardown(...)::line 55 > DELETE > 200 > {"message":"OK"}
 
-2023-03-26 15:22:44 [INFO] conftest.py::def setup_teardown(...)::line 53 > DELETE > 200 > {"message":"OK"}
+2023-03-27 11:32:31 [INFO] conftest.py::def setup_teardown(...)::line 56 > DELETE > 200 > {"message":"OK"}
 
-2023-03-26 15:22:44 [INFO] <setup> Cleared all users from DB
-2023-03-26 15:22:44 [INFO] endpoints.py::def add_song(...)::line 130 > POST > 200 > {"data":"Mqz Lpk Ohm ","message":"OK"}
+2023-03-27 11:32:31 [INFO] <setup> Cleared all users from DB
+2023-03-27 11:32:31 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Red Hrc Feb ","message":"OK"}
 
-2023-03-26 15:22:44 [INFO] endpoints.py::def get_song(...)::line 141 > GET > 200 > {"data":{"genre":"Kaouux","performer":"Rgzmxa","rating":0,"title":"Mqz Lpk Ohm ","year":{"invalid":"type"}},"message":"OK"}
+2023-03-27 11:32:31 [INFO] endpoints.py::def get_song(...)::line 147 > GET > 200 > {"data":{"genre":"Xllusb","performer":"Zyjjmv","rating":0,"title":"Red Hrc Feb ","year":{"invalid":"type"}},"message":"OK"}
 
-2023-03-26 15:22:44 [INFO] conftest.py::def setup_teardown(...)::line 52 > DELETE > 200 > {"message":"OK"}
+2023-03-27 11:32:31 [INFO] conftest.py::def setup_teardown(...)::line 55 > DELETE > 200 > {"message":"OK"}
 
-2023-03-26 15:22:44 [INFO] conftest.py::def setup_teardown(...)::line 53 > DELETE > 200 > {"message":"OK"}
+2023-03-27 11:32:31 [INFO] conftest.py::def setup_teardown(...)::line 56 > DELETE > 200 > {"message":"OK"}
 
-2023-03-26 15:22:44 [INFO] <setup> Cleared all users from DB
-2023-03-26 15:22:44 [INFO] endpoints.py::def add_song(...)::line 130 > POST > 200 > {"data":"good sh1t","message":"OK"}
+2023-03-27 11:32:31 [INFO] <setup> Cleared all users from DB
+2023-03-27 11:32:31 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"good sh1t","message":"OK"}
 
-2023-03-26 15:22:44 [INFO] endpoints.py::def get_song(...)::line 141 > GET > 200 > {"data":{"genre":"Aqkkdw","performer":"Nfjulf","rating":0,"title":"good sh1t","year":1903},"message":"OK"}
+2023-03-27 11:32:31 [INFO] endpoints.py::def get_song(...)::line 147 > GET > 200 > {"data":{"genre":"Vvlpzu","performer":"Adbqok","rating":0,"title":"good sh1t","year":1913},"message":"OK"}
 
-2023-03-26 15:22:44 [INFO] conftest.py::def setup_teardown(...)::line 52 > DELETE > 200 > {"message":"OK"}
+2023-03-27 11:32:31 [INFO] conftest.py::def setup_teardown(...)::line 55 > DELETE > 200 > {"message":"OK"}
 
-2023-03-26 15:22:44 [INFO] conftest.py::def setup_teardown(...)::line 53 > DELETE > 200 > {"message":"OK"}
+2023-03-27 11:32:31 [INFO] conftest.py::def setup_teardown(...)::line 56 > DELETE > 200 > {"message":"OK"}
 
-2023-03-26 15:22:44 [INFO] <setup> Cleared all users from DB
-2023-03-26 15:22:44 [INFO] endpoints.py::def get_song(...)::line 141 > GET > 200 > {"error":"this song does not exsist"}
+2023-03-27 11:32:31 [INFO] <setup> Cleared all users from DB
+2023-03-27 11:32:31 [INFO] endpoints.py::def get_song(...)::line 147 > GET > 200 > {"error":"this song does not exsist"}
 
-2023-03-26 15:22:44 [INFO] conftest.py::def setup_teardown(...)::line 52 > DELETE > 200 > {"message":"OK"}
+2023-03-27 11:32:31 [INFO] conftest.py::def setup_teardown(...)::line 55 > DELETE > 200 > {"message":"OK"}
 
-2023-03-26 15:22:44 [INFO] conftest.py::def setup_teardown(...)::line 53 > DELETE > 200 > {"message":"OK"}
+2023-03-27 11:32:32 [INFO] conftest.py::def setup_teardown(...)::line 56 > DELETE > 200 > {"message":"OK"}
 
-2023-03-26 15:22:44 [INFO] <setup> Cleared all users from DB
-2023-03-26 15:22:44 [INFO] endpoints.py::def get_song(...)::line 141 > GET > 200 > {"error":"Misssing parameter song_title"}
+2023-03-27 11:32:32 [INFO] <setup> Cleared all users from DB
+2023-03-27 11:32:32 [INFO] endpoints.py::def get_song(...)::line 147 > GET > 200 > {"error":"Misssing parameter song_title"}
 
-2023-03-26 15:22:44 [INFO] conftest.py::def setup_teardown(...)::line 52 > DELETE > 200 > {"message":"OK"}
+2023-03-27 11:32:32 [INFO] conftest.py::def setup_teardown(...)::line 55 > DELETE > 200 > {"message":"OK"}
 
-2023-03-26 15:22:45 [INFO] conftest.py::def setup_teardown(...)::line 53 > DELETE > 200 > {"message":"OK"}
+2023-03-27 11:32:32 [INFO] conftest.py::def setup_teardown(...)::line 56 > DELETE > 200 > {"message":"OK"}
 
-2023-03-26 15:22:45 [INFO] <setup> Cleared all users from DB
-2023-03-26 15:22:45 [INFO] endpoints.py::def add_user(...)::line 61 > POST > 200 > {"data":"Pxqnii","message":"OK"}
+2023-03-27 11:32:32 [INFO] <setup> Cleared all users from DB
+2023-03-27 11:32:32 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"israel vibes","message":"OK"}
 
-2023-03-26 15:22:45 [INFO] endpoints.py::def get_user(...)::line 70 > GET > 200 > {"data":{"friends":[],"playlists":[],"user_name":"Pxqnii"},"message":"OK"}
+2023-03-27 11:32:32 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Dkbizs","message":"OK"}
 
-2023-03-26 15:22:45 [INFO] conftest.py::def setup_teardown(...)::line 52 > DELETE > 200 > {"message":"OK"}
+2023-03-27 11:32:32 [INFO] endpoints.py::def add_playlist(...)::line 119 > POST > 200 > {"data":"2020 pop hits","message":"OK"}
 
-2023-03-26 15:22:45 [INFO] conftest.py::def setup_teardown(...)::line 53 > DELETE > 200 > {"message":"OK"}
+2023-03-27 11:32:32 [INFO] endpoints.py::def get_song(...)::line 147 > GET > 200 > {"data":{"genre":"pop","performer":"adi","rating":0,"title":"israel vibes","year":2020},"message":"OK"}
 
-2023-03-26 15:22:45 [INFO] <setup> Cleared all users from DB
-2023-03-26 15:22:45 [INFO] endpoints.py::def add_user(...)::line 61 > POST > 200 > {"data":"adim333","message":"OK"}
+2023-03-27 11:32:32 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"israel vibes"},"message":"OK"}
 
-2023-03-26 15:22:45 [INFO] endpoints.py::def get_user(...)::line 70 > GET > 200 > {"data":{"friends":[],"playlists":[],"user_name":"adim333"},"message":"OK"}
+2023-03-27 11:32:32 [INFO] endpoints.py::def get_song(...)::line 147 > GET > 200 > {"data":{"genre":"pop","performer":"adi","rating":1,"title":"israel vibes","year":2020},"message":"OK"}
 
-2023-03-26 15:22:45 [INFO] endpoints.py::def add_user(...)::line 61 > POST > 200 > {"error":"user with name adim333 already exists."}
+2023-03-27 11:32:32 [INFO] conftest.py::def setup_teardown(...)::line 55 > DELETE > 200 > {"message":"OK"}
 
-2023-03-26 15:22:45 [INFO] conftest.py::def setup_teardown(...)::line 52 > DELETE > 200 > {"message":"OK"}
+2023-03-27 11:32:32 [INFO] conftest.py::def setup_teardown(...)::line 56 > DELETE > 200 > {"message":"OK"}
 
-2023-03-26 15:22:45 [INFO] conftest.py::def setup_teardown(...)::line 53 > DELETE > 200 > {"message":"OK"}
+2023-03-27 11:32:32 [INFO] <setup> Cleared all users from DB
+2023-03-27 11:32:32 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"error":"Misssing parameter song_title"}
 
-2023-03-26 15:22:45 [INFO] <setup> Cleared all users from DB
-2023-03-26 15:22:45 [INFO] endpoints.py::def add_user(...)::line 61 > POST > 200 > {"error":"Misssing parameter user_password"}
+2023-03-27 11:32:32 [INFO] conftest.py::def setup_teardown(...)::line 55 > DELETE > 200 > {"message":"OK"}
 
-2023-03-26 15:22:45 [INFO] endpoints.py::def get_user(...)::line 70 > GET > 200 > {"error":"user username11 does not exist"}
+2023-03-27 11:32:32 [INFO] conftest.py::def setup_teardown(...)::line 56 > DELETE > 200 > {"message":"OK"}
 
-2023-03-26 15:22:45 [INFO] conftest.py::def setup_teardown(...)::line 52 > DELETE > 200 > {"message":"OK"}
+2023-03-27 11:32:32 [INFO] <setup> Cleared all users from DB
+2023-03-27 11:32:32 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Jdmvtl","message":"OK"}
 
-2023-03-26 15:22:45 [INFO] conftest.py::def setup_teardown(...)::line 53 > DELETE > 200 > {"message":"OK"}
+2023-03-27 11:32:32 [INFO] endpoints.py::def add_playlist(...)::line 119 > POST > 200 > {"data":"2020 pop hits","message":"OK"}
 
-2023-03-26 15:22:45 [INFO] <setup> Cleared all users from DB
-2023-03-26 15:22:45 [INFO] endpoints.py::def add_user(...)::line 61 > POST > 200 > {"error":"Misssing parameter user_name"}
+2023-03-27 11:32:32 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"error":"no such song in the songs collection"}
 
-2023-03-26 15:22:45 [INFO] endpoints.py::def get_user(...)::line 70 > GET > 200 > {"error":"Misssing parameter user_name"}
+2023-03-27 11:32:32 [INFO] conftest.py::def setup_teardown(...)::line 55 > DELETE > 200 > {"message":"OK"}
 
-2023-03-26 15:22:45 [INFO] conftest.py::def setup_teardown(...)::line 52 > DELETE > 200 > {"message":"OK"}
+2023-03-27 11:32:32 [INFO] conftest.py::def setup_teardown(...)::line 56 > DELETE > 200 > {"message":"OK"}
 
-2023-03-26 15:22:45 [INFO] conftest.py::def setup_teardown(...)::line 53 > DELETE > 200 > {"message":"OK"}
+2023-03-27 11:32:32 [INFO] <setup> Cleared all users from DB
+2023-03-27 11:32:32 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"israel vibes","message":"OK"}
 
-2023-03-26 15:22:45 [INFO] <setup> Cleared all users from DB
-2023-03-26 15:22:45 [INFO] endpoints.py::def add_user(...)::line 61 > POST > 200 > {"data":"Nfjjxe","message":"OK"}
+2023-03-27 11:32:33 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Efpnnr","message":"OK"}
 
-2023-03-26 15:22:45 [INFO] endpoints.py::def get_user(...)::line 70 > GET > 200 > {"data":{"friends":[],"playlists":[],"user_name":"Nfjjxe"},"message":"OK"}
+2023-03-27 11:32:33 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"israel vibes"},"message":"OK"}
 
-2023-03-26 15:22:45 [INFO] conftest.py::def setup_teardown(...)::line 52 > DELETE > 200 > {"message":"OK"}
+2023-03-27 11:32:33 [INFO] conftest.py::def setup_teardown(...)::line 55 > DELETE > 200 > {"message":"OK"}
 
-2023-03-26 15:22:45 [INFO] conftest.py::def setup_teardown(...)::line 53 > DELETE > 200 > {"message":"OK"}
+2023-03-27 11:32:33 [INFO] conftest.py::def setup_teardown(...)::line 56 > DELETE > 200 > {"message":"OK"}
 
-2023-03-26 15:22:45 [INFO] <setup> Cleared all users from DB
-2023-03-26 15:22:45 [INFO] endpoints.py::def get_user(...)::line 70 > GET > 200 > {"error":"user myuser222 does not exist"}
+2023-03-27 11:32:33 [INFO] <setup> Cleared all users from DB
+2023-03-27 11:32:33 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"israel vibes","message":"OK"}
 
-2023-03-26 15:22:45 [INFO] conftest.py::def setup_teardown(...)::line 52 > DELETE > 200 > {"message":"OK"}
+2023-03-27 11:32:33 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Ewjhix","message":"OK"}
 
-2023-03-26 15:22:45 [INFO] conftest.py::def setup_teardown(...)::line 53 > DELETE > 200 > {"message":"OK"}
+2023-03-27 11:32:33 [INFO] endpoints.py::def add_playlist(...)::line 119 > POST > 200 > {"data":"2020 pop hits","message":"OK"}
 
-2023-03-26 15:22:45 [INFO] <setup> Cleared all users from DB
-2023-03-26 15:22:45 [INFO] endpoints.py::def add_user(...)::line 61 > POST > 200 > {"data":"Qsctes","message":"OK"}
+2023-03-27 11:32:33 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"error":"the user Kgsytj does not exist"}
 
-2023-03-26 15:22:45 [INFO] endpoints.py::def change_password(...)::line 92 > PUT > 200 > {"data":{"friends":[],"playlists":[],"user_name":"Qsctes"},"message":"OK"}
+2023-03-27 11:32:33 [INFO] conftest.py::def setup_teardown(...)::line 55 > DELETE > 200 > {"message":"OK"}
 
-2023-03-26 15:22:45 [INFO] endpoints.py::def get_playlist(...)::line 81 > GET > 200 > {"data":null,"message":"OK"}
+2023-03-27 11:32:33 [INFO] conftest.py::def setup_teardown(...)::line 56 > DELETE > 200 > {"message":"OK"}
 
-2023-03-26 15:22:45 [INFO] conftest.py::def setup_teardown(...)::line 52 > DELETE > 200 > {"message":"OK"}
+2023-03-27 11:32:33 [INFO] <setup> Cleared all users from DB
+2023-03-27 11:32:33 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"israel vibes","message":"OK"}
 
-2023-03-26 15:22:45 [INFO] conftest.py::def setup_teardown(...)::line 53 > DELETE > 200 > {"message":"OK"}
+2023-03-27 11:32:33 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Ymrftc","message":"OK"}
 
-2023-03-26 15:22:45 [INFO] <setup> Cleared all users from DB
-2023-03-26 15:22:45 [INFO] endpoints.py::def add_user(...)::line 61 > POST > 200 > {"data":"Vyldow","message":"OK"}
+2023-03-27 11:32:33 [INFO] endpoints.py::def add_playlist(...)::line 119 > POST > 200 > {"data":"2020 pop hits","message":"OK"}
 
-2023-03-26 15:22:46 [INFO] endpoints.py::def change_password(...)::line 92 > PUT > 200 > {"error":"some parameters are wrong"}
+2023-03-27 11:32:33 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"error":"either the user name or the password are wrong"}
 
-2023-03-26 15:22:46 [INFO] conftest.py::def setup_teardown(...)::line 52 > DELETE > 200 > {"message":"OK"}
+2023-03-27 11:32:33 [INFO] conftest.py::def setup_teardown(...)::line 55 > DELETE > 200 > {"message":"OK"}
 
-2023-03-26 15:22:46 [INFO] conftest.py::def setup_teardown(...)::line 53 > DELETE > 200 > {"message":"OK"}
+2023-03-27 11:32:33 [INFO] conftest.py::def setup_teardown(...)::line 56 > DELETE > 200 > {"message":"OK"}
 
-2023-03-26 15:22:46 [INFO] <setup> Cleared all users from DB
-2023-03-26 15:22:46 [INFO] endpoints.py::def add_user(...)::line 61 > POST > 200 > {"data":"Qrixpg","message":"OK"}
+2023-03-27 11:32:33 [INFO] <setup> Cleared all users from DB
+2023-03-27 11:32:33 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"israel vibes","message":"OK"}
 
-2023-03-26 15:22:46 [INFO] endpoints.py::def change_password(...)::line 92 > PUT > 200 > {"error":"Misssing parameter user_new_password"}
+2023-03-27 11:32:33 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Iqcljt","message":"OK"}
 
-2023-03-26 15:22:46 [INFO] conftest.py::def setup_teardown(...)::line 52 > DELETE > 200 > {"message":"OK"}
+2023-03-27 11:32:33 [INFO] endpoints.py::def add_playlist(...)::line 119 > POST > 200 > {"data":"2020 pop hits","message":"OK"}
 
-2023-03-26 15:22:46 [INFO] conftest.py::def setup_teardown(...)::line 53 > DELETE > 200 > {"message":"OK"}
+2023-03-27 11:32:33 [INFO] endpoints.py::def get_song(...)::line 147 > GET > 200 > {"data":{"genre":"pop","performer":"adi","rating":0,"title":"israel vibes","year":2020},"message":"OK"}
 
-2023-03-26 15:22:46 [INFO] <setup> Cleared all users from DB
-2023-03-26 15:22:46 [INFO] endpoints.py::def change_password(...)::line 92 > PUT > 200 > {"error":"user notexists does not exist"}
+2023-03-27 11:32:33 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"israel vibes"},"message":"OK"}
 
-2023-03-26 15:22:46 [INFO] conftest.py::def setup_teardown(...)::line 52 > DELETE > 200 > {"message":"OK"}
+2023-03-27 11:32:33 [INFO] endpoints.py::def get_song(...)::line 147 > GET > 200 > {"data":{"genre":"pop","performer":"adi","rating":1,"title":"israel vibes","year":2020},"message":"OK"}
 
-2023-03-26 15:22:46 [INFO] conftest.py::def setup_teardown(...)::line 53 > DELETE > 200 > {"message":"OK"}
+2023-03-27 11:32:34 [INFO] endpoints.py::def downvote(...)::line 157 > PUT > 200 > {"data":{"rating":0,"song_title":"israel vibes"},"message":"OK"}
 
-2023-03-26 15:22:46 [INFO] <setup> Cleared all users from DB
-2023-03-26 15:22:46 [INFO] endpoints.py::def change_password(...)::line 92 > PUT > 200 > {"error":"Misssing parameter user_name"}
+2023-03-27 11:32:34 [INFO] endpoints.py::def get_song(...)::line 147 > GET > 200 > {"data":{"genre":"pop","performer":"adi","rating":0,"title":"israel vibes","year":2020},"message":"OK"}
 
-2023-03-26 15:22:46 [INFO] conftest.py::def setup_teardown(...)::line 52 > DELETE > 200 > {"message":"OK"}
+2023-03-27 11:32:34 [INFO] conftest.py::def setup_teardown(...)::line 55 > DELETE > 200 > {"message":"OK"}
 
-2023-03-26 15:22:46 [INFO] conftest.py::def setup_teardown(...)::line 53 > DELETE > 200 > {"message":"OK"}
+2023-03-27 11:32:34 [INFO] conftest.py::def setup_teardown(...)::line 56 > DELETE > 200 > {"message":"OK"}
 
-2023-03-26 15:22:46 [INFO] <setup> Cleared all users from DB
-2023-03-26 15:22:46 [INFO] endpoints.py::def add_user(...)::line 61 > POST > 200 > {"data":"Kiorqp","message":"OK"}
+2023-03-27 11:32:34 [INFO] <setup> Cleared all users from DB
+2023-03-27 11:32:34 [INFO] endpoints.py::def downvote(...)::line 157 > PUT > 200 > {"error":"Misssing parameter song_title"}
 
-2023-03-26 15:22:46 [INFO] endpoints.py::def get_user(...)::line 70 > GET > 200 > {"data":{"friends":[],"playlists":[],"user_name":"Kiorqp"},"message":"OK"}
+2023-03-27 11:32:34 [INFO] conftest.py::def setup_teardown(...)::line 55 > DELETE > 200 > {"message":"OK"}
 
-2023-03-26 15:22:46 [INFO] endpoints.py::def add_playlist(...)::line 112 > POST > 200 > {"data":"Wxxuwl","message":"OK"}
+2023-03-27 11:32:34 [INFO] conftest.py::def setup_teardown(...)::line 56 > DELETE > 200 > {"message":"OK"}
 
-2023-03-26 15:22:46 [INFO] endpoints.py::def get_user(...)::line 70 > GET > 200 > {"data":{"friends":[],"playlists":["Wxxuwl"],"user_name":"Kiorqp"},"message":"OK"}
+2023-03-27 11:32:34 [INFO] <setup> Cleared all users from DB
+2023-03-27 11:32:34 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Xbfhcu","message":"OK"}
 
-2023-03-26 15:22:46 [INFO] endpoints.py::def get_playlist(...)::line 81 > GET > 200 > {"data":[],"message":"OK"}
+2023-03-27 11:32:34 [INFO] endpoints.py::def add_playlist(...)::line 119 > POST > 200 > {"data":"2020 pop hits","message":"OK"}
 
-2023-03-26 15:22:46 [INFO] conftest.py::def setup_teardown(...)::line 52 > DELETE > 200 > {"message":"OK"}
+2023-03-27 11:32:34 [INFO] endpoints.py::def downvote(...)::line 157 > PUT > 200 > {"error":"no such song in the songs collection"}
 
-2023-03-26 15:22:46 [INFO] conftest.py::def setup_teardown(...)::line 53 > DELETE > 200 > {"message":"OK"}
+2023-03-27 11:32:34 [INFO] conftest.py::def setup_teardown(...)::line 55 > DELETE > 200 > {"message":"OK"}
 
-2023-03-26 15:22:46 [INFO] <setup> Cleared all users from DB
-2023-03-26 15:22:46 [INFO] endpoints.py::def add_playlist(...)::line 112 > POST > 200 > {"error":"the user Ixhgug does not exist"}
+2023-03-27 11:32:34 [INFO] conftest.py::def setup_teardown(...)::line 56 > DELETE > 200 > {"message":"OK"}
 
-2023-03-26 15:22:46 [INFO] endpoints.py::def get_playlist(...)::line 81 > GET > 200 > {"error":"the user Ixhgug does not exist"}
+2023-03-27 11:32:34 [INFO] <setup> Cleared all users from DB
+2023-03-27 11:32:34 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"israel vibes","message":"OK"}
 
-2023-03-26 15:22:46 [INFO] conftest.py::def setup_teardown(...)::line 52 > DELETE > 200 > {"message":"OK"}
+2023-03-27 11:32:34 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Iprzss","message":"OK"}
 
-2023-03-26 15:22:46 [INFO] conftest.py::def setup_teardown(...)::line 53 > DELETE > 200 > {"message":"OK"}
+2023-03-27 11:32:34 [INFO] endpoints.py::def downvote(...)::line 157 > PUT > 200 > {"data":{"rating":0,"song_title":"israel vibes"},"message":"OK"}
 
-2023-03-26 15:22:46 [INFO] <setup> Cleared all users from DB
-2023-03-26 15:22:46 [INFO] endpoints.py::def add_user(...)::line 61 > POST > 200 > {"data":"Zmunfh","message":"OK"}
+2023-03-27 11:32:34 [INFO] conftest.py::def setup_teardown(...)::line 55 > DELETE > 200 > {"message":"OK"}
 
-2023-03-26 15:22:46 [INFO] endpoints.py::def add_playlist(...)::line 112 > POST > 200 > {"error":"either the user name or the password are wrong"}
+2023-03-27 11:32:34 [INFO] conftest.py::def setup_teardown(...)::line 56 > DELETE > 200 > {"message":"OK"}
 
-2023-03-26 15:22:46 [INFO] endpoints.py::def get_user(...)::line 70 > GET > 200 > {"data":{"friends":[],"playlists":[],"user_name":"Zmunfh"},"message":"OK"}
+2023-03-27 11:32:34 [INFO] <setup> Cleared all users from DB
+2023-03-27 11:32:34 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"israel vibes","message":"OK"}
 
-2023-03-26 15:22:46 [INFO] endpoints.py::def get_playlist(...)::line 81 > GET > 200 > {"error":"either the user name or the password are wrong"}
+2023-03-27 11:32:35 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Cegggw","message":"OK"}
 
-2023-03-26 15:22:46 [INFO] conftest.py::def setup_teardown(...)::line 52 > DELETE > 200 > {"message":"OK"}
+2023-03-27 11:32:35 [INFO] endpoints.py::def add_playlist(...)::line 119 > POST > 200 > {"data":"2020 pop hits","message":"OK"}
 
-2023-03-26 15:22:46 [INFO] conftest.py::def setup_teardown(...)::line 53 > DELETE > 200 > {"message":"OK"}
+2023-03-27 11:32:35 [INFO] endpoints.py::def downvote(...)::line 157 > PUT > 200 > {"error":"the user Srskld does not exist"}
 
-2023-03-26 15:22:46 [INFO] <setup> Cleared all users from DB
-2023-03-26 15:22:46 [INFO] endpoints.py::def add_playlist(...)::line 112 > POST > 200 > {"error":"Misssing parameter playlist_name"}
+2023-03-27 11:32:35 [INFO] conftest.py::def setup_teardown(...)::line 55 > DELETE > 200 > {"message":"OK"}
 
-2023-03-26 15:22:46 [INFO] conftest.py::def setup_teardown(...)::line 52 > DELETE > 200 > {"message":"OK"}
+2023-03-27 11:32:35 [INFO] conftest.py::def setup_teardown(...)::line 56 > DELETE > 200 > {"message":"OK"}
 
-2023-03-26 15:22:47 [INFO] conftest.py::def setup_teardown(...)::line 53 > DELETE > 200 > {"message":"OK"}
+2023-03-27 11:32:35 [INFO] <setup> Cleared all users from DB
+2023-03-27 11:32:35 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"israel vibes","message":"OK"}
 
-2023-03-26 15:22:47 [INFO] <setup> Cleared all users from DB
-2023-03-26 15:22:47 [INFO] endpoints.py::def add_user(...)::line 61 > POST > 200 > {"data":"Lkrrzd","message":"OK"}
+2023-03-27 11:32:35 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Ygmvep","message":"OK"}
 
-2023-03-26 15:22:47 [INFO] endpoints.py::def add_playlist(...)::line 112 > POST > 200 > {"data":"Xvbydh","message":"OK"}
+2023-03-27 11:32:35 [INFO] endpoints.py::def add_playlist(...)::line 119 > POST > 200 > {"data":"2020 pop hits","message":"OK"}
 
-2023-03-26 15:22:47 [INFO] endpoints.py::def get_playlist(...)::line 81 > GET > 200 > {"data":[],"message":"OK"}
+2023-03-27 11:32:35 [INFO] endpoints.py::def downvote(...)::line 157 > PUT > 200 > {"error":"either the user name or the password are wrong"}
 
-2023-03-26 15:22:47 [INFO] conftest.py::def setup_teardown(...)::line 52 > DELETE > 200 > {"message":"OK"}
+2023-03-27 11:32:35 [INFO] conftest.py::def setup_teardown(...)::line 55 > DELETE > 200 > {"message":"OK"}
 
-2023-03-26 15:22:47 [INFO] conftest.py::def setup_teardown(...)::line 53 > DELETE > 200 > {"message":"OK"}
+2023-03-27 11:32:35 [INFO] conftest.py::def setup_teardown(...)::line 56 > DELETE > 200 > {"message":"OK"}
 
-2023-03-26 15:22:47 [INFO] <setup> Cleared all users from DB
-2023-03-26 15:22:47 [INFO] endpoints.py::def get_playlist(...)::line 81 > GET > 200 > {"error":"Misssing parameter playlist_name"}
+2023-03-27 11:32:35 [INFO] <setup> Cleared all users from DB
+2023-03-27 11:32:35 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Tarwjk Bklxzm Ewxgcz ","message":"OK"}
 
-2023-03-26 15:22:47 [INFO] conftest.py::def setup_teardown(...)::line 52 > DELETE > 200 > {"message":"OK"}
+2023-03-27 11:32:35 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Paj Aja Trp ","message":"OK"}
 
-2023-03-26 15:22:47 [INFO] conftest.py::def setup_teardown(...)::line 53 > DELETE > 200 > {"message":"OK"}
+2023-03-27 11:32:35 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Xkvd Rrcj Gevy ","message":"OK"}
 
-2023-03-26 15:22:47 [INFO] <setup> Cleared all users from DB
-2023-03-26 15:22:47 [INFO] endpoints.py::def add_user(...)::line 61 > POST > 200 > {"data":"Ldlbuk","message":"OK"}
+2023-03-27 11:32:35 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Imchl Heyul Bxymh ","message":"OK"}
 
-2023-03-26 15:22:47 [INFO] endpoints.py::def add_playlist(...)::line 112 > POST > 200 > {"data":"Anrcfg","message":"OK"}
+2023-03-27 11:32:35 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Eha Hwn Gaw ","message":"OK"}
 
-2023-03-26 15:22:47 [INFO] endpoints.py::def get_playlist(...)::line 81 > GET > 200 > {"data":null,"message":"OK"}
+2023-03-27 11:32:35 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Rru Tyr Vyj ","message":"OK"}
 
-2023-03-26 15:22:47 [INFO] conftest.py::def setup_teardown(...)::line 52 > DELETE > 200 > {"message":"OK"}
+2023-03-27 11:32:35 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Zhtdt Eqkah Iowpb ","message":"OK"}
 
-2023-03-26 15:22:47 [INFO] conftest.py::def setup_teardown(...)::line 53 > DELETE > 200 > {"message":"OK"}
+2023-03-27 11:32:35 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Urk Bzx Bfd ","message":"OK"}
 
-2023-03-26 15:22:47 [INFO] <setup> Cleared all users from DB
-2023-03-26 15:22:47 [INFO] endpoints.py::def add_user(...)::line 61 > POST > 200 > {"data":"Gpsvje","message":"OK"}
+2023-03-27 11:32:35 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Yjfos Sydtt Remxq ","message":"OK"}
 
-2023-03-26 15:22:47 [INFO] endpoints.py::def add_friend(...)::line 102 > PUT > 200 > {"data":"Yflojt","message":"OK"}
+2023-03-27 11:32:36 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Zyucdd Hacgyf Npyzct ","message":"OK"}
 
-2023-03-26 15:22:47 [INFO] endpoints.py::def get_user(...)::line 70 > GET > 200 > {"data":{"friends":["Yflojt"],"playlists":[],"user_name":"Gpsvje"},"message":"OK"}
+2023-03-27 11:32:36 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Gmbfkf Jfgllz Scfxgt ","message":"OK"}
 
-2023-03-26 15:22:47 [INFO] conftest.py::def setup_teardown(...)::line 52 > DELETE > 200 > {"message":"OK"}
+2023-03-27 11:32:36 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Qfkdw Opqqa Ujtum ","message":"OK"}
 
-2023-03-26 15:22:47 [INFO] conftest.py::def setup_teardown(...)::line 53 > DELETE > 200 > {"message":"OK"}
+2023-03-27 11:32:36 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Mhswaf Scpkub Gnqasm ","message":"OK"}
 
-2023-03-26 15:22:47 [INFO] <setup> Cleared all users from DB
-2023-03-26 15:22:47 [INFO] endpoints.py::def add_user(...)::line 61 > POST > 200 > {"data":"Qjgyka","message":"OK"}
+2023-03-27 11:32:36 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Tpj Ofn Vwl ","message":"OK"}
 
-2023-03-26 15:22:47 [INFO] endpoints.py::def add_user(...)::line 61 > POST > 200 > {"data":"Nenqst","message":"OK"}
+2023-03-27 11:32:36 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Utqat Cgyxo Dzdgl ","message":"OK"}
 
-2023-03-26 15:22:47 [INFO] endpoints.py::def add_friend(...)::line 102 > PUT > 200 > {"error":"either the user name or the password are wrong"}
+2023-03-27 11:32:36 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Eoqit Nofhw Kmefi ","message":"OK"}
 
-2023-03-26 15:22:47 [INFO] endpoints.py::def get_user(...)::line 70 > GET > 200 > {"data":{"friends":[],"playlists":[],"user_name":"Qjgyka"},"message":"OK"}
+2023-03-27 11:32:36 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Avn Jev Gkn ","message":"OK"}
 
-2023-03-26 15:22:47 [INFO] conftest.py::def setup_teardown(...)::line 52 > DELETE > 200 > {"message":"OK"}
+2023-03-27 11:32:36 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Okly Vgwl Yoec ","message":"OK"}
 
-2023-03-26 15:22:47 [INFO] conftest.py::def setup_teardown(...)::line 53 > DELETE > 200 > {"message":"OK"}
+2023-03-27 11:32:36 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Pztqv Qaeii Oaael ","message":"OK"}
 
-2023-03-26 15:22:47 [INFO] <setup> Cleared all users from DB
-2023-03-26 15:22:47 [INFO] endpoints.py::def add_user(...)::line 61 > POST > 200 > {"data":"Artbgi","message":"OK"}
+2023-03-27 11:32:36 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Foewef Ulhcat Lnvoji ","message":"OK"}
 
-2023-03-26 15:22:47 [INFO] endpoints.py::def add_friend(...)::line 102 > PUT > 200 > {"error":"the user Ofimcl does not exist"}
+2023-03-27 11:32:36 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Rbp Xvo Dzs ","message":"OK"}
 
-2023-03-26 15:22:47 [INFO] conftest.py::def setup_teardown(...)::line 52 > DELETE > 200 > {"message":"OK"}
+2023-03-27 11:32:36 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Dowgcd Kzngev Fukpfn ","message":"OK"}
 
-2023-03-26 15:22:47 [INFO] conftest.py::def setup_teardown(...)::line 53 > DELETE > 200 > {"message":"OK"}
+2023-03-27 11:32:36 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Sahghs Zowgwv Mamxde ","message":"OK"}
 
-2023-03-26 15:22:47 [INFO] <setup> Cleared all users from DB
-2023-03-26 15:22:47 [INFO] endpoints.py::def add_user(...)::line 61 > POST > 200 > {"data":"Fqozgu","message":"OK"}
+2023-03-27 11:32:36 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Jeg Nss Gnl ","message":"OK"}
 
-2023-03-26 15:22:48 [INFO] endpoints.py::def get_user(...)::line 70 > GET > 200 > {"error":"user notexists does not exist"}
+2023-03-27 11:32:36 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Knv Uhs Ahc ","message":"OK"}
 
-2023-03-26 15:22:48 [INFO] endpoints.py::def get_user(...)::line 70 > GET > 200 > {"data":{"friends":[],"playlists":[],"user_name":"Fqozgu"},"message":"OK"}
+2023-03-27 11:32:36 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Krdf Frfg Qtpv ","message":"OK"}
 
-2023-03-26 15:22:48 [INFO] endpoints.py::def add_friend(...)::line 102 > PUT > 200 > {"data":"notexists","message":"OK"}
+2023-03-27 11:32:36 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Fjcuxa Nuxsck Cuqjri ","message":"OK"}
 
-2023-03-26 15:22:48 [INFO] conftest.py::def setup_teardown(...)::line 52 > DELETE > 200 > {"message":"OK"}
+2023-03-27 11:32:37 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Vmc Eop Ukt ","message":"OK"}
 
-2023-03-26 15:22:48 [INFO] conftest.py::def setup_teardown(...)::line 53 > DELETE > 200 > {"message":"OK"}
+2023-03-27 11:32:37 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Jjr Vef Zlx ","message":"OK"}
 
-2023-03-26 15:22:48 [INFO] <setup> Cleared all users from DB
-2023-03-26 15:22:48 [INFO] endpoints.py::def add_user(...)::line 61 > POST > 200 > {"data":"Sfeeio","message":"OK"}
+2023-03-27 11:32:37 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Nnpv Yvao Qigk ","message":"OK"}
 
-2023-03-26 15:22:48 [INFO] endpoints.py::def add_friend(...)::line 102 > PUT > 200 > {"data":"Grszfn","message":"OK"}
+2023-03-27 11:32:37 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Duruzn","message":"OK"}
 
-2023-03-26 15:22:48 [INFO] endpoints.py::def add_friend(...)::line 102 > PUT > 200 > {"error":"Grszfn already a friend of Sfeeio"}
+2023-03-27 11:32:37 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Rffpzw","message":"OK"}
 
-2023-03-26 15:22:48 [WARNING] (log error) you try to pass a not string arguments... just removed.
-2023-03-26 15:22:48 [INFO] Session Closed
+2023-03-27 11:32:37 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Ariodg","message":"OK"}
+
+2023-03-27 11:32:37 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Seejsc","message":"OK"}
+
+2023-03-27 11:32:37 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Nlgxhz","message":"OK"}
+
+2023-03-27 11:32:37 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Rqjznp","message":"OK"}
+
+2023-03-27 11:32:37 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Leahoe","message":"OK"}
+
+2023-03-27 11:32:37 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Irwlmc","message":"OK"}
+
+2023-03-27 11:32:37 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Cikbep","message":"OK"}
+
+2023-03-27 11:32:37 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Yqxmky","message":"OK"}
+
+2023-03-27 11:32:37 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Tarwjk Bklxzm Ewxgcz "},"message":"OK"}
+
+2023-03-27 11:32:37 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Tarwjk Bklxzm Ewxgcz "},"message":"OK"}
+
+2023-03-27 11:32:37 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Paj Aja Trp "},"message":"OK"}
+
+2023-03-27 11:32:37 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Paj Aja Trp "},"message":"OK"}
+
+2023-03-27 11:32:37 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Xkvd Rrcj Gevy "},"message":"OK"}
+
+2023-03-27 11:32:37 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Xkvd Rrcj Gevy "},"message":"OK"}
+
+2023-03-27 11:32:37 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Imchl Heyul Bxymh "},"message":"OK"}
+
+2023-03-27 11:32:38 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Imchl Heyul Bxymh "},"message":"OK"}
+
+2023-03-27 11:32:38 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Eha Hwn Gaw "},"message":"OK"}
+
+2023-03-27 11:32:38 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Eha Hwn Gaw "},"message":"OK"}
+
+2023-03-27 11:32:38 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Rru Tyr Vyj "},"message":"OK"}
+
+2023-03-27 11:32:38 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Rru Tyr Vyj "},"message":"OK"}
+
+2023-03-27 11:32:38 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Zhtdt Eqkah Iowpb "},"message":"OK"}
+
+2023-03-27 11:32:38 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Zhtdt Eqkah Iowpb "},"message":"OK"}
+
+2023-03-27 11:32:38 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Urk Bzx Bfd "},"message":"OK"}
+
+2023-03-27 11:32:38 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Urk Bzx Bfd "},"message":"OK"}
+
+2023-03-27 11:32:38 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Yjfos Sydtt Remxq "},"message":"OK"}
+
+2023-03-27 11:32:38 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Yjfos Sydtt Remxq "},"message":"OK"}
+
+2023-03-27 11:32:38 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Zyucdd Hacgyf Npyzct "},"message":"OK"}
+
+2023-03-27 11:32:38 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Zyucdd Hacgyf Npyzct "},"message":"OK"}
+
+2023-03-27 11:32:38 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Gmbfkf Jfgllz Scfxgt "},"message":"OK"}
+
+2023-03-27 11:32:38 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Gmbfkf Jfgllz Scfxgt "},"message":"OK"}
+
+2023-03-27 11:32:38 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Qfkdw Opqqa Ujtum "},"message":"OK"}
+
+2023-03-27 11:32:38 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Mhswaf Scpkub Gnqasm "},"message":"OK"}
+
+2023-03-27 11:32:38 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Tpj Ofn Vwl "},"message":"OK"}
+
+2023-03-27 11:32:38 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Utqat Cgyxo Dzdgl "},"message":"OK"}
+
+2023-03-27 11:32:39 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Eoqit Nofhw Kmefi "},"message":"OK"}
+
+2023-03-27 11:32:39 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Avn Jev Gkn "},"message":"OK"}
+
+2023-03-27 11:32:39 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Okly Vgwl Yoec "},"message":"OK"}
+
+2023-03-27 11:32:39 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Pztqv Qaeii Oaael "},"message":"OK"}
+
+2023-03-27 11:32:39 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Foewef Ulhcat Lnvoji "},"message":"OK"}
+
+2023-03-27 11:32:39 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Rbp Xvo Dzs "},"message":"OK"}
+
+2023-03-27 11:32:39 [INFO] endpoints.py::def ranked_songs(...)::line 178 > GET > 200 > {"data":["Qfkdw Opqqa Ujtum ","Mhswaf Scpkub Gnqasm ","Tpj Ofn Vwl ","Utqat Cgyxo Dzdgl ","Eoqit Nofhw Kmefi ","Avn Jev Gkn ","Okly Vgwl Yoec ","Pztqv Qaeii Oaael ","Foewef Ulhcat Lnvoji ","Rbp Xvo Dzs "],"message":"OK"}
+
+2023-03-27 11:32:39 [INFO] endpoints.py::def get_song(...)::line 147 > GET > 200 > {"data":{"genre":"Wzqgoi","performer":"Fhkvsu","rating":1,"title":"Qfkdw Opqqa Ujtum ","year":2021},"message":"OK"}
+
+2023-03-27 11:32:39 [INFO] conftest.py::def setup_teardown(...)::line 55 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 11:32:39 [INFO] conftest.py::def setup_teardown(...)::line 56 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 11:32:39 [INFO] <setup> Cleared all users from DB
+2023-03-27 11:32:39 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Ezy Nvg Cwq ","message":"OK"}
+
+2023-03-27 11:32:39 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Yezp Tmjl Tfvi ","message":"OK"}
+
+2023-03-27 11:32:39 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Muz Svz Ehl ","message":"OK"}
+
+2023-03-27 11:32:39 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Qnz Uxn Iwp ","message":"OK"}
+
+2023-03-27 11:32:39 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Piwyt Ihqvx Ubcus ","message":"OK"}
+
+2023-03-27 11:32:39 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Zarwjt Pqwoek Zthraj ","message":"OK"}
+
+2023-03-27 11:32:39 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Sse Rcw Pip ","message":"OK"}
+
+2023-03-27 11:32:39 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Kjqu Sllq Gguc ","message":"OK"}
+
+2023-03-27 11:32:39 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Ipfvt Zyxrw Bmlsc ","message":"OK"}
+
+2023-03-27 11:32:39 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Bxach Rqqxk Cakjs ","message":"OK"}
+
+2023-03-27 11:32:39 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Muoj Ujdg Yebq ","message":"OK"}
+
+2023-03-27 11:32:39 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Vtw Qru Fcm ","message":"OK"}
+
+2023-03-27 11:32:39 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Wup Yzt Jag ","message":"OK"}
+
+2023-03-27 11:32:39 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Uzhuy Dhgas Jvxzs ","message":"OK"}
+
+2023-03-27 11:32:39 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Ffwgk Jlupw Dzyfp ","message":"OK"}
+
+2023-03-27 11:32:39 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Guxlu Obiqr Ygqbf ","message":"OK"}
+
+2023-03-27 11:32:40 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Ats Vtj Fof ","message":"OK"}
+
+2023-03-27 11:32:40 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Gixo Pbhb Axuo ","message":"OK"}
+
+2023-03-27 11:32:40 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Ystc Eeeo Dxds ","message":"OK"}
+
+2023-03-27 11:32:40 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Fnwq Xeph Uagk ","message":"OK"}
+
+2023-03-27 11:32:40 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Gbz Zkf Kgu ","message":"OK"}
+
+2023-03-27 11:32:40 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Esx Xsg Exg ","message":"OK"}
+
+2023-03-27 11:32:40 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Qpn Rbk Yzj ","message":"OK"}
+
+2023-03-27 11:32:40 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Wskhy Lqvze Crrve ","message":"OK"}
+
+2023-03-27 11:32:40 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Wvsgcz Dckytj Jgigku ","message":"OK"}
+
+2023-03-27 11:32:40 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Xoeynx Eqfanp Apkfbh ","message":"OK"}
+
+2023-03-27 11:32:40 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Pmf Gam Mtl ","message":"OK"}
+
+2023-03-27 11:32:40 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Cmkjx Vmiwi Dkeda ","message":"OK"}
+
+2023-03-27 11:32:40 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Yav Jku Sdd ","message":"OK"}
+
+2023-03-27 11:32:40 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Mxire Rthgz Yeyvs ","message":"OK"}
+
+2023-03-27 11:32:40 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Buiurz","message":"OK"}
+
+2023-03-27 11:32:40 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Riseqr","message":"OK"}
+
+2023-03-27 11:32:41 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Marqzu","message":"OK"}
+
+2023-03-27 11:32:41 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Nlnjhn","message":"OK"}
+
+2023-03-27 11:32:41 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Byflbg","message":"OK"}
+
+2023-03-27 11:32:41 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Hhdthp","message":"OK"}
+
+2023-03-27 11:32:41 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Rjipca","message":"OK"}
+
+2023-03-27 11:32:41 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Qmaogw","message":"OK"}
+
+2023-03-27 11:32:41 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Okrrfs","message":"OK"}
+
+2023-03-27 11:32:41 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Jfntyp","message":"OK"}
+
+2023-03-27 11:32:41 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Ezy Nvg Cwq "},"message":"OK"}
+
+2023-03-27 11:32:41 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Ezy Nvg Cwq "},"message":"OK"}
+
+2023-03-27 11:32:41 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Yezp Tmjl Tfvi "},"message":"OK"}
+
+2023-03-27 11:32:41 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Yezp Tmjl Tfvi "},"message":"OK"}
+
+2023-03-27 11:32:41 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Muz Svz Ehl "},"message":"OK"}
+
+2023-03-27 11:32:41 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Muz Svz Ehl "},"message":"OK"}
+
+2023-03-27 11:32:41 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Qnz Uxn Iwp "},"message":"OK"}
+
+2023-03-27 11:32:41 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Qnz Uxn Iwp "},"message":"OK"}
+
+2023-03-27 11:32:41 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Piwyt Ihqvx Ubcus "},"message":"OK"}
+
+2023-03-27 11:32:42 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Piwyt Ihqvx Ubcus "},"message":"OK"}
+
+2023-03-27 11:32:42 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Zarwjt Pqwoek Zthraj "},"message":"OK"}
+
+2023-03-27 11:32:42 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Zarwjt Pqwoek Zthraj "},"message":"OK"}
+
+2023-03-27 11:32:42 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Sse Rcw Pip "},"message":"OK"}
+
+2023-03-27 11:32:42 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Sse Rcw Pip "},"message":"OK"}
+
+2023-03-27 11:32:42 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Kjqu Sllq Gguc "},"message":"OK"}
+
+2023-03-27 11:32:42 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Kjqu Sllq Gguc "},"message":"OK"}
+
+2023-03-27 11:32:42 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Ipfvt Zyxrw Bmlsc "},"message":"OK"}
+
+2023-03-27 11:32:42 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Ipfvt Zyxrw Bmlsc "},"message":"OK"}
+
+2023-03-27 11:32:42 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Bxach Rqqxk Cakjs "},"message":"OK"}
+
+2023-03-27 11:32:42 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Bxach Rqqxk Cakjs "},"message":"OK"}
+
+2023-03-27 11:32:42 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Muoj Ujdg Yebq "},"message":"OK"}
+
+2023-03-27 11:32:42 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Muoj Ujdg Yebq "},"message":"OK"}
+
+2023-03-27 11:32:42 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Vtw Qru Fcm "},"message":"OK"}
+
+2023-03-27 11:32:42 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Wup Yzt Jag "},"message":"OK"}
+
+2023-03-27 11:32:42 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Uzhuy Dhgas Jvxzs "},"message":"OK"}
+
+2023-03-27 11:32:42 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Ffwgk Jlupw Dzyfp "},"message":"OK"}
+
+2023-03-27 11:32:42 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Guxlu Obiqr Ygqbf "},"message":"OK"}
+
+2023-03-27 11:32:42 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Ats Vtj Fof "},"message":"OK"}
+
+2023-03-27 11:32:42 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Gixo Pbhb Axuo "},"message":"OK"}
+
+2023-03-27 11:32:42 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Ystc Eeeo Dxds "},"message":"OK"}
+
+2023-03-27 11:32:43 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Fnwq Xeph Uagk "},"message":"OK"}
+
+2023-03-27 11:32:43 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Gbz Zkf Kgu "},"message":"OK"}
+
+2023-03-27 11:32:43 [INFO] endpoints.py::def ranked_songs(...)::line 178 > GET > 200 > {"data":["Ezy Nvg Cwq ","Yezp Tmjl Tfvi ","Muz Svz Ehl ","Qnz Uxn Iwp ","Piwyt Ihqvx Ubcus ","Zarwjt Pqwoek Zthraj ","Sse Rcw Pip ","Kjqu Sllq Gguc ","Ipfvt Zyxrw Bmlsc ","Bxach Rqqxk Cakjs ","Muoj Ujdg Yebq "],"message":"OK"}
+
+2023-03-27 11:32:43 [INFO] endpoints.py::def get_song(...)::line 147 > GET > 200 > {"data":{"genre":"Qvdvzy","performer":"Zragbs","rating":2,"title":"Ezy Nvg Cwq ","year":1905},"message":"OK"}
+
+2023-03-27 11:32:43 [INFO] conftest.py::def setup_teardown(...)::line 55 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 11:32:43 [INFO] conftest.py::def setup_teardown(...)::line 56 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 11:32:43 [INFO] <setup> Cleared all users from DB
+2023-03-27 11:32:43 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Rlyn Hkxv Udbe ","message":"OK"}
+
+2023-03-27 11:32:43 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Kkbsqr Isvmpa Sblgvm ","message":"OK"}
+
+2023-03-27 11:32:43 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Modu Nwzy Sjdw ","message":"OK"}
+
+2023-03-27 11:32:43 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Mrwy Fyet Tyfi ","message":"OK"}
+
+2023-03-27 11:32:43 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Ptgo Cexg Mhll ","message":"OK"}
+
+2023-03-27 11:32:43 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Njnm Tedu Yppr ","message":"OK"}
+
+2023-03-27 11:32:43 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Lnvp Jbrv Tgqb ","message":"OK"}
+
+2023-03-27 11:32:43 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Tworbs Uqogad Zoeatt ","message":"OK"}
+
+2023-03-27 11:32:43 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Icune Hjdzn Gekcp ","message":"OK"}
+
+2023-03-27 11:32:43 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Avklg Slqyr Addnn ","message":"OK"}
+
+2023-03-27 11:32:43 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Otnj Wehd Embn ","message":"OK"}
+
+2023-03-27 11:32:43 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Nxkx Vctp Tikq ","message":"OK"}
+
+2023-03-27 11:32:43 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Llan Xcza Srqn ","message":"OK"}
+
+2023-03-27 11:32:44 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Ywag Etvu Cuxp ","message":"OK"}
+
+2023-03-27 11:32:44 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Ifndmm Yhrhjn Xnjgay ","message":"OK"}
+
+2023-03-27 11:32:44 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Yqdd Crna Sesn ","message":"OK"}
+
+2023-03-27 11:32:44 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Sczks Akedw Xysut ","message":"OK"}
+
+2023-03-27 11:32:44 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Ogb Ohb Gzr ","message":"OK"}
+
+2023-03-27 11:32:44 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Qlfgv Yenep Vahcb ","message":"OK"}
+
+2023-03-27 11:32:44 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Hqmx Eibi Ebgx ","message":"OK"}
+
+2023-03-27 11:32:44 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Ijil Dqhp Sotn ","message":"OK"}
+
+2023-03-27 11:32:44 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Jhv Jwf Etn ","message":"OK"}
+
+2023-03-27 11:32:44 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Jsca Tefp Eqmb ","message":"OK"}
+
+2023-03-27 11:32:44 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Tshkf Dsaqi Oevjg ","message":"OK"}
+
+2023-03-27 11:32:44 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Huknb Zhllh Qriit ","message":"OK"}
+
+2023-03-27 11:32:44 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Wqetbv Wepjvb Vemnlp ","message":"OK"}
+
+2023-03-27 11:32:44 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Yeaur Ezvpt Vnytr ","message":"OK"}
+
+2023-03-27 11:32:44 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Leuw Selc Snwh ","message":"OK"}
+
+2023-03-27 11:32:44 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Ngrwar Cnoqmu Ihhnia ","message":"OK"}
+
+2023-03-27 11:32:44 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Blk Zds Iuj ","message":"OK"}
+
+2023-03-27 11:32:44 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Maxnjm","message":"OK"}
+
+2023-03-27 11:32:44 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Lokdng","message":"OK"}
+
+2023-03-27 11:32:44 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Znsfyn","message":"OK"}
+
+2023-03-27 11:32:45 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Aclcyz","message":"OK"}
+
+2023-03-27 11:32:45 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Rkobpr","message":"OK"}
+
+2023-03-27 11:32:45 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Msvfwd","message":"OK"}
+
+2023-03-27 11:32:45 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Rpxktz","message":"OK"}
+
+2023-03-27 11:32:45 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Irlsfr","message":"OK"}
+
+2023-03-27 11:32:45 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Zuvxop","message":"OK"}
+
+2023-03-27 11:32:45 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Pfkudi","message":"OK"}
+
+2023-03-27 11:32:45 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Rlyn Hkxv Udbe "},"message":"OK"}
+
+2023-03-27 11:32:45 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Rlyn Hkxv Udbe "},"message":"OK"}
+
+2023-03-27 11:32:45 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Kkbsqr Isvmpa Sblgvm "},"message":"OK"}
+
+2023-03-27 11:32:45 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Kkbsqr Isvmpa Sblgvm "},"message":"OK"}
+
+2023-03-27 11:32:45 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Modu Nwzy Sjdw "},"message":"OK"}
+
+2023-03-27 11:32:45 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Modu Nwzy Sjdw "},"message":"OK"}
+
+2023-03-27 11:32:45 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Mrwy Fyet Tyfi "},"message":"OK"}
+
+2023-03-27 11:32:45 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Mrwy Fyet Tyfi "},"message":"OK"}
+
+2023-03-27 11:32:45 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Ptgo Cexg Mhll "},"message":"OK"}
+
+2023-03-27 11:32:45 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Ptgo Cexg Mhll "},"message":"OK"}
+
+2023-03-27 11:32:45 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Njnm Tedu Yppr "},"message":"OK"}
+
+2023-03-27 11:32:45 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Njnm Tedu Yppr "},"message":"OK"}
+
+2023-03-27 11:32:46 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Lnvp Jbrv Tgqb "},"message":"OK"}
+
+2023-03-27 11:32:46 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Lnvp Jbrv Tgqb "},"message":"OK"}
+
+2023-03-27 11:32:46 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Tworbs Uqogad Zoeatt "},"message":"OK"}
+
+2023-03-27 11:32:46 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Tworbs Uqogad Zoeatt "},"message":"OK"}
+
+2023-03-27 11:32:46 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Icune Hjdzn Gekcp "},"message":"OK"}
+
+2023-03-27 11:32:46 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Icune Hjdzn Gekcp "},"message":"OK"}
+
+2023-03-27 11:32:46 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Avklg Slqyr Addnn "},"message":"OK"}
+
+2023-03-27 11:32:46 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Avklg Slqyr Addnn "},"message":"OK"}
+
+2023-03-27 11:32:46 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Otnj Wehd Embn "},"message":"OK"}
+
+2023-03-27 11:32:46 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Otnj Wehd Embn "},"message":"OK"}
+
+2023-03-27 11:32:46 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Nxkx Vctp Tikq "},"message":"OK"}
+
+2023-03-27 11:32:46 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Llan Xcza Srqn "},"message":"OK"}
+
+2023-03-27 11:32:46 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Ywag Etvu Cuxp "},"message":"OK"}
+
+2023-03-27 11:32:46 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Ifndmm Yhrhjn Xnjgay "},"message":"OK"}
+
+2023-03-27 11:32:46 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Yqdd Crna Sesn "},"message":"OK"}
+
+2023-03-27 11:32:46 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Sczks Akedw Xysut "},"message":"OK"}
+
+2023-03-27 11:32:46 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Ogb Ohb Gzr "},"message":"OK"}
+
+2023-03-27 11:32:47 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Qlfgv Yenep Vahcb "},"message":"OK"}
+
+2023-03-27 11:32:47 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Hqmx Eibi Ebgx "},"message":"OK"}
+
+2023-03-27 11:32:47 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Ijil Dqhp Sotn "},"message":"OK"}
+
+2023-03-27 11:32:47 [INFO] endpoints.py::def ranked_songs(...)::line 178 > GET > 200 > {"data":["Jhv Jwf Etn ","Jsca Tefp Eqmb ","Tshkf Dsaqi Oevjg ","Huknb Zhllh Qriit ","Wqetbv Wepjvb Vemnlp ","Yeaur Ezvpt Vnytr ","Leuw Selc Snwh ","Ngrwar Cnoqmu Ihhnia ","Blk Zds Iuj "],"message":"OK"}
+
+2023-03-27 11:32:47 [INFO] endpoints.py::def get_song(...)::line 147 > GET > 200 > {"data":{"genre":"Epopis","performer":"Qxukvz","rating":0,"title":"Jhv Jwf Etn ","year":1926},"message":"OK"}
+
+2023-03-27 11:32:47 [INFO] conftest.py::def setup_teardown(...)::line 55 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 11:32:47 [INFO] conftest.py::def setup_teardown(...)::line 56 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 11:32:47 [INFO] <setup> Cleared all users from DB
+2023-03-27 11:32:47 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Uol Exm Cku ","message":"OK"}
+
+2023-03-27 11:32:47 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Nkpw Ybcn Btce ","message":"OK"}
+
+2023-03-27 11:32:47 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Jzk Uyo Daj ","message":"OK"}
+
+2023-03-27 11:32:47 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Ddm Aao Ymh ","message":"OK"}
+
+2023-03-27 11:32:47 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Henil Hksqh Ujofs ","message":"OK"}
+
+2023-03-27 11:32:47 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Ijzwq Zgdtc Jdxqv ","message":"OK"}
+
+2023-03-27 11:32:47 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Ygcd Qobb Tlvy ","message":"OK"}
+
+2023-03-27 11:32:47 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Lgxrm Xdzay Aehex ","message":"OK"}
+
+2023-03-27 11:32:47 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Lstbcj Trlltz Zfnhvl ","message":"OK"}
+
+2023-03-27 11:32:47 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Mzn Njo Ggv ","message":"OK"}
+
+2023-03-27 11:32:47 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Ivhmn Nxlaf Lagjk ","message":"OK"}
+
+2023-03-27 11:32:47 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Iyqc Ycbj Xbos ","message":"OK"}
+
+2023-03-27 11:32:47 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Hvb Yxa Arz ","message":"OK"}
+
+2023-03-27 11:32:48 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Ilf Wha Yta ","message":"OK"}
+
+2023-03-27 11:32:48 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Cdmfxq Zubpqu Oyttek ","message":"OK"}
+
+2023-03-27 11:32:48 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Svy Gqm Bwl ","message":"OK"}
+
+2023-03-27 11:32:48 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Gahkom Teugsy Uvrpgh ","message":"OK"}
+
+2023-03-27 11:32:48 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Nfanq Qvcky Adbax ","message":"OK"}
+
+2023-03-27 11:32:48 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Qfynfi Yrfiyr Edafdx ","message":"OK"}
+
+2023-03-27 11:32:48 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Kvvs Jjzb Qizf ","message":"OK"}
+
+2023-03-27 11:32:48 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Rvetl Hfhfn Ccial ","message":"OK"}
+
+2023-03-27 11:32:48 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Ugv Vqk Swh ","message":"OK"}
+
+2023-03-27 11:32:48 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Miytd Myfma Tgskk ","message":"OK"}
+
+2023-03-27 11:32:48 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Blqt Eawz Giab ","message":"OK"}
+
+2023-03-27 11:32:48 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Akmfih Kobrzk Xgjfus ","message":"OK"}
+
+2023-03-27 11:32:48 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Tqjsro Rwxhst Dyuavo ","message":"OK"}
+
+2023-03-27 11:32:48 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Suqygz Zqunsd Bkbjup ","message":"OK"}
+
+2023-03-27 11:32:48 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Mfsjpz Pabekh Zebjxc ","message":"OK"}
+
+2023-03-27 11:32:48 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Sgffe Nydqp Hgdhv ","message":"OK"}
+
+2023-03-27 11:32:48 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Zuqess Ebxrzs Rwsqoy ","message":"OK"}
+
+2023-03-27 11:32:48 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Ewdnph","message":"OK"}
+
+2023-03-27 11:32:49 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Rnmhci","message":"OK"}
+
+2023-03-27 11:32:49 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Xqhubc","message":"OK"}
+
+2023-03-27 11:32:49 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Tlmozx","message":"OK"}
+
+2023-03-27 11:32:49 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Orfsos","message":"OK"}
+
+2023-03-27 11:32:49 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Xvpidc","message":"OK"}
+
+2023-03-27 11:32:49 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Vgaker","message":"OK"}
+
+2023-03-27 11:32:49 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Ywvxvz","message":"OK"}
+
+2023-03-27 11:32:49 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Kallii","message":"OK"}
+
+2023-03-27 11:32:49 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Sxanid","message":"OK"}
+
+2023-03-27 11:32:49 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Uol Exm Cku "},"message":"OK"}
+
+2023-03-27 11:32:49 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Uol Exm Cku "},"message":"OK"}
+
+2023-03-27 11:32:49 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Nkpw Ybcn Btce "},"message":"OK"}
+
+2023-03-27 11:32:49 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Nkpw Ybcn Btce "},"message":"OK"}
+
+2023-03-27 11:32:49 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Jzk Uyo Daj "},"message":"OK"}
+
+2023-03-27 11:32:49 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Jzk Uyo Daj "},"message":"OK"}
+
+2023-03-27 11:32:49 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Ddm Aao Ymh "},"message":"OK"}
+
+2023-03-27 11:32:49 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Ddm Aao Ymh "},"message":"OK"}
+
+2023-03-27 11:32:49 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Henil Hksqh Ujofs "},"message":"OK"}
+
+2023-03-27 11:32:50 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Henil Hksqh Ujofs "},"message":"OK"}
+
+2023-03-27 11:32:50 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Ijzwq Zgdtc Jdxqv "},"message":"OK"}
+
+2023-03-27 11:32:50 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Ijzwq Zgdtc Jdxqv "},"message":"OK"}
+
+2023-03-27 11:32:50 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Ygcd Qobb Tlvy "},"message":"OK"}
+
+2023-03-27 11:32:50 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Ygcd Qobb Tlvy "},"message":"OK"}
+
+2023-03-27 11:32:50 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Lgxrm Xdzay Aehex "},"message":"OK"}
+
+2023-03-27 11:32:50 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Lgxrm Xdzay Aehex "},"message":"OK"}
+
+2023-03-27 11:32:50 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Lstbcj Trlltz Zfnhvl "},"message":"OK"}
+
+2023-03-27 11:32:50 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Lstbcj Trlltz Zfnhvl "},"message":"OK"}
+
+2023-03-27 11:32:50 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Mzn Njo Ggv "},"message":"OK"}
+
+2023-03-27 11:32:50 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Mzn Njo Ggv "},"message":"OK"}
+
+2023-03-27 11:32:50 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Ivhmn Nxlaf Lagjk "},"message":"OK"}
+
+2023-03-27 11:32:50 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Ivhmn Nxlaf Lagjk "},"message":"OK"}
+
+2023-03-27 11:32:50 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Iyqc Ycbj Xbos "},"message":"OK"}
+
+2023-03-27 11:32:50 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Hvb Yxa Arz "},"message":"OK"}
+
+2023-03-27 11:32:50 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Ilf Wha Yta "},"message":"OK"}
+
+2023-03-27 11:32:50 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Cdmfxq Zubpqu Oyttek "},"message":"OK"}
+
+2023-03-27 11:32:50 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Svy Gqm Bwl "},"message":"OK"}
+
+2023-03-27 11:32:51 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Gahkom Teugsy Uvrpgh "},"message":"OK"}
+
+2023-03-27 11:32:51 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Nfanq Qvcky Adbax "},"message":"OK"}
+
+2023-03-27 11:32:51 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Qfynfi Yrfiyr Edafdx "},"message":"OK"}
+
+2023-03-27 11:32:51 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Kvvs Jjzb Qizf "},"message":"OK"}
+
+2023-03-27 11:32:51 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Rvetl Hfhfn Ccial "},"message":"OK"}
+
+2023-03-27 11:32:51 [INFO] endpoints.py::def ranked_songs(...)::line 178 > GET > 200 > {"data":["Uol Exm Cku ","Nkpw Ybcn Btce ","Jzk Uyo Daj ","Ddm Aao Ymh ","Henil Hksqh Ujofs ","Ijzwq Zgdtc Jdxqv ","Ygcd Qobb Tlvy ","Lgxrm Xdzay Aehex ","Lstbcj Trlltz Zfnhvl ","Mzn Njo Ggv ","Ivhmn Nxlaf Lagjk "],"message":"OK"}
+
+2023-03-27 11:32:51 [INFO] endpoints.py::def get_song(...)::line 147 > GET > 200 > {"data":{"genre":"Wemdni","performer":"Zifoeu","rating":2,"title":"Uol Exm Cku ","year":1921},"message":"OK"}
+
+2023-03-27 11:32:51 [INFO] conftest.py::def setup_teardown(...)::line 55 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 11:32:51 [INFO] conftest.py::def setup_teardown(...)::line 56 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 11:32:51 [INFO] <setup> Cleared all users from DB
+2023-03-27 11:32:51 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Lwzot Hnebn Lypbi ","message":"OK"}
+
+2023-03-27 11:32:51 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Igbuf Xmfrh Ffwwp ","message":"OK"}
+
+2023-03-27 11:32:51 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Xbbo Srol Tzfy ","message":"OK"}
+
+2023-03-27 11:32:51 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Gvcpl Wpqzg Njaaf ","message":"OK"}
+
+2023-03-27 11:32:51 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Ioudiv Drfmgp Olwama ","message":"OK"}
+
+2023-03-27 11:32:51 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Omo Mit Hta ","message":"OK"}
+
+2023-03-27 11:32:51 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Nha Iwn Ewr ","message":"OK"}
+
+2023-03-27 11:32:51 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Nexdbt Qphjql Lmqjmp ","message":"OK"}
+
+2023-03-27 11:32:51 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Anpclr Pqwcun Kpypfp ","message":"OK"}
+
+2023-03-27 11:32:51 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Gzpq Gcwf Pzkk ","message":"OK"}
+
+2023-03-27 11:32:51 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Tny Guu Ppa ","message":"OK"}
+
+2023-03-27 11:32:51 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Ecczy Gohmd Yvojo ","message":"OK"}
+
+2023-03-27 11:32:51 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Rhjiq Vtmdz Jscxn ","message":"OK"}
+
+2023-03-27 11:32:51 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Vgp Obo Rtq ","message":"OK"}
+
+2023-03-27 11:32:51 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Dzy Gvz Mwk ","message":"OK"}
+
+2023-03-27 11:32:51 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Mkbcgs Cdztlm Dvxvxj ","message":"OK"}
+
+2023-03-27 11:32:52 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Qnuei Tbmfq Hijdx ","message":"OK"}
+
+2023-03-27 11:32:52 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Hhdch Xaoyt Hcvxf ","message":"OK"}
+
+2023-03-27 11:32:52 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Wtdhim Solgfk Nrdzvx ","message":"OK"}
+
+2023-03-27 11:32:52 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Jklsb Hyswz Gktbi ","message":"OK"}
+
+2023-03-27 11:32:52 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Zqstud Choavc Symhtd ","message":"OK"}
+
+2023-03-27 11:32:52 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Lkgz Ziiy Btvk ","message":"OK"}
+
+2023-03-27 11:32:52 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Wmdir Xzukv Agmid ","message":"OK"}
+
+2023-03-27 11:32:52 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Omy Enu Yub ","message":"OK"}
+
+2023-03-27 11:32:52 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Jouw Bzrl Obyw ","message":"OK"}
+
+2023-03-27 11:32:52 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Djzhb Boozr Xfdlq ","message":"OK"}
+
+2023-03-27 11:32:52 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Trjecp Eszvaa Vtpfck ","message":"OK"}
+
+2023-03-27 11:32:52 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Knapw Dgjjd Zdufw ","message":"OK"}
+
+2023-03-27 11:32:52 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Dkzebu Wknbby Zrrauh ","message":"OK"}
+
+2023-03-27 11:32:52 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Xvnpn Pqzaq Cjusb ","message":"OK"}
+
+2023-03-27 11:32:52 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Bonyji","message":"OK"}
+
+2023-03-27 11:32:52 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Egjnjr","message":"OK"}
+
+2023-03-27 11:32:52 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Onndgn","message":"OK"}
+
+2023-03-27 11:32:52 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Ovmdkc","message":"OK"}
+
+2023-03-27 11:32:52 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Bsdtjc","message":"OK"}
+
+2023-03-27 11:32:53 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Smlyxj","message":"OK"}
+
+2023-03-27 11:32:53 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Cosobl","message":"OK"}
+
+2023-03-27 11:32:53 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Mqjymi","message":"OK"}
+
+2023-03-27 11:32:53 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Pgfkmj","message":"OK"}
+
+2023-03-27 11:32:53 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Pgqisn","message":"OK"}
+
+2023-03-27 11:32:53 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Lwzot Hnebn Lypbi "},"message":"OK"}
+
+2023-03-27 11:32:53 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Lwzot Hnebn Lypbi "},"message":"OK"}
+
+2023-03-27 11:32:53 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Igbuf Xmfrh Ffwwp "},"message":"OK"}
+
+2023-03-27 11:32:53 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Igbuf Xmfrh Ffwwp "},"message":"OK"}
+
+2023-03-27 11:32:53 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Xbbo Srol Tzfy "},"message":"OK"}
+
+2023-03-27 11:32:53 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Xbbo Srol Tzfy "},"message":"OK"}
+
+2023-03-27 11:32:53 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Gvcpl Wpqzg Njaaf "},"message":"OK"}
+
+2023-03-27 11:32:53 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Gvcpl Wpqzg Njaaf "},"message":"OK"}
+
+2023-03-27 11:32:53 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Ioudiv Drfmgp Olwama "},"message":"OK"}
+
+2023-03-27 11:32:53 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Ioudiv Drfmgp Olwama "},"message":"OK"}
+
+2023-03-27 11:32:53 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Omo Mit Hta "},"message":"OK"}
+
+2023-03-27 11:32:53 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Omo Mit Hta "},"message":"OK"}
+
+2023-03-27 11:32:53 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Nha Iwn Ewr "},"message":"OK"}
+
+2023-03-27 11:32:54 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Nha Iwn Ewr "},"message":"OK"}
+
+2023-03-27 11:32:54 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Nexdbt Qphjql Lmqjmp "},"message":"OK"}
+
+2023-03-27 11:32:54 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Nexdbt Qphjql Lmqjmp "},"message":"OK"}
+
+2023-03-27 11:32:54 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Anpclr Pqwcun Kpypfp "},"message":"OK"}
+
+2023-03-27 11:32:54 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Anpclr Pqwcun Kpypfp "},"message":"OK"}
+
+2023-03-27 11:32:54 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Gzpq Gcwf Pzkk "},"message":"OK"}
+
+2023-03-27 11:32:54 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Gzpq Gcwf Pzkk "},"message":"OK"}
+
+2023-03-27 11:32:54 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Tny Guu Ppa "},"message":"OK"}
+
+2023-03-27 11:32:54 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Tny Guu Ppa "},"message":"OK"}
+
+2023-03-27 11:32:54 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Ecczy Gohmd Yvojo "},"message":"OK"}
+
+2023-03-27 11:32:54 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Rhjiq Vtmdz Jscxn "},"message":"OK"}
+
+2023-03-27 11:32:54 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Vgp Obo Rtq "},"message":"OK"}
+
+2023-03-27 11:32:54 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Dzy Gvz Mwk "},"message":"OK"}
+
+2023-03-27 11:32:54 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Mkbcgs Cdztlm Dvxvxj "},"message":"OK"}
+
+2023-03-27 11:32:54 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Qnuei Tbmfq Hijdx "},"message":"OK"}
+
+2023-03-27 11:32:54 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Hhdch Xaoyt Hcvxf "},"message":"OK"}
+
+2023-03-27 11:32:54 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Wtdhim Solgfk Nrdzvx "},"message":"OK"}
+
+2023-03-27 11:32:54 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Jklsb Hyswz Gktbi "},"message":"OK"}
+
+2023-03-27 11:32:55 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Zqstud Choavc Symhtd "},"message":"OK"}
+
+2023-03-27 11:32:55 [INFO] endpoints.py::def ranked_songs(...)::line 178 > GET > 200 > {"data":[],"message":"OK"}
+
+2023-03-27 11:32:55 [INFO] conftest.py::def setup_teardown(...)::line 55 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 11:32:55 [INFO] conftest.py::def setup_teardown(...)::line 56 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 11:32:55 [INFO] <setup> Cleared all users from DB
+2023-03-27 11:32:55 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Mzsol Dbcdq Jhjbj ","message":"OK"}
+
+2023-03-27 11:32:55 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Ihzez Ppimz Cfhzx ","message":"OK"}
+
+2023-03-27 11:32:55 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Yusf Mwql Vzue ","message":"OK"}
+
+2023-03-27 11:32:55 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Iveqj Vjsuk Wuqlm ","message":"OK"}
+
+2023-03-27 11:32:55 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Gvru Xglz Dfso ","message":"OK"}
+
+2023-03-27 11:32:55 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Wvr Gna Iub ","message":"OK"}
+
+2023-03-27 11:32:55 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Tfh Leq Zwp ","message":"OK"}
+
+2023-03-27 11:32:55 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Yxsio Orfsv Tyeal ","message":"OK"}
+
+2023-03-27 11:32:55 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Zqn Nxp Gdt ","message":"OK"}
+
+2023-03-27 11:32:55 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Rlfa Veis Rdbi ","message":"OK"}
+
+2023-03-27 11:32:55 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Ejibfh Ansjil Fslwdi ","message":"OK"}
+
+2023-03-27 11:32:55 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Gkajv Okjvx Onkek ","message":"OK"}
+
+2023-03-27 11:32:55 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Ensazi Bgayxc Azsjue ","message":"OK"}
+
+2023-03-27 11:32:55 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Yyil Kvoc Mtys ","message":"OK"}
+
+2023-03-27 11:32:56 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Vxs Unl Bud ","message":"OK"}
+
+2023-03-27 11:32:56 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Ohk Jrd Siv ","message":"OK"}
+
+2023-03-27 11:32:56 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Vqix Jrsg Hwlb ","message":"OK"}
+
+2023-03-27 11:32:56 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Xlhwk Mwbrr Xlmal ","message":"OK"}
+
+2023-03-27 11:32:56 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Ftpa Dksl Bfnz ","message":"OK"}
+
+2023-03-27 11:32:56 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Wggy Edgd Kdhb ","message":"OK"}
+
+2023-03-27 11:32:56 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Soupe Ogcqk Rtwbf ","message":"OK"}
+
+2023-03-27 11:32:56 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Nvn Nzk Mji ","message":"OK"}
+
+2023-03-27 11:32:56 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Xft Jep Zfo ","message":"OK"}
+
+2023-03-27 11:32:56 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Juicyt Dvzwzb Uuvzuo ","message":"OK"}
+
+2023-03-27 11:32:56 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Crtdh Vyara Gcnmj ","message":"OK"}
+
+2023-03-27 11:32:56 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Jaha Wvid Lkrx ","message":"OK"}
+
+2023-03-27 11:32:56 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Crnk Vgxg Eybq ","message":"OK"}
+
+2023-03-27 11:32:56 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Ait Vqm Lyr ","message":"OK"}
+
+2023-03-27 11:32:56 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Sdv Vmn Wvx ","message":"OK"}
+
+2023-03-27 11:32:56 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Rvp Klg Oyk ","message":"OK"}
+
+2023-03-27 11:32:56 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Bkvwfo","message":"OK"}
+
+2023-03-27 11:32:56 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Wsnshq","message":"OK"}
+
+2023-03-27 11:32:56 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Fezgvz","message":"OK"}
+
+2023-03-27 11:32:56 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Uzjdly","message":"OK"}
+
+2023-03-27 11:32:56 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Gwgyim","message":"OK"}
+
+2023-03-27 11:32:56 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Ckjymm","message":"OK"}
+
+2023-03-27 11:32:56 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Bnqmwo","message":"OK"}
+
+2023-03-27 11:32:56 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Yypisf","message":"OK"}
+
+2023-03-27 11:32:56 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Lhxxog","message":"OK"}
+
+2023-03-27 11:32:57 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Xpgwjg","message":"OK"}
+
+2023-03-27 11:32:57 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Mzsol Dbcdq Jhjbj "},"message":"OK"}
+
+2023-03-27 11:32:57 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Mzsol Dbcdq Jhjbj "},"message":"OK"}
+
+2023-03-27 11:32:57 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Ihzez Ppimz Cfhzx "},"message":"OK"}
+
+2023-03-27 11:32:57 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Ihzez Ppimz Cfhzx "},"message":"OK"}
+
+2023-03-27 11:32:57 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Yusf Mwql Vzue "},"message":"OK"}
+
+2023-03-27 11:32:57 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Yusf Mwql Vzue "},"message":"OK"}
+
+2023-03-27 11:32:57 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Iveqj Vjsuk Wuqlm "},"message":"OK"}
+
+2023-03-27 11:32:57 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Iveqj Vjsuk Wuqlm "},"message":"OK"}
+
+2023-03-27 11:32:57 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Gvru Xglz Dfso "},"message":"OK"}
+
+2023-03-27 11:32:57 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Gvru Xglz Dfso "},"message":"OK"}
+
+2023-03-27 11:32:57 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Wvr Gna Iub "},"message":"OK"}
+
+2023-03-27 11:32:57 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Wvr Gna Iub "},"message":"OK"}
+
+2023-03-27 11:32:57 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Tfh Leq Zwp "},"message":"OK"}
+
+2023-03-27 11:32:57 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Tfh Leq Zwp "},"message":"OK"}
+
+2023-03-27 11:32:57 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Yxsio Orfsv Tyeal "},"message":"OK"}
+
+2023-03-27 11:32:58 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Yxsio Orfsv Tyeal "},"message":"OK"}
+
+2023-03-27 11:32:58 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Zqn Nxp Gdt "},"message":"OK"}
+
+2023-03-27 11:32:58 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Zqn Nxp Gdt "},"message":"OK"}
+
+2023-03-27 11:32:58 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Rlfa Veis Rdbi "},"message":"OK"}
+
+2023-03-27 11:32:58 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Rlfa Veis Rdbi "},"message":"OK"}
+
+2023-03-27 11:32:58 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Ejibfh Ansjil Fslwdi "},"message":"OK"}
+
+2023-03-27 11:32:58 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Ejibfh Ansjil Fslwdi "},"message":"OK"}
+
+2023-03-27 11:32:58 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Gkajv Okjvx Onkek "},"message":"OK"}
+
+2023-03-27 11:32:58 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Ensazi Bgayxc Azsjue "},"message":"OK"}
+
+2023-03-27 11:32:58 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Yyil Kvoc Mtys "},"message":"OK"}
+
+2023-03-27 11:32:58 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Vxs Unl Bud "},"message":"OK"}
+
+2023-03-27 11:32:58 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Ohk Jrd Siv "},"message":"OK"}
+
+2023-03-27 11:32:58 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Vqix Jrsg Hwlb "},"message":"OK"}
+
+2023-03-27 11:32:58 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Xlhwk Mwbrr Xlmal "},"message":"OK"}
+
+2023-03-27 11:32:58 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Ftpa Dksl Bfnz "},"message":"OK"}
+
+2023-03-27 11:32:58 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Wggy Edgd Kdhb "},"message":"OK"}
+
+2023-03-27 11:32:58 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Soupe Ogcqk Rtwbf "},"message":"OK"}
+
+2023-03-27 11:32:58 [INFO] endpoints.py::def ranked_songs(...)::line 178 > GET > 200 > {"data":["Mzsol Dbcdq Jhjbj ","Ihzez Ppimz Cfhzx ","Yusf Mwql Vzue ","Iveqj Vjsuk Wuqlm ","Gvru Xglz Dfso ","Wvr Gna Iub ","Tfh Leq Zwp ","Yxsio Orfsv Tyeal ","Zqn Nxp Gdt ","Rlfa Veis Rdbi ","Ejibfh Ansjil Fslwdi ","Gkajv Okjvx Onkek ","Ensazi Bgayxc Azsjue ","Yyil Kvoc Mtys ","Vxs Unl Bud ","Ohk Jrd Siv ","Vqix Jrsg Hwlb ","Xlhwk Mwbrr Xlmal ","Ftpa Dksl Bfnz ","Wggy Edgd Kdhb ","Soupe Ogcqk Rtwbf "],"message":"OK"}
+
+2023-03-27 11:32:58 [INFO] endpoints.py::def get_song(...)::line 147 > GET > 200 > {"data":{"genre":"Rsaocu","performer":"Iradzp","rating":2,"title":"Mzsol Dbcdq Jhjbj ","year":1932},"message":"OK"}
+
+2023-03-27 11:32:59 [INFO] conftest.py::def setup_teardown(...)::line 55 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 11:32:59 [INFO] conftest.py::def setup_teardown(...)::line 56 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 11:32:59 [INFO] <setup> Cleared all users from DB
+2023-03-27 11:32:59 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Orjgux Jxacmb Zpvapj ","message":"OK"}
+
+2023-03-27 11:32:59 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Piyukj Czwcrz Yjkmfa ","message":"OK"}
+
+2023-03-27 11:32:59 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Vgrl Wtdd Lrhp ","message":"OK"}
+
+2023-03-27 11:32:59 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Yav Tin Kyb ","message":"OK"}
+
+2023-03-27 11:32:59 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Yyyaz Okgxh Qnpja ","message":"OK"}
+
+2023-03-27 11:32:59 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Vhwcc Qqzyt Aakbh ","message":"OK"}
+
+2023-03-27 11:32:59 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Plu Ksc Qsl ","message":"OK"}
+
+2023-03-27 11:32:59 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Oig Wxr Ixl ","message":"OK"}
+
+2023-03-27 11:32:59 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Ich Uon Hcs ","message":"OK"}
+
+2023-03-27 11:32:59 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Pxbgq Wkncx Izmls ","message":"OK"}
+
+2023-03-27 11:32:59 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Bvmb Zeuw Pyyd ","message":"OK"}
+
+2023-03-27 11:32:59 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Kcungs Bogddj Erwxsr ","message":"OK"}
+
+2023-03-27 11:32:59 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Mxne Vbkx Wcpk ","message":"OK"}
+
+2023-03-27 11:32:59 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Uaq Keq Spp ","message":"OK"}
+
+2023-03-27 11:32:59 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Jgreq Tczcb Xygdf ","message":"OK"}
+
+2023-03-27 11:32:59 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Xsucig Bmvzav Fxotnd ","message":"OK"}
+
+2023-03-27 11:32:59 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Zpvquc Ppbvvi Atxhru ","message":"OK"}
+
+2023-03-27 11:32:59 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Inqxp Ysmvc Hcnbd ","message":"OK"}
+
+2023-03-27 11:32:59 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Vsx Cvk Kuy ","message":"OK"}
+
+2023-03-27 11:32:59 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Emovjp Katxts Umzkke ","message":"OK"}
+
+2023-03-27 11:33:00 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Qhxp Ejnp Ybed ","message":"OK"}
+
+2023-03-27 11:33:00 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Xah Znw Cfz ","message":"OK"}
+
+2023-03-27 11:33:00 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Uonjcp Ufjwqu Wvuxjd ","message":"OK"}
+
+2023-03-27 11:33:00 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Ught Tdrx Dzau ","message":"OK"}
+
+2023-03-27 11:33:00 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Jfossj Juzged Rpdpas ","message":"OK"}
+
+2023-03-27 11:33:00 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Fmpfjq Hmglsf Mgbxwa ","message":"OK"}
+
+2023-03-27 11:33:00 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Mczsu Blujz Nobvi ","message":"OK"}
+
+2023-03-27 11:33:00 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Xugq Gmic Hhki ","message":"OK"}
+
+2023-03-27 11:33:00 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Caflo Ffpor Bfwvi ","message":"OK"}
+
+2023-03-27 11:33:00 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Vclat Wlgfv Fhffh ","message":"OK"}
+
+2023-03-27 11:33:00 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Kygkjv","message":"OK"}
+
+2023-03-27 11:33:00 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Kqkehy","message":"OK"}
+
+2023-03-27 11:33:00 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Gqutnz","message":"OK"}
+
+2023-03-27 11:33:00 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Krfjdc","message":"OK"}
+
+2023-03-27 11:33:00 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Drljfp","message":"OK"}
+
+2023-03-27 11:33:00 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Qqvabx","message":"OK"}
+
+2023-03-27 11:33:00 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Swqhaj","message":"OK"}
+
+2023-03-27 11:33:00 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Wrkkmw","message":"OK"}
+
+2023-03-27 11:33:01 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Bnbhyz","message":"OK"}
+
+2023-03-27 11:33:01 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Yiynjv","message":"OK"}
+
+2023-03-27 11:33:01 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Orjgux Jxacmb Zpvapj "},"message":"OK"}
+
+2023-03-27 11:33:01 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Orjgux Jxacmb Zpvapj "},"message":"OK"}
+
+2023-03-27 11:33:01 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Piyukj Czwcrz Yjkmfa "},"message":"OK"}
+
+2023-03-27 11:33:01 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Piyukj Czwcrz Yjkmfa "},"message":"OK"}
+
+2023-03-27 11:33:01 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Vgrl Wtdd Lrhp "},"message":"OK"}
+
+2023-03-27 11:33:01 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Vgrl Wtdd Lrhp "},"message":"OK"}
+
+2023-03-27 11:33:01 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Yav Tin Kyb "},"message":"OK"}
+
+2023-03-27 11:33:01 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Yav Tin Kyb "},"message":"OK"}
+
+2023-03-27 11:33:01 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Yyyaz Okgxh Qnpja "},"message":"OK"}
+
+2023-03-27 11:33:01 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Yyyaz Okgxh Qnpja "},"message":"OK"}
+
+2023-03-27 11:33:01 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Vhwcc Qqzyt Aakbh "},"message":"OK"}
+
+2023-03-27 11:33:01 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Vhwcc Qqzyt Aakbh "},"message":"OK"}
+
+2023-03-27 11:33:01 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Plu Ksc Qsl "},"message":"OK"}
+
+2023-03-27 11:33:01 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Plu Ksc Qsl "},"message":"OK"}
+
+2023-03-27 11:33:01 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Oig Wxr Ixl "},"message":"OK"}
+
+2023-03-27 11:33:01 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Oig Wxr Ixl "},"message":"OK"}
+
+2023-03-27 11:33:02 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Ich Uon Hcs "},"message":"OK"}
+
+2023-03-27 11:33:02 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Ich Uon Hcs "},"message":"OK"}
+
+2023-03-27 11:33:02 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Pxbgq Wkncx Izmls "},"message":"OK"}
+
+2023-03-27 11:33:02 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Pxbgq Wkncx Izmls "},"message":"OK"}
+
+2023-03-27 11:33:02 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Bvmb Zeuw Pyyd "},"message":"OK"}
+
+2023-03-27 11:33:02 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Bvmb Zeuw Pyyd "},"message":"OK"}
+
+2023-03-27 11:33:02 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Kcungs Bogddj Erwxsr "},"message":"OK"}
+
+2023-03-27 11:33:02 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Mxne Vbkx Wcpk "},"message":"OK"}
+
+2023-03-27 11:33:02 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Uaq Keq Spp "},"message":"OK"}
+
+2023-03-27 11:33:02 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Jgreq Tczcb Xygdf "},"message":"OK"}
+
+2023-03-27 11:33:02 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Xsucig Bmvzav Fxotnd "},"message":"OK"}
+
+2023-03-27 11:33:02 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Zpvquc Ppbvvi Atxhru "},"message":"OK"}
+
+2023-03-27 11:33:02 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Inqxp Ysmvc Hcnbd "},"message":"OK"}
+
+2023-03-27 11:33:02 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Vsx Cvk Kuy "},"message":"OK"}
+
+2023-03-27 11:33:02 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Emovjp Katxts Umzkke "},"message":"OK"}
+
+2023-03-27 11:33:02 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Qhxp Ejnp Ybed "},"message":"OK"}
+
+2023-03-27 11:33:02 [INFO] endpoints.py::def ranked_songs(...)::line 178 > GET > 200 > {"data":["Xah Znw Cfz ","Uonjcp Ufjwqu Wvuxjd ","Ught Tdrx Dzau ","Jfossj Juzged Rpdpas ","Fmpfjq Hmglsf Mgbxwa ","Mczsu Blujz Nobvi ","Xugq Gmic Hhki ","Caflo Ffpor Bfwvi ","Vclat Wlgfv Fhffh "],"message":"OK"}
+
+2023-03-27 11:33:02 [INFO] endpoints.py::def get_song(...)::line 147 > GET > 200 > {"data":{"genre":"Cnjxwa","performer":"Tgnnak","rating":0,"title":"Xah Znw Cfz ","year":1954},"message":"OK"}
+
+2023-03-27 11:33:02 [INFO] conftest.py::def setup_teardown(...)::line 55 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 11:33:02 [INFO] conftest.py::def setup_teardown(...)::line 56 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 11:33:02 [INFO] <setup> Cleared all users from DB
+2023-03-27 11:33:02 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Nmrk Dlgy Drgb ","message":"OK"}
+
+2023-03-27 11:33:03 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Tkk Wpf Bmc ","message":"OK"}
+
+2023-03-27 11:33:03 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Bsp Jfg Egk ","message":"OK"}
+
+2023-03-27 11:33:03 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Cfuzh Ajxva Sdltd ","message":"OK"}
+
+2023-03-27 11:33:03 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Mmcrae Loxlaw Udsztv ","message":"OK"}
+
+2023-03-27 11:33:03 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Sil Aip Fzd ","message":"OK"}
+
+2023-03-27 11:33:03 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Bohc Ztbp Prob ","message":"OK"}
+
+2023-03-27 11:33:03 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Gqut Scde Snfu ","message":"OK"}
+
+2023-03-27 11:33:03 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Vrna Jiym Cuui ","message":"OK"}
+
+2023-03-27 11:33:03 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Clmimv Pkjznp Lwlqme ","message":"OK"}
+
+2023-03-27 11:33:03 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Yyvc Qcfv Eafu ","message":"OK"}
+
+2023-03-27 11:33:03 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Xfzn Pdjm Xqci ","message":"OK"}
+
+2023-03-27 11:33:03 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Sjfyfq Dmpizk Whujoj ","message":"OK"}
+
+2023-03-27 11:33:03 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Rbfr Colk Alyz ","message":"OK"}
+
+2023-03-27 11:33:03 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Tupuf Otzpu Qxmub ","message":"OK"}
+
+2023-03-27 11:33:03 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Yhfkre Buvwyh Evxynr ","message":"OK"}
+
+2023-03-27 11:33:03 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Tasic Fzidl Cauck ","message":"OK"}
+
+2023-03-27 11:33:03 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Unav Xbfh Jomr ","message":"OK"}
+
+2023-03-27 11:33:03 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Ptvfvw Tstlpi Lamchn ","message":"OK"}
+
+2023-03-27 11:33:03 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Tvfsq Ddgbh Mpscu ","message":"OK"}
+
+2023-03-27 11:33:04 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Zyq Fmu Jzf ","message":"OK"}
+
+2023-03-27 11:33:04 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Psytp Xuqnf Mvuno ","message":"OK"}
+
+2023-03-27 11:33:04 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Mlrl Ojme Hqsa ","message":"OK"}
+
+2023-03-27 11:33:04 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Ych Uxb Tmp ","message":"OK"}
+
+2023-03-27 11:33:04 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Wwr Feb Nwp ","message":"OK"}
+
+2023-03-27 11:33:04 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Olaizf Whichx Pdxynw ","message":"OK"}
+
+2023-03-27 11:33:04 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Zwcjel Hwhfqs Favogh ","message":"OK"}
+
+2023-03-27 11:33:04 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Uqbmmb Cztnnw Jvqlcw ","message":"OK"}
+
+2023-03-27 11:33:04 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Yup Xco Bjc ","message":"OK"}
+
+2023-03-27 11:33:04 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Gxdfj Tzqxp Ohssc ","message":"OK"}
+
+2023-03-27 11:33:04 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Fppdye","message":"OK"}
+
+2023-03-27 11:33:04 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Dzphbg","message":"OK"}
+
+2023-03-27 11:33:04 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Jknopp","message":"OK"}
+
+2023-03-27 11:33:04 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Dxnzpu","message":"OK"}
+
+2023-03-27 11:33:04 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Orcjqk","message":"OK"}
+
+2023-03-27 11:33:04 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Dtipat","message":"OK"}
+
+2023-03-27 11:33:05 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Yohnkq","message":"OK"}
+
+2023-03-27 11:33:05 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Fgegik","message":"OK"}
+
+2023-03-27 11:33:05 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Rtujnx","message":"OK"}
+
+2023-03-27 11:33:05 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Erzlwj","message":"OK"}
+
+2023-03-27 11:33:05 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Nmrk Dlgy Drgb "},"message":"OK"}
+
+2023-03-27 11:33:05 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Nmrk Dlgy Drgb "},"message":"OK"}
+
+2023-03-27 11:33:05 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Tkk Wpf Bmc "},"message":"OK"}
+
+2023-03-27 11:33:05 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Tkk Wpf Bmc "},"message":"OK"}
+
+2023-03-27 11:33:05 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Bsp Jfg Egk "},"message":"OK"}
+
+2023-03-27 11:33:05 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Bsp Jfg Egk "},"message":"OK"}
+
+2023-03-27 11:33:05 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Cfuzh Ajxva Sdltd "},"message":"OK"}
+
+2023-03-27 11:33:05 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Cfuzh Ajxva Sdltd "},"message":"OK"}
+
+2023-03-27 11:33:05 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Mmcrae Loxlaw Udsztv "},"message":"OK"}
+
+2023-03-27 11:33:05 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Mmcrae Loxlaw Udsztv "},"message":"OK"}
+
+2023-03-27 11:33:05 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Sil Aip Fzd "},"message":"OK"}
+
+2023-03-27 11:33:05 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Sil Aip Fzd "},"message":"OK"}
+
+2023-03-27 11:33:05 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Bohc Ztbp Prob "},"message":"OK"}
+
+2023-03-27 11:33:05 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Bohc Ztbp Prob "},"message":"OK"}
+
+2023-03-27 11:33:05 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Gqut Scde Snfu "},"message":"OK"}
+
+2023-03-27 11:33:05 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Gqut Scde Snfu "},"message":"OK"}
+
+2023-03-27 11:33:05 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Vrna Jiym Cuui "},"message":"OK"}
+
+2023-03-27 11:33:05 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Vrna Jiym Cuui "},"message":"OK"}
+
+2023-03-27 11:33:06 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Clmimv Pkjznp Lwlqme "},"message":"OK"}
+
+2023-03-27 11:33:06 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Clmimv Pkjznp Lwlqme "},"message":"OK"}
+
+2023-03-27 11:33:06 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Yyvc Qcfv Eafu "},"message":"OK"}
+
+2023-03-27 11:33:06 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Yyvc Qcfv Eafu "},"message":"OK"}
+
+2023-03-27 11:33:06 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Xfzn Pdjm Xqci "},"message":"OK"}
+
+2023-03-27 11:33:06 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Sjfyfq Dmpizk Whujoj "},"message":"OK"}
+
+2023-03-27 11:33:06 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Rbfr Colk Alyz "},"message":"OK"}
+
+2023-03-27 11:33:06 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Tupuf Otzpu Qxmub "},"message":"OK"}
+
+2023-03-27 11:33:06 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Yhfkre Buvwyh Evxynr "},"message":"OK"}
+
+2023-03-27 11:33:06 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Tasic Fzidl Cauck "},"message":"OK"}
+
+2023-03-27 11:33:06 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Unav Xbfh Jomr "},"message":"OK"}
+
+2023-03-27 11:33:06 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Ptvfvw Tstlpi Lamchn "},"message":"OK"}
+
+2023-03-27 11:33:06 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Tvfsq Ddgbh Mpscu "},"message":"OK"}
+
+2023-03-27 11:33:06 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Zyq Fmu Jzf "},"message":"OK"}
+
+2023-03-27 11:33:06 [INFO] endpoints.py::def ranked_songs(...)::line 178 > GET > 200 > {"data":["Xfzn Pdjm Xqci ","Sjfyfq Dmpizk Whujoj ","Rbfr Colk Alyz ","Tupuf Otzpu Qxmub ","Yhfkre Buvwyh Evxynr ","Tasic Fzidl Cauck ","Unav Xbfh Jomr ","Ptvfvw Tstlpi Lamchn ","Tvfsq Ddgbh Mpscu ","Zyq Fmu Jzf ","Psytp Xuqnf Mvuno ","Mlrl Ojme Hqsa ","Ych Uxb Tmp ","Wwr Feb Nwp ","Olaizf Whichx Pdxynw ","Zwcjel Hwhfqs Favogh ","Uqbmmb Cztnnw Jvqlcw ","Yup Xco Bjc ","Gxdfj Tzqxp Ohssc "],"message":"OK"}
+
+2023-03-27 11:33:06 [INFO] endpoints.py::def get_song(...)::line 147 > GET > 200 > {"data":{"genre":"Bjzwzm","performer":"Fqgepu","rating":1,"title":"Xfzn Pdjm Xqci ","year":1949},"message":"OK"}
+
+2023-03-27 11:33:06 [INFO] conftest.py::def setup_teardown(...)::line 55 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 11:33:06 [INFO] conftest.py::def setup_teardown(...)::line 56 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 11:33:06 [INFO] <setup> Cleared all users from DB
+2023-03-27 11:33:07 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Ttd Tzj Oaz ","message":"OK"}
+
+2023-03-27 11:33:07 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Zgaa Ezsz Tyro ","message":"OK"}
+
+2023-03-27 11:33:07 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Xkmed Gxsye Uujps ","message":"OK"}
+
+2023-03-27 11:33:07 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Wyvjm Bugee Malix ","message":"OK"}
+
+2023-03-27 11:33:07 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Jbf Vfr Paz ","message":"OK"}
+
+2023-03-27 11:33:07 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Kgop Lihj Coug ","message":"OK"}
+
+2023-03-27 11:33:07 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Uloz Fwos Attg ","message":"OK"}
+
+2023-03-27 11:33:07 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Psybt Ilkxt Fzfxy ","message":"OK"}
+
+2023-03-27 11:33:07 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Gtztu Biebo Sdhyo ","message":"OK"}
+
+2023-03-27 11:33:07 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Zwcbgh Ttllff Jlgkea ","message":"OK"}
+
+2023-03-27 11:33:07 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Uvifh Tlrua Htdxy ","message":"OK"}
+
+2023-03-27 11:33:07 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Aydsio Bydzlc Nzojss ","message":"OK"}
+
+2023-03-27 11:33:07 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Cvue Eeug Plfu ","message":"OK"}
+
+2023-03-27 11:33:07 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Kutxu Fluie Rslsw ","message":"OK"}
+
+2023-03-27 11:33:07 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Phnsdn Rophuk Jztxzq ","message":"OK"}
+
+2023-03-27 11:33:07 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Ettlur Pqxtbr Whdnjk ","message":"OK"}
+
+2023-03-27 11:33:07 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Obx Nzs Kfx ","message":"OK"}
+
+2023-03-27 11:33:07 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Fvxmlt Hjlvnc Tzedxs ","message":"OK"}
+
+2023-03-27 11:33:07 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Exff Yruk Btlj ","message":"OK"}
+
+2023-03-27 11:33:07 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Dzjmvz Badior Ucdvlr ","message":"OK"}
+
+2023-03-27 11:33:07 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Bsz Pin Xwn ","message":"OK"}
+
+2023-03-27 11:33:08 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Qjmwks Gfsqoh Ipbpdj ","message":"OK"}
+
+2023-03-27 11:33:08 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Ajby Fwmo Smvj ","message":"OK"}
+
+2023-03-27 11:33:08 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Ddfl Lsky Rzpf ","message":"OK"}
+
+2023-03-27 11:33:08 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Mhb Ovx Seg ","message":"OK"}
+
+2023-03-27 11:33:08 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Urxagt Veftar Nhlrsl ","message":"OK"}
+
+2023-03-27 11:33:08 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Xmxdg Cfubs Bvxrh ","message":"OK"}
+
+2023-03-27 11:33:08 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Wrzoi Xgmlc Zaxqi ","message":"OK"}
+
+2023-03-27 11:33:08 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Zta Dxs Bvm ","message":"OK"}
+
+2023-03-27 11:33:08 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Bkumdv Ldbidi Mtbkxc ","message":"OK"}
+
+2023-03-27 11:33:08 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Dsffqw","message":"OK"}
+
+2023-03-27 11:33:08 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Trhvaf","message":"OK"}
+
+2023-03-27 11:33:08 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Jxzumj","message":"OK"}
+
+2023-03-27 11:33:08 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Zgarrr","message":"OK"}
+
+2023-03-27 11:33:08 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Mlvekc","message":"OK"}
+
+2023-03-27 11:33:08 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Sjcych","message":"OK"}
+
+2023-03-27 11:33:08 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Rtpyhy","message":"OK"}
+
+2023-03-27 11:33:08 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Pnzwjg","message":"OK"}
+
+2023-03-27 11:33:08 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Kguilb","message":"OK"}
+
+2023-03-27 11:33:08 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Mlyzqe","message":"OK"}
+
+2023-03-27 11:33:08 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Ttd Tzj Oaz "},"message":"OK"}
+
+2023-03-27 11:33:09 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Ttd Tzj Oaz "},"message":"OK"}
+
+2023-03-27 11:33:09 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Zgaa Ezsz Tyro "},"message":"OK"}
+
+2023-03-27 11:33:09 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Zgaa Ezsz Tyro "},"message":"OK"}
+
+2023-03-27 11:33:09 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Xkmed Gxsye Uujps "},"message":"OK"}
+
+2023-03-27 11:33:09 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Xkmed Gxsye Uujps "},"message":"OK"}
+
+2023-03-27 11:33:09 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Wyvjm Bugee Malix "},"message":"OK"}
+
+2023-03-27 11:33:09 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Wyvjm Bugee Malix "},"message":"OK"}
+
+2023-03-27 11:33:09 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Jbf Vfr Paz "},"message":"OK"}
+
+2023-03-27 11:33:09 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Jbf Vfr Paz "},"message":"OK"}
+
+2023-03-27 11:33:09 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Kgop Lihj Coug "},"message":"OK"}
+
+2023-03-27 11:33:09 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Kgop Lihj Coug "},"message":"OK"}
+
+2023-03-27 11:33:09 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Uloz Fwos Attg "},"message":"OK"}
+
+2023-03-27 11:33:09 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Uloz Fwos Attg "},"message":"OK"}
+
+2023-03-27 11:33:09 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Psybt Ilkxt Fzfxy "},"message":"OK"}
+
+2023-03-27 11:33:09 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Psybt Ilkxt Fzfxy "},"message":"OK"}
+
+2023-03-27 11:33:09 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Gtztu Biebo Sdhyo "},"message":"OK"}
+
+2023-03-27 11:33:09 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Gtztu Biebo Sdhyo "},"message":"OK"}
+
+2023-03-27 11:33:09 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Zwcbgh Ttllff Jlgkea "},"message":"OK"}
+
+2023-03-27 11:33:09 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Zwcbgh Ttllff Jlgkea "},"message":"OK"}
+
+2023-03-27 11:33:10 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Uvifh Tlrua Htdxy "},"message":"OK"}
+
+2023-03-27 11:33:10 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Uvifh Tlrua Htdxy "},"message":"OK"}
+
+2023-03-27 11:33:10 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Aydsio Bydzlc Nzojss "},"message":"OK"}
+
+2023-03-27 11:33:10 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Cvue Eeug Plfu "},"message":"OK"}
+
+2023-03-27 11:33:10 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Kutxu Fluie Rslsw "},"message":"OK"}
+
+2023-03-27 11:33:10 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Phnsdn Rophuk Jztxzq "},"message":"OK"}
+
+2023-03-27 11:33:10 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Ettlur Pqxtbr Whdnjk "},"message":"OK"}
+
+2023-03-27 11:33:10 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Obx Nzs Kfx "},"message":"OK"}
+
+2023-03-27 11:33:10 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Fvxmlt Hjlvnc Tzedxs "},"message":"OK"}
+
+2023-03-27 11:33:10 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Exff Yruk Btlj "},"message":"OK"}
+
+2023-03-27 11:33:10 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Dzjmvz Badior Ucdvlr "},"message":"OK"}
+
+2023-03-27 11:33:10 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Bsz Pin Xwn "},"message":"OK"}
+
+2023-03-27 11:33:10 [INFO] endpoints.py::def ranked_songs(...)::line 178 > GET > 200 > {"data":[],"message":"OK"}
+
+2023-03-27 11:33:10 [INFO] conftest.py::def setup_teardown(...)::line 55 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 11:33:10 [INFO] conftest.py::def setup_teardown(...)::line 56 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 11:33:10 [INFO] <setup> Cleared all users from DB
+2023-03-27 11:33:10 [INFO] endpoints.py::def ranked_songs(...)::line 178 > GET > 200 > {"error":"no such operation invalid"}
+
+2023-03-27 11:33:10 [INFO] endpoints.py::def ranked_songs(...)::line 178 > GET > 500 > <!doctype html>
+<html lang=en>
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.</p>
+
+2023-03-27 11:33:11 [INFO] conftest.py::def setup_teardown(...)::line 55 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 11:33:11 [INFO] conftest.py::def setup_teardown(...)::line 56 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 11:33:11 [INFO] <setup> Cleared all users from DB
+2023-03-27 11:33:11 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Lginly","message":"OK"}
+
+2023-03-27 11:33:11 [INFO] endpoints.py::def get_user(...)::line 78 > GET > 200 > {"data":{"friends":[],"playlists":[],"user_name":"Lginly"},"message":"OK"}
+
+2023-03-27 11:33:11 [INFO] conftest.py::def setup_teardown(...)::line 55 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 11:33:11 [INFO] conftest.py::def setup_teardown(...)::line 56 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 11:33:11 [INFO] <setup> Cleared all users from DB
+2023-03-27 11:33:11 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"adim333","message":"OK"}
+
+2023-03-27 11:33:11 [INFO] endpoints.py::def get_user(...)::line 78 > GET > 200 > {"data":{"friends":[],"playlists":[],"user_name":"adim333"},"message":"OK"}
+
+2023-03-27 11:33:11 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"error":"user with name adim333 already exists."}
+
+2023-03-27 11:33:11 [INFO] conftest.py::def setup_teardown(...)::line 55 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 11:33:11 [INFO] conftest.py::def setup_teardown(...)::line 56 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 11:33:11 [INFO] <setup> Cleared all users from DB
+2023-03-27 11:33:11 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"error":"Misssing parameter user_password"}
+
+2023-03-27 11:33:11 [INFO] endpoints.py::def get_user(...)::line 78 > GET > 200 > {"error":"user username11 does not exist"}
+
+2023-03-27 11:33:11 [INFO] conftest.py::def setup_teardown(...)::line 55 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 11:33:11 [INFO] conftest.py::def setup_teardown(...)::line 56 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 11:33:11 [INFO] <setup> Cleared all users from DB
+2023-03-27 11:33:11 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"error":"Misssing parameter user_name"}
+
+2023-03-27 11:33:11 [INFO] endpoints.py::def get_user(...)::line 78 > GET > 200 > {"error":"Misssing parameter user_name"}
+
+2023-03-27 11:33:12 [INFO] conftest.py::def setup_teardown(...)::line 55 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 11:33:12 [INFO] conftest.py::def setup_teardown(...)::line 56 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 11:33:12 [INFO] <setup> Cleared all users from DB
+2023-03-27 11:33:12 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Yhguas","message":"OK"}
+
+2023-03-27 11:33:12 [INFO] endpoints.py::def get_user(...)::line 78 > GET > 200 > {"data":{"friends":[],"playlists":[],"user_name":"Yhguas"},"message":"OK"}
+
+2023-03-27 11:33:12 [INFO] conftest.py::def setup_teardown(...)::line 55 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 11:33:12 [INFO] conftest.py::def setup_teardown(...)::line 56 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 11:33:12 [INFO] <setup> Cleared all users from DB
+2023-03-27 11:33:12 [INFO] endpoints.py::def get_user(...)::line 78 > GET > 200 > {"error":"user myuser222 does not exist"}
+
+2023-03-27 11:33:12 [INFO] conftest.py::def setup_teardown(...)::line 55 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 11:33:12 [INFO] conftest.py::def setup_teardown(...)::line 56 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 11:33:12 [INFO] <setup> Cleared all users from DB
+2023-03-27 11:33:12 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Shlzvy","message":"OK"}
+
+2023-03-27 11:33:12 [INFO] endpoints.py::def change_password(...)::line 100 > PUT > 200 > {"data":{"friends":[],"playlists":[],"user_name":"Shlzvy"},"message":"OK"}
+
+2023-03-27 11:33:12 [INFO] endpoints.py::def get_playlist(...)::line 89 > GET > 200 > {"data":null,"message":"OK"}
+
+2023-03-27 11:33:12 [INFO] conftest.py::def setup_teardown(...)::line 55 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 11:33:12 [INFO] conftest.py::def setup_teardown(...)::line 56 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 11:33:12 [INFO] <setup> Cleared all users from DB
+2023-03-27 11:33:12 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Mykgzx","message":"OK"}
+
+2023-03-27 11:33:12 [INFO] endpoints.py::def change_password(...)::line 100 > PUT > 200 > {"error":"some parameters are wrong"}
+
+2023-03-27 11:33:12 [INFO] conftest.py::def setup_teardown(...)::line 55 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 11:33:12 [INFO] conftest.py::def setup_teardown(...)::line 56 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 11:33:12 [INFO] <setup> Cleared all users from DB
+2023-03-27 11:33:12 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Lbbrht","message":"OK"}
+
+2023-03-27 11:33:12 [INFO] endpoints.py::def change_password(...)::line 100 > PUT > 200 > {"error":"Misssing parameter user_new_password"}
+
+2023-03-27 11:33:13 [INFO] conftest.py::def setup_teardown(...)::line 55 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 11:33:13 [INFO] conftest.py::def setup_teardown(...)::line 56 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 11:33:13 [INFO] <setup> Cleared all users from DB
+2023-03-27 11:33:13 [INFO] endpoints.py::def change_password(...)::line 100 > PUT > 200 > {"error":"user notexists does not exist"}
+
+2023-03-27 11:33:13 [INFO] conftest.py::def setup_teardown(...)::line 55 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 11:33:13 [INFO] conftest.py::def setup_teardown(...)::line 56 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 11:33:13 [INFO] <setup> Cleared all users from DB
+2023-03-27 11:33:13 [INFO] endpoints.py::def change_password(...)::line 100 > PUT > 200 > {"error":"Misssing parameter user_name"}
+
+2023-03-27 11:33:13 [INFO] conftest.py::def setup_teardown(...)::line 55 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 11:33:13 [INFO] conftest.py::def setup_teardown(...)::line 56 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 11:33:13 [INFO] <setup> Cleared all users from DB
+2023-03-27 11:33:13 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Yhlcfz","message":"OK"}
+
+2023-03-27 11:33:13 [INFO] endpoints.py::def get_user(...)::line 78 > GET > 200 > {"data":{"friends":[],"playlists":[],"user_name":"Yhlcfz"},"message":"OK"}
+
+2023-03-27 11:33:13 [INFO] endpoints.py::def add_playlist(...)::line 119 > POST > 200 > {"data":"Hfowbd","message":"OK"}
+
+2023-03-27 11:33:13 [INFO] endpoints.py::def get_user(...)::line 78 > GET > 200 > {"data":{"friends":[],"playlists":["Hfowbd"],"user_name":"Yhlcfz"},"message":"OK"}
+
+2023-03-27 11:33:13 [INFO] endpoints.py::def get_playlist(...)::line 89 > GET > 200 > {"data":[],"message":"OK"}
+
+2023-03-27 11:33:13 [INFO] conftest.py::def setup_teardown(...)::line 55 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 11:33:13 [INFO] conftest.py::def setup_teardown(...)::line 56 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 11:33:13 [INFO] <setup> Cleared all users from DB
+2023-03-27 11:33:13 [INFO] endpoints.py::def add_playlist(...)::line 119 > POST > 200 > {"error":"the user Hghyuu does not exist"}
+
+2023-03-27 11:33:13 [INFO] endpoints.py::def get_playlist(...)::line 89 > GET > 200 > {"error":"the user Hghyuu does not exist"}
+
+2023-03-27 11:33:13 [INFO] conftest.py::def setup_teardown(...)::line 55 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 11:33:13 [INFO] conftest.py::def setup_teardown(...)::line 56 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 11:33:13 [INFO] <setup> Cleared all users from DB
+2023-03-27 11:33:14 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Xcwucz","message":"OK"}
+
+2023-03-27 11:33:14 [INFO] endpoints.py::def add_playlist(...)::line 119 > POST > 200 > {"error":"either the user name or the password are wrong"}
+
+2023-03-27 11:33:14 [INFO] endpoints.py::def get_user(...)::line 78 > GET > 200 > {"data":{"friends":[],"playlists":[],"user_name":"Xcwucz"},"message":"OK"}
+
+2023-03-27 11:33:14 [INFO] endpoints.py::def get_playlist(...)::line 89 > GET > 200 > {"error":"either the user name or the password are wrong"}
+
+2023-03-27 11:33:14 [INFO] conftest.py::def setup_teardown(...)::line 55 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 11:33:14 [INFO] conftest.py::def setup_teardown(...)::line 56 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 11:33:14 [INFO] <setup> Cleared all users from DB
+2023-03-27 11:33:14 [INFO] endpoints.py::def add_playlist(...)::line 119 > POST > 200 > {"error":"Misssing parameter playlist_name"}
+
+2023-03-27 11:33:14 [INFO] conftest.py::def setup_teardown(...)::line 55 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 11:33:14 [INFO] conftest.py::def setup_teardown(...)::line 56 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 11:33:14 [INFO] <setup> Cleared all users from DB
+2023-03-27 11:33:14 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Ghwurv","message":"OK"}
+
+2023-03-27 11:33:14 [INFO] endpoints.py::def add_playlist(...)::line 119 > POST > 200 > {"data":"Hfuxlg","message":"OK"}
+
+2023-03-27 11:33:14 [INFO] endpoints.py::def get_playlist(...)::line 89 > GET > 200 > {"data":[],"message":"OK"}
+
+2023-03-27 11:33:14 [INFO] conftest.py::def setup_teardown(...)::line 55 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 11:33:14 [INFO] conftest.py::def setup_teardown(...)::line 56 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 11:33:14 [INFO] <setup> Cleared all users from DB
+2023-03-27 11:33:14 [INFO] endpoints.py::def get_playlist(...)::line 89 > GET > 200 > {"error":"Misssing parameter playlist_name"}
+
+2023-03-27 11:33:14 [INFO] conftest.py::def setup_teardown(...)::line 55 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 11:33:14 [INFO] conftest.py::def setup_teardown(...)::line 56 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 11:33:14 [INFO] <setup> Cleared all users from DB
+2023-03-27 11:33:14 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Idjrjw","message":"OK"}
+
+2023-03-27 11:33:14 [INFO] endpoints.py::def add_playlist(...)::line 119 > POST > 200 > {"data":"Beqgxs","message":"OK"}
+
+2023-03-27 11:33:14 [INFO] endpoints.py::def get_playlist(...)::line 89 > GET > 200 > {"data":null,"message":"OK"}
+
+2023-03-27 11:33:15 [INFO] conftest.py::def setup_teardown(...)::line 55 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 11:33:15 [INFO] conftest.py::def setup_teardown(...)::line 56 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 11:33:15 [INFO] <setup> Cleared all users from DB
+2023-03-27 11:33:15 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Npkvpo","message":"OK"}
+
+2023-03-27 11:33:15 [INFO] endpoints.py::def add_friend(...)::line 110 > PUT > 200 > {"data":"Gzilrv","message":"OK"}
+
+2023-03-27 11:33:15 [INFO] endpoints.py::def get_user(...)::line 78 > GET > 200 > {"data":{"friends":["Gzilrv"],"playlists":[],"user_name":"Npkvpo"},"message":"OK"}
+
+2023-03-27 11:33:15 [INFO] conftest.py::def setup_teardown(...)::line 55 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 11:33:15 [INFO] conftest.py::def setup_teardown(...)::line 56 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 11:33:15 [INFO] <setup> Cleared all users from DB
+2023-03-27 11:33:15 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Mergea","message":"OK"}
+
+2023-03-27 11:33:15 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Ebdreg","message":"OK"}
+
+2023-03-27 11:33:15 [INFO] endpoints.py::def add_friend(...)::line 110 > PUT > 200 > {"error":"either the user name or the password are wrong"}
+
+2023-03-27 11:33:15 [INFO] endpoints.py::def get_user(...)::line 78 > GET > 200 > {"data":{"friends":[],"playlists":[],"user_name":"Mergea"},"message":"OK"}
+
+2023-03-27 11:33:15 [INFO] conftest.py::def setup_teardown(...)::line 55 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 11:33:15 [INFO] conftest.py::def setup_teardown(...)::line 56 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 11:33:15 [INFO] <setup> Cleared all users from DB
+2023-03-27 11:33:15 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Tiumuy","message":"OK"}
+
+2023-03-27 11:33:15 [INFO] endpoints.py::def add_friend(...)::line 110 > PUT > 200 > {"error":"the user Ggdigx does not exist"}
+
+2023-03-27 11:33:15 [INFO] conftest.py::def setup_teardown(...)::line 55 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 11:33:15 [INFO] conftest.py::def setup_teardown(...)::line 56 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 11:33:15 [INFO] <setup> Cleared all users from DB
+2023-03-27 11:33:15 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Phjowj","message":"OK"}
+
+2023-03-27 11:33:15 [INFO] endpoints.py::def get_user(...)::line 78 > GET > 200 > {"error":"user notexists does not exist"}
+
+2023-03-27 11:33:15 [INFO] endpoints.py::def get_user(...)::line 78 > GET > 200 > {"data":{"friends":[],"playlists":[],"user_name":"Phjowj"},"message":"OK"}
+
+2023-03-27 11:33:15 [INFO] endpoints.py::def add_friend(...)::line 110 > PUT > 200 > {"data":"notexists","message":"OK"}
+
+2023-03-27 11:33:16 [INFO] conftest.py::def setup_teardown(...)::line 55 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 11:33:16 [INFO] conftest.py::def setup_teardown(...)::line 56 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 11:33:16 [INFO] <setup> Cleared all users from DB
+2023-03-27 11:33:16 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Widwsz","message":"OK"}
+
+2023-03-27 11:33:16 [INFO] endpoints.py::def add_friend(...)::line 110 > PUT > 200 > {"data":"Jwcdjm","message":"OK"}
+
+2023-03-27 11:33:16 [INFO] endpoints.py::def add_friend(...)::line 110 > PUT > 200 > {"error":"Jwcdjm already a friend of Widwsz"}
+
+2023-03-27 11:33:16 [WARNING] (log error) you try to pass a not string arguments... just removed.
+2023-03-27 11:33:16 [INFO] Session Closed

@@ -1,0 +1,14 @@
+2023-03-27 10:36:06 [INFO] conftest.py::def setup_teardown(...)::line 52 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 10:36:06 [INFO] conftest.py::def setup_teardown(...)::line 53 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 10:36:06 [INFO] <setup> Cleared all users from DB
+2023-03-27 10:36:06 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"israel vibes","message":"OK"}
+
+{'data': 'israel vibes', 'message': 'OK'}
+2023-03-27 10:36:06 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Fawbgo","message":"OK"}
+
+{'data': 'Fawbgo', 'message': 'OK'}
+2023-03-27 10:36:06 [INFO] endpoints.py::def downvote(...)::line 157 > PUT > 200 > {"data":{"rating":0,"song_title":"israel vibes"},"message":"OK"}
+
+{'data': {'rating': 0, 'song_title': 'israel vibes'}, 'message': 'OK'}

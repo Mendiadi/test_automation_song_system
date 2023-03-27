@@ -1,0 +1,17 @@
+2023-03-27 08:40:22 [INFO] conftest.py::def setup_teardown(...)::line 52 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 08:40:22 [INFO] conftest.py::def setup_teardown(...)::line 53 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 08:40:22 [INFO] <setup> Cleared all users from DB
+2023-03-27 08:40:22 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Exyevx","message":"OK"}
+
+{'data': 'Exyevx', 'message': 'OK'}
+2023-03-27 08:40:22 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"israel vibes","message":"OK"}
+
+{'data': 'israel vibes', 'message': 'OK'}
+2023-03-27 08:40:22 [INFO] endpoints.py::def get_playlist(...)::line 89 > GET > 200 > {"data":null,"message":"OK"}
+
+{'data': None, 'message': 'OK'}
+2023-03-27 08:40:22 [INFO] endpoints.py::def add_song(...)::line 190 > POST > 200 > {"error":"the song israel vibes already exist in the playlist or not in the songs collection"}
+
+{'error': 'the song israel vibes already exist in the playlist or not in the songs collection'}

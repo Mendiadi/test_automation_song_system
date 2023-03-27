@@ -1,0 +1,8 @@
+2023-03-27 11:33:14 [INFO] conftest.py::def setup_teardown(...)::line 55 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 11:33:14 [INFO] conftest.py::def setup_teardown(...)::line 56 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 11:33:14 [INFO] <setup> Cleared all users from DB
+2023-03-27 11:33:14 [INFO] endpoints.py::def get_playlist(...)::line 89 > GET > 200 > {"error":"Misssing parameter playlist_name"}
+
+{'error': 'Misssing parameter playlist_name'}

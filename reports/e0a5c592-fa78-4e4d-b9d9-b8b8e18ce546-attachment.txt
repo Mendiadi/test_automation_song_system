@@ -1,0 +1,11 @@
+[32mINFO    [0m mylogger:logger.py:83 conftest.py::def setup_teardown(...)::line 55 > DELETE > 200 > {"message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 conftest.py::def setup_teardown(...)::line 56 > DELETE > 200 > {"message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 <setup> Cleared all users from DB
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Pkswvp","message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def add_playlist(...)::line 119 > POST > 200 > {"data":"2020 pop hits","message":"OK"}
+
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"israel vibes","message":"OK"}
+[32mINFO    [0m mylogger:logger.py:83 endpoints.py::def add_song(...)::line 202 > POST > 200 > {"error":"the user wrongname does not exist"}

@@ -1,0 +1,11 @@
+2023-03-27 08:40:25 [INFO] conftest.py::def setup_teardown(...)::line 52 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 08:40:25 [INFO] conftest.py::def setup_teardown(...)::line 53 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 08:40:25 [INFO] <setup> Cleared all users from DB
+2023-03-27 08:40:25 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Zgrgfd","message":"OK"}
+
+{'data': 'Zgrgfd', 'message': 'OK'}
+2023-03-27 08:40:25 [INFO] endpoints.py::def change_password(...)::line 100 > PUT > 200 > {"error":"Misssing parameter user_new_password"}
+
+{'error': 'Misssing parameter user_new_password'}

@@ -1,0 +1,229 @@
+2023-03-27 11:24:39 [INFO] conftest.py::def setup_teardown(...)::line 55 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 11:24:39 [INFO] conftest.py::def setup_teardown(...)::line 56 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 11:24:39 [INFO] <setup> Cleared all users from DB
+2023-03-27 11:24:39 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Csxsdf Bteakp Wrpphx ","message":"OK"}
+
+{'data': 'Csxsdf Bteakp Wrpphx ', 'message': 'OK'}
+2023-03-27 11:24:39 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Bhv Bcl Ohl ","message":"OK"}
+
+{'data': 'Bhv Bcl Ohl ', 'message': 'OK'}
+2023-03-27 11:24:39 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Eqrnz Skrpk Xmzxm ","message":"OK"}
+
+{'data': 'Eqrnz Skrpk Xmzxm ', 'message': 'OK'}
+2023-03-27 11:24:39 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Yego Vhqw Rsyt ","message":"OK"}
+
+{'data': 'Yego Vhqw Rsyt ', 'message': 'OK'}
+2023-03-27 11:24:39 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Iijmg Gjoci Yrxnk ","message":"OK"}
+
+{'data': 'Iijmg Gjoci Yrxnk ', 'message': 'OK'}
+2023-03-27 11:24:39 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Cvt Puj Zop ","message":"OK"}
+
+{'data': 'Cvt Puj Zop ', 'message': 'OK'}
+2023-03-27 11:24:39 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Vro Qsz Jcw ","message":"OK"}
+
+{'data': 'Vro Qsz Jcw ', 'message': 'OK'}
+2023-03-27 11:24:39 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Vbqb Gwvn Lxip ","message":"OK"}
+
+{'data': 'Vbqb Gwvn Lxip ', 'message': 'OK'}
+2023-03-27 11:24:39 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Dtzk Zahz Jcjo ","message":"OK"}
+
+{'data': 'Dtzk Zahz Jcjo ', 'message': 'OK'}
+2023-03-27 11:24:39 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Clwl Ssfm Aatp ","message":"OK"}
+
+{'data': 'Clwl Ssfm Aatp ', 'message': 'OK'}
+2023-03-27 11:24:39 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Kopy Jkun Mygc ","message":"OK"}
+
+{'data': 'Kopy Jkun Mygc ', 'message': 'OK'}
+2023-03-27 11:24:39 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Bduuu Rscza Vtfsb ","message":"OK"}
+
+{'data': 'Bduuu Rscza Vtfsb ', 'message': 'OK'}
+2023-03-27 11:24:39 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Kww Tws Qfh ","message":"OK"}
+
+{'data': 'Kww Tws Qfh ', 'message': 'OK'}
+2023-03-27 11:24:39 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Sej Ysr Btx ","message":"OK"}
+
+{'data': 'Sej Ysr Btx ', 'message': 'OK'}
+2023-03-27 11:24:39 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Ssax Lxji Njum ","message":"OK"}
+
+{'data': 'Ssax Lxji Njum ', 'message': 'OK'}
+2023-03-27 11:24:39 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Twby Mkmy Shen ","message":"OK"}
+
+{'data': 'Twby Mkmy Shen ', 'message': 'OK'}
+2023-03-27 11:24:39 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Eyttac Dnkckg Nxyatv ","message":"OK"}
+
+{'data': 'Eyttac Dnkckg Nxyatv ', 'message': 'OK'}
+2023-03-27 11:24:39 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Joddya Eajuav Exubvc ","message":"OK"}
+
+{'data': 'Joddya Eajuav Exubvc ', 'message': 'OK'}
+2023-03-27 11:24:39 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Zzk Vxm Toi ","message":"OK"}
+
+{'data': 'Zzk Vxm Toi ', 'message': 'OK'}
+2023-03-27 11:24:39 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Iphba Ymlhu Vlyxr ","message":"OK"}
+
+{'data': 'Iphba Ymlhu Vlyxr ', 'message': 'OK'}
+2023-03-27 11:24:39 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Gqbz Wmfc Bxvm ","message":"OK"}
+
+{'data': 'Gqbz Wmfc Bxvm ', 'message': 'OK'}
+2023-03-27 11:24:39 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Megdil Tpgzhh Oygrfz ","message":"OK"}
+
+{'data': 'Megdil Tpgzhh Oygrfz ', 'message': 'OK'}
+2023-03-27 11:24:40 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Iognk Pjxpq Gxonr ","message":"OK"}
+
+{'data': 'Iognk Pjxpq Gxonr ', 'message': 'OK'}
+2023-03-27 11:24:40 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Yal Yju Uka ","message":"OK"}
+
+{'data': 'Yal Yju Uka ', 'message': 'OK'}
+2023-03-27 11:24:40 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Vknx Xinf Trok ","message":"OK"}
+
+{'data': 'Vknx Xinf Trok ', 'message': 'OK'}
+2023-03-27 11:24:40 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Dfer Xmuq Mqca ","message":"OK"}
+
+{'data': 'Dfer Xmuq Mqca ', 'message': 'OK'}
+2023-03-27 11:24:40 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Sqtxon Seqapp Uosxzw ","message":"OK"}
+
+{'data': 'Sqtxon Seqapp Uosxzw ', 'message': 'OK'}
+2023-03-27 11:24:40 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Inmmo Qykwn Hhoxx ","message":"OK"}
+
+{'data': 'Inmmo Qykwn Hhoxx ', 'message': 'OK'}
+2023-03-27 11:24:40 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Inowb Psizy Inbkt ","message":"OK"}
+
+{'data': 'Inowb Psizy Inbkt ', 'message': 'OK'}
+2023-03-27 11:24:40 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"Odl Rzy Jdl ","message":"OK"}
+
+{'data': 'Odl Rzy Jdl ', 'message': 'OK'}
+2023-03-27 11:24:40 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Ecskus","message":"OK"}
+
+{'data': 'Ecskus', 'message': 'OK'}
+2023-03-27 11:24:40 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Hfpskn","message":"OK"}
+
+{'data': 'Hfpskn', 'message': 'OK'}
+2023-03-27 11:24:40 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Svvwsc","message":"OK"}
+
+{'data': 'Svvwsc', 'message': 'OK'}
+2023-03-27 11:24:40 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Jubjwo","message":"OK"}
+
+{'data': 'Jubjwo', 'message': 'OK'}
+2023-03-27 11:24:40 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Qvptna","message":"OK"}
+
+{'data': 'Qvptna', 'message': 'OK'}
+2023-03-27 11:24:40 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Cwnpjd","message":"OK"}
+
+{'data': 'Cwnpjd', 'message': 'OK'}
+2023-03-27 11:24:40 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Efarsb","message":"OK"}
+
+{'data': 'Efarsb', 'message': 'OK'}
+2023-03-27 11:24:40 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Arehde","message":"OK"}
+
+{'data': 'Arehde', 'message': 'OK'}
+2023-03-27 11:24:40 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Lqmrit","message":"OK"}
+
+{'data': 'Lqmrit', 'message': 'OK'}
+2023-03-27 11:24:40 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Sdoyqa","message":"OK"}
+
+{'data': 'Sdoyqa', 'message': 'OK'}
+2023-03-27 11:24:40 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Csxsdf Bteakp Wrpphx "},"message":"OK"}
+
+{'data': {'rating': 1, 'song_title': 'Csxsdf Bteakp Wrpphx '}, 'message': 'OK'}
+2023-03-27 11:24:40 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Csxsdf Bteakp Wrpphx "},"message":"OK"}
+
+{'data': {'rating': 2, 'song_title': 'Csxsdf Bteakp Wrpphx '}, 'message': 'OK'}
+2023-03-27 11:24:40 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Bhv Bcl Ohl "},"message":"OK"}
+
+{'data': {'rating': 1, 'song_title': 'Bhv Bcl Ohl '}, 'message': 'OK'}
+2023-03-27 11:24:40 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Bhv Bcl Ohl "},"message":"OK"}
+
+{'data': {'rating': 2, 'song_title': 'Bhv Bcl Ohl '}, 'message': 'OK'}
+2023-03-27 11:24:40 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Eqrnz Skrpk Xmzxm "},"message":"OK"}
+
+{'data': {'rating': 1, 'song_title': 'Eqrnz Skrpk Xmzxm '}, 'message': 'OK'}
+2023-03-27 11:24:41 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Eqrnz Skrpk Xmzxm "},"message":"OK"}
+
+{'data': {'rating': 2, 'song_title': 'Eqrnz Skrpk Xmzxm '}, 'message': 'OK'}
+2023-03-27 11:24:41 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Yego Vhqw Rsyt "},"message":"OK"}
+
+{'data': {'rating': 1, 'song_title': 'Yego Vhqw Rsyt '}, 'message': 'OK'}
+2023-03-27 11:24:41 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Yego Vhqw Rsyt "},"message":"OK"}
+
+{'data': {'rating': 2, 'song_title': 'Yego Vhqw Rsyt '}, 'message': 'OK'}
+2023-03-27 11:24:41 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Iijmg Gjoci Yrxnk "},"message":"OK"}
+
+{'data': {'rating': 1, 'song_title': 'Iijmg Gjoci Yrxnk '}, 'message': 'OK'}
+2023-03-27 11:24:41 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Iijmg Gjoci Yrxnk "},"message":"OK"}
+
+{'data': {'rating': 2, 'song_title': 'Iijmg Gjoci Yrxnk '}, 'message': 'OK'}
+2023-03-27 11:24:41 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Cvt Puj Zop "},"message":"OK"}
+
+{'data': {'rating': 1, 'song_title': 'Cvt Puj Zop '}, 'message': 'OK'}
+2023-03-27 11:24:41 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Cvt Puj Zop "},"message":"OK"}
+
+{'data': {'rating': 2, 'song_title': 'Cvt Puj Zop '}, 'message': 'OK'}
+2023-03-27 11:24:41 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Vro Qsz Jcw "},"message":"OK"}
+
+{'data': {'rating': 1, 'song_title': 'Vro Qsz Jcw '}, 'message': 'OK'}
+2023-03-27 11:24:41 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Vro Qsz Jcw "},"message":"OK"}
+
+{'data': {'rating': 2, 'song_title': 'Vro Qsz Jcw '}, 'message': 'OK'}
+2023-03-27 11:24:41 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Vbqb Gwvn Lxip "},"message":"OK"}
+
+{'data': {'rating': 1, 'song_title': 'Vbqb Gwvn Lxip '}, 'message': 'OK'}
+2023-03-27 11:24:41 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Vbqb Gwvn Lxip "},"message":"OK"}
+
+{'data': {'rating': 2, 'song_title': 'Vbqb Gwvn Lxip '}, 'message': 'OK'}
+2023-03-27 11:24:41 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Dtzk Zahz Jcjo "},"message":"OK"}
+
+{'data': {'rating': 1, 'song_title': 'Dtzk Zahz Jcjo '}, 'message': 'OK'}
+2023-03-27 11:24:41 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Dtzk Zahz Jcjo "},"message":"OK"}
+
+{'data': {'rating': 2, 'song_title': 'Dtzk Zahz Jcjo '}, 'message': 'OK'}
+2023-03-27 11:24:41 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Clwl Ssfm Aatp "},"message":"OK"}
+
+{'data': {'rating': 1, 'song_title': 'Clwl Ssfm Aatp '}, 'message': 'OK'}
+2023-03-27 11:24:41 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Clwl Ssfm Aatp "},"message":"OK"}
+
+{'data': {'rating': 2, 'song_title': 'Clwl Ssfm Aatp '}, 'message': 'OK'}
+2023-03-27 11:24:41 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Kopy Jkun Mygc "},"message":"OK"}
+
+{'data': {'rating': 1, 'song_title': 'Kopy Jkun Mygc '}, 'message': 'OK'}
+2023-03-27 11:24:41 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":2,"song_title":"Kopy Jkun Mygc "},"message":"OK"}
+
+{'data': {'rating': 2, 'song_title': 'Kopy Jkun Mygc '}, 'message': 'OK'}
+2023-03-27 11:24:41 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Bduuu Rscza Vtfsb "},"message":"OK"}
+
+{'data': {'rating': 1, 'song_title': 'Bduuu Rscza Vtfsb '}, 'message': 'OK'}
+2023-03-27 11:24:41 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Kww Tws Qfh "},"message":"OK"}
+
+{'data': {'rating': 1, 'song_title': 'Kww Tws Qfh '}, 'message': 'OK'}
+2023-03-27 11:24:41 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Sej Ysr Btx "},"message":"OK"}
+
+{'data': {'rating': 1, 'song_title': 'Sej Ysr Btx '}, 'message': 'OK'}
+2023-03-27 11:24:41 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Ssax Lxji Njum "},"message":"OK"}
+
+{'data': {'rating': 1, 'song_title': 'Ssax Lxji Njum '}, 'message': 'OK'}
+2023-03-27 11:24:41 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Twby Mkmy Shen "},"message":"OK"}
+
+{'data': {'rating': 1, 'song_title': 'Twby Mkmy Shen '}, 'message': 'OK'}
+2023-03-27 11:24:41 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Eyttac Dnkckg Nxyatv "},"message":"OK"}
+
+{'data': {'rating': 1, 'song_title': 'Eyttac Dnkckg Nxyatv '}, 'message': 'OK'}
+2023-03-27 11:24:41 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Joddya Eajuav Exubvc "},"message":"OK"}
+
+{'data': {'rating': 1, 'song_title': 'Joddya Eajuav Exubvc '}, 'message': 'OK'}
+2023-03-27 11:24:41 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Zzk Vxm Toi "},"message":"OK"}
+
+{'data': {'rating': 1, 'song_title': 'Zzk Vxm Toi '}, 'message': 'OK'}
+2023-03-27 11:24:41 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Iphba Ymlhu Vlyxr "},"message":"OK"}
+
+{'data': {'rating': 1, 'song_title': 'Iphba Ymlhu Vlyxr '}, 'message': 'OK'}
+2023-03-27 11:24:41 [INFO] endpoints.py::def upvote(...)::line 167 > PUT > 200 > {"data":{"rating":1,"song_title":"Gqbz Wmfc Bxvm "},"message":"OK"}
+
+{'data': {'rating': 1, 'song_title': 'Gqbz Wmfc Bxvm '}, 'message': 'OK'}
+2023-03-27 11:24:42 [INFO] endpoints.py::def ranked_songs(...)::line 178 > GET > 200 > {"data":["Csxsdf Bteakp Wrpphx ","Bhv Bcl Ohl ","Eqrnz Skrpk Xmzxm ","Yego Vhqw Rsyt ","Iijmg Gjoci Yrxnk ","Cvt Puj Zop ","Vro Qsz Jcw ","Vbqb Gwvn Lxip ","Dtzk Zahz Jcjo ","Clwl Ssfm Aatp ","Kopy Jkun Mygc ","Bduuu Rscza Vtfsb ","Kww Tws Qfh ","Sej Ysr Btx ","Ssax Lxji Njum ","Twby Mkmy Shen ","Eyttac Dnkckg Nxyatv ","Joddya Eajuav Exubvc ","Zzk Vxm Toi ","Iphba Ymlhu Vlyxr ","Gqbz Wmfc Bxvm "],"message":"OK"}
+
+{'data': ['Csxsdf Bteakp Wrpphx ', 'Bhv Bcl Ohl ', 'Eqrnz Skrpk Xmzxm ', 'Yego Vhqw Rsyt ', 'Iijmg Gjoci Yrxnk ', 'Cvt Puj Zop ', 'Vro Qsz Jcw ', 'Vbqb Gwvn Lxip ', 'Dtzk Zahz Jcjo ', 'Clwl Ssfm Aatp ', 'Kopy Jkun Mygc ', 'Bduuu Rscza Vtfsb ', 'Kww Tws Qfh ', 'Sej Ysr Btx ', 'Ssax Lxji Njum ', 'Twby Mkmy Shen ', 'Eyttac Dnkckg Nxyatv ', 'Joddya Eajuav Exubvc ', 'Zzk Vxm Toi ', 'Iphba Ymlhu Vlyxr ', 'Gqbz Wmfc Bxvm '], 'message': 'OK'}
+2023-03-27 11:24:42 [INFO] endpoints.py::def get_song(...)::line 147 > GET > 200 > {"data":{"genre":"Plhqfo","performer":"Exjone","rating":2,"title":"Csxsdf Bteakp Wrpphx ","year":1970},"message":"OK"}
+
+{'data': {'genre': 'Plhqfo', 'performer': 'Exjone', 'rating': 2, 'title': 'Csxsdf Bteakp Wrpphx ', 'year': 1970}, 'message': 'OK'}
+2023-03-27 11:24:42 [WARNING] (log error) you try to pass a not string arguments... just removed.
+2023-03-27 11:24:42 [INFO] Session Closed

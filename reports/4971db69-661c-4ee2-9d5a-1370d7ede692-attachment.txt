@@ -1,0 +1,14 @@
+2023-03-27 08:40:24 [INFO] conftest.py::def setup_teardown(...)::line 52 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 08:40:24 [INFO] conftest.py::def setup_teardown(...)::line 53 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 08:40:24 [INFO] <setup> Cleared all users from DB
+2023-03-27 08:40:24 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"adim333","message":"OK"}
+
+{'data': 'adim333', 'message': 'OK'}
+2023-03-27 08:40:24 [INFO] endpoints.py::def get_user(...)::line 78 > GET > 200 > {"data":{"friends":[],"playlists":[],"user_name":"adim333"},"message":"OK"}
+
+{'data': {'friends': [], 'playlists': [], 'user_name': 'adim333'}, 'message': 'OK'}
+2023-03-27 08:40:24 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"error":"user with name adim333 already exists."}
+
+{'error': 'user with name adim333 already exists.'}

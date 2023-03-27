@@ -1,0 +1,17 @@
+2023-03-27 10:22:33 [INFO] Session started
+2023-03-27 10:22:33 [INFO] conftest.py::def setup_teardown(...)::line 52 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 10:22:33 [INFO] conftest.py::def setup_teardown(...)::line 53 > DELETE > 200 > {"message":"OK"}
+
+2023-03-27 10:22:33 [INFO] <setup> Cleared all users from DB
+2023-03-27 10:22:33 [INFO] endpoints.py::def add_song(...)::line 137 > POST > 200 > {"data":"israel vibes","message":"OK"}
+
+{'data': 'israel vibes', 'message': 'OK'}
+2023-03-27 10:22:33 [INFO] endpoints.py::def add_user(...)::line 70 > POST > 200 > {"data":"Qbnbeb","message":"OK"}
+
+{'data': 'Qbnbeb', 'message': 'OK'}
+2023-03-27 10:22:33 [INFO] endpoints.py::def upvote(...)::line 169 > PUT > 200 > {"data":{"rating":1,"song_title":"israel vibes"},"message":"OK"}
+
+{'data': {'rating': 1, 'song_title': 'israel vibes'}, 'message': 'OK'}
+2023-03-27 10:22:33 [WARNING] (log error) you try to pass a not string arguments... just removed.
+2023-03-27 10:22:33 [INFO] Session Closed

@@ -105,8 +105,8 @@ def setup_songs(admin, songs, users, playlists):
     users_ = utils.obj_sequence(User.create_randomly, 10)
     songs_ = utils.obj_sequence(Song.create_randomly, 30)
     playlists_ = utils.obj_sequence(Playlist.create_randomly, 5)
-    utils.obj_sequence(songs.add_song, sequence=songs_)
-    utils.obj_sequence(songs.add_song, sequence=users_)
+    utils.obj_sequence(songs.add_song,0,0, sequence=songs_)
+    utils.obj_sequence(songs.add_song,0,0, sequence=users_)
     for i, song in enumerate(songs_):
         p = secrets.choice(playlists_)
         u = secrets.choice(users_)
